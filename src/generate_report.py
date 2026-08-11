@@ -15,7 +15,14 @@ def esc(value: object) -> str:
 
 
 def render_article(article: dict) -> str:
-    analysis = "".join(f"<p>{esc(paragraph)}</p>" for paragraph in article.get("analysis", []))
+    rendered = []
+    for paragraph in article.get("analysis", []):
+        label, separator, content = str(paragraph).partition("：")
+        if separator and len(label) <= 8:
+            rendered.append(f'<p><span class="analysis-label">{esc(label)}：</span>{esc(content)}</p>')
+        else:
+            rendered.append(f"<p>{esc(paragraph)}</p>")
+    analysis = "".join(rendered)
     verdict = article.get("verdict")
     if verdict:
         analysis += f'<p class="verdict">{esc(verdict)}</p>'
@@ -85,4 +92,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
