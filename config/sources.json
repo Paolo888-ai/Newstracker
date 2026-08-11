@@ -1,0 +1,20 @@
+[
+  {"name":"新智元","url":"https://aiera.com.cn/","language":"zh"},
+  {"name":"机器之心","url":"https://www.jiqizhixin.com/","language":"zh"},
+  {"name":"量子位","url":"https://www.qbitai.com/","language":"zh"},
+  {"name":"极客公园","url":"https://www.geekpark.net/","language":"zh"},
+  {"name":"钛媒体","url":"https://www.tmtpost.com/","language":"zh"},
+  {"name":"智东西","url":"https://zhidx.com/","language":"zh"},
+  {"name":"雷峰网","url":"https://www.leiphone.com/","language":"zh"},
+  {"name":"36氪","url":"https://36kr.com/","language":"zh"},
+  {"name":"虎嗅","url":"https://www.huxiu.com/","language":"zh"},
+  {"name":"少数派","url":"https://sspai.com/","language":"zh"},
+  {"name":"TWIML","url":"https://twimlai.com/","language":"en"},
+  {"name":"Lex Fridman","url":"https://lexfridman.com/podcast/","language":"en"},
+  {"name":"Robot Brains","url":"https://shows.acast.com/the-robot-brains","fallback_url":"https://www.therobotbrains.ai/","language":"en"},
+  {"name":"Practical AI","url":"https://practicalai.show/","language":"en"},
+  {"name":"AI in Business","url":"https://podcast.emerj.com/","language":"en"},
+  {"name":"AI Today","url":"https://www.pmi.org/ai-today-podcast","language":"en"},
+  {"name":"Data Skeptic","url":"https://dataskeptic.com/podcast","language":"en"},
+  {"name":"NVIDIA AI Podcast","url":"https://www.nvidia.com/en-us/ai-podcast/","language":"en"}
+]

@@ -1,0 +1,689 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-08-10",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-08-10 17:08 Asia/Shanghai",
+  "stats": {
+    "articles": 39,
+    "sources": 18
+  },
+  "highlights": [
+    {
+      "title": "对话郎咸朋：具身也会有“蔚小理”，靠融资实现不了物理AGI",
+      "url": "https://www.qbitai.com/2026/08/469520.html",
+      "source": "量子位",
+      "published_at": "2026-08-10 14:58",
+      "summary": "“我们90天就成了独角兽”",
+      "analysis": [
+        "内容摘要：“我们90天就成了独角兽”",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
+      "url": "https://www.qbitai.com/2026/08/469076.html",
+      "source": "量子位",
+      "published_at": "2026-08-10 09:12",
+      "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
+      "analysis": [
+        "内容摘要：从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕 VHENSS 11:00 Matrix精选",
+      "url": "https://sspai.com/post/113202",
+      "source": "少数派",
+      "published_at": "2026-08-10 17:08（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Anthropic CEO急了：新人都是冲钱来的！AI巨头最大危机不是算力，是留人",
+      "url": "https://aiera.com.cn/2026/08/10/other/admin/108519/anthropic-ceo%e6%80%a5%e4%ba%86%ef%bc%9a%e6%96%b0%e4%ba%ba%e9%83%bd%e6%98%af%e5%86%b2%e9%92%b1%e6%9d%a5%e7%9a%84%ef%bc%81ai%e5%b7%a8%e5%a4%b4%e6%9c%80%e5%a4%a7%e5%8d%b1%e6%9c%ba%e4%b8%8d%e6%98%af",
+      "source": "新智元",
+      "published_at": "2026-08-10 08:06",
+      "summary": "7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…",
+      "analysis": [
+        "内容摘要：7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "糟糕，ChatGPT和Claude「攻击」真人了！",
+      "url": "https://aiera.com.cn/2026/08/10/other/admin/108477/%e7%b3%9f%e7%b3%95%ef%bc%8cchatgpt%e5%92%8cclaude%e3%80%8c%e6%94%bb%e5%87%bb%e3%80%8d%e7%9c%9f%e4%ba%ba%e4%ba%86%ef%bc%81",
+      "source": "新智元",
+      "published_at": "2026-08-10 08:05",
+      "summary": "这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。",
+      "analysis": [
+        "内容摘要：这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "[有奖]手机里的 AI 通话功能，你真的在用吗？ 一派讨论 点击了解详情",
+      "url": "https://sspai.com/bullet/1785400922",
+      "source": "少数派",
+      "published_at": "2026-08-10 17:08（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "派早报：Bose 发布新款 QuietComfort 头戴式耳机等 少数派编辑部 08/07 派早报",
+      "url": "https://sspai.com/post/113162",
+      "source": "少数派",
+      "published_at": "2026-08-10 17:08（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Why AI Agents Break the GenAI Security Model",
+      "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+      "source": "TWIML",
+      "published_at": "2026-08-10 17:08（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+      "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+      "source": "TWIML",
+      "published_at": "2026-08-10 17:08（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Meoo秒悟团队版全量上线， 接入Qwen-3.8-Max、即日起可直接订阅",
+      "url": "https://www.qbitai.com/2026/08/469493.html",
+      "source": "量子位",
+      "published_at": "2026-08-10 11:24",
+      "summary": "从面向个人的AI创作工具，扩展为可供组织使用的生产力平台",
+      "analysis": [
+        "内容摘要：从面向个人的AI创作工具，扩展为可供组织使用的生产力平台",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "[有奖]手机里的 AI 通话功能，你真的在用吗？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1785400922",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "快速投票：模型打平、Harness 见分晓，你平时用哪一款？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1785741878",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why Models Are AI’s Next Training Dataset",
+          "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "How AI Learns to Smell",
+          "url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agents Break the GenAI Security Model",
+          "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Is RAG Dead? Lessons from Building AI for Tax Law",
+          "url": "https://twimlai.com/podcast/twimlai/rag-dead-lessons-building-ai-tax-law",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+          "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Explore PMI-CPMAI Certification",
+          "url": "https://www.pmi.org/certifications/ai-project-management-cpmai",
+          "source": "AI Today",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Meoo秒悟团队版全量上线， 接入Qwen-3.8-Max、即日起可直接订阅",
+          "url": "https://www.qbitai.com/2026/08/469493.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 11:24",
+          "summary": "从面向个人的AI创作工具，扩展为可供组织使用的生产力平台",
+          "analysis": [
+            "内容摘要：从面向个人的AI创作工具，扩展为可供组织使用的生产力平台",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
+          "url": "https://www.qbitai.com/2026/08/469076.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 09:12",
+          "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
+          "analysis": [
+            "内容摘要：从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "硅谷万亿AI帝国CEO，竟是双面「末日教主」！",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108535/%e7%a1%85%e8%b0%b7%e4%b8%87%e4%ba%bfai%e5%b8%9d%e5%9b%bdceo%ef%bc%8c%e7%ab%9f%e6%98%af%e5%8f%8c%e9%9d%a2%e3%80%8c%e6%9c%ab%e6%97%a5%e6%95%99%e4%b8%bb%e3%80%8d%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:06",
+          "summary": "硅谷万亿CEO，竟是一位「双面末日教主」？！ 这几天，Information一篇重磅长文，几乎把Dario Amodei扒了个底朝天。",
+          "analysis": [
+            "内容摘要：硅谷万亿CEO，竟是一位「双面末日教主」？！ 这几天，Information一篇重磅长文，几乎把Dario Amodei扒了个底朝天。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Anthropic CEO急了：新人都是冲钱来的！AI巨头最大危机不是算力，是留人",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108519/anthropic-ceo%e6%80%a5%e4%ba%86%ef%bc%9a%e6%96%b0%e4%ba%ba%e9%83%bd%e6%98%af%e5%86%b2%e9%92%b1%e6%9d%a5%e7%9a%84%ef%bc%81ai%e5%b7%a8%e5%a4%b4%e6%9c%80%e5%a4%a7%e5%8d%b1%e6%9c%ba%e4%b8%8d%e6%98%af",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:06",
+          "summary": "7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…",
+          "analysis": [
+            "内容摘要：7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "OpenAI首曝光：AI集会复活密谋网攻，人类被迫急刹车！",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108495/openai%e9%a6%96%e6%9b%9d%e5%85%89%ef%bc%9aai%e9%9b%86%e4%bc%9a%e5%a4%8d%e6%b4%bb%e5%af%86%e8%b0%8b%e7%bd%91%e6%94%bb%ef%bc%8c%e4%ba%ba%e7%b1%bb%e8%a2%ab%e8%bf%ab%e6%80%a5%e5%88%b9%e8%bd%a6%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:05",
+          "summary": "「太疯狂了！」「我的上帝啊……」 在最近的年度黑帽大会上，全球顶尖白帽黑客和巨头高管们，发出一片惊呼。",
+          "analysis": [
+            "内容摘要：「太疯狂了！」「我的上帝啊……」 在最近的年度黑帽大会上，全球顶尖白帽黑客和巨头高管们，发出一片惊呼。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "糟糕，ChatGPT和Claude「攻击」真人了！",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108477/%e7%b3%9f%e7%b3%95%ef%bc%8cchatgpt%e5%92%8cclaude%e3%80%8c%e6%94%bb%e5%87%bb%e3%80%8d%e7%9c%9f%e4%ba%ba%e4%ba%86%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:05",
+          "summary": "这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。",
+          "analysis": [
+            "内容摘要：这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "哈佛MIT造出「黑客帝国」！83亿智能体精确镜像全球真实人类",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108449/%e5%93%88%e4%bd%9bmit%e9%80%a0%e5%87%ba%e3%80%8c%e9%bb%91%e5%ae%a2%e5%b8%9d%e5%9b%bd%e3%80%8d%ef%bc%8183%e4%ba%bf%e6%99%ba%e8%83%bd%e4%bd%93%e7%b2%be%e7%a1%ae%e9%95%9c%e5%83%8f%e5%85%a8%e7%90%83",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:03",
+          "summary": "如果你准备投胎，你大概率会降生在哪个国家？ 会拥有怎样的职业、收入、价值观，乃至对一个APP按钮颜色的小小偏好？",
+          "analysis": [
+            "内容摘要：如果你准备投胎，你大概率会降生在哪个国家？ 会拥有怎样的职业、收入、价值观，乃至对一个APP按钮颜色的小小偏好？",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
+          "url": "https://www.qbitai.com/2026/08/468913.html",
+          "source": "量子位",
+          "published_at": "2026-08-09 17:16",
+          "summary": "作者读博时就在研究，17年后被AI解开了",
+          "analysis": [
+            "内容摘要：作者读博时就在研究，17年后被AI解开了",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": []
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": [
+        {
+          "title": "对话郎咸朋：具身也会有“蔚小理”，靠融资实现不了物理AGI",
+          "url": "https://www.qbitai.com/2026/08/469520.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 14:58",
+          "summary": "“我们90天就成了独角兽”",
+          "analysis": [
+            "内容摘要：“我们90天就成了独角兽”",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "写给「跑两步就喘」的你：调整跑步姿势，舒适开跑 从跑步姿势、呼吸节奏、运动强度入手，让跑步更舒服。 阿帅的健康笔记 15:00",
+          "url": "https://sspai.com/post/113115",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：央视曝光酒店评级标识消费陷阱 少数派编辑部 07:08 派早报",
+          "url": "https://sspai.com/post/113268",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "我做了一个 Quote/0 看板，把 F1 赛程、积分和结果留在桌面 Belcheck 昨天 15:00 Matrix精选",
+          "url": "https://sspai.com/post/113158",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "就内容创作而言，说话还是替代不了打字 AstrianZ 前天 13:11 Matrix精选",
+          "url": "https://sspai.com/post/112901",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 10 部作品 少数派编辑部 08/07",
+          "url": "https://sspai.com/post/113191",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "[限时优惠] 数据分析：用好 Excel 中的数据透视表 子不语Rex 08/07 免费试读",
+          "url": "https://sspai.com/post/113108",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "角落新声｜从合租到整租，我在客厅听见了自己的声音 蓝羽铭 08/07 Matrix精选",
+          "url": "https://sspai.com/post/113144",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：Bose 发布新款 QuietComfort 头戴式耳机等 少数派编辑部 08/07 派早报",
+          "url": "https://sspai.com/post/113162",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "新玩意 248｜少数派的编辑们最近买了啥？ 少数派编辑部 08/06",
+          "url": "https://sspai.com/post/113139",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Claude Code倒计时5天默认自动模式，多花的钱A社自己掏",
+          "url": "https://www.qbitai.com/2026/08/469500.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 13:37",
+          "summary": "会话越长，人的表现越差",
+          "analysis": [
+            "内容摘要：会话越长，人的表现越差",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "苹果开测长鑫存储！百度、千问也一起挤进苹果供应链",
+          "url": "https://www.qbitai.com/2026/08/469475.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 10:34",
+          "summary": "先解决这轮内存荒！",
+          "analysis": [
+            "内容摘要：先解决这轮内存荒！",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "墨芯成立稀疏计算产学研联盟，以生态协同突破产业化壁垒",
+          "url": "https://www.qbitai.com/2026/08/469454.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 10:25",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
+          "url": "https://www.qbitai.com/2026/08/469213.html",
+          "source": "量子位",
+          "published_at": "2026-08-10 09:34",
+          "summary": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。 需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
+          "analysis": [
+            "内容摘要：全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。 需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "诺奖得主Hassabis，也要走了！",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108548/%e8%af%ba%e5%a5%96%e5%be%97%e4%b8%bbhassabis%ef%bc%8c%e4%b9%9f%e8%a6%81%e8%b5%b0%e4%ba%86%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:07",
+          "summary": "最新爆料称，在Jeff Dean离开之际，Demis Hassabis原本计划打包走人，却被谷歌给拦下了。",
+          "analysis": [
+            "内容摘要：最新爆料称，在Jeff Dean离开之际，Demis Hassabis原本计划打包走人，却被谷歌给拦下了。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "今天，互联网不再只属于人类！Cloudflare实锤机器流量反超",
+          "url": "https://aiera.com.cn/2026/08/10/other/admin/108462/%e4%bb%8a%e5%a4%a9%ef%bc%8c%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8d%e5%86%8d%e5%8f%aa%e5%b1%9e%e4%ba%8e%e4%ba%ba%e7%b1%bb%ef%bc%81cloudflare%e5%ae%9e%e9%94%a4%e6%9c%ba%e5%99%a8%e6%b5%81%e9%87%8f%e5%8f%8d",
+          "source": "新智元",
+          "published_at": "2026-08-10 08:04",
+          "summary": "互联网，就要不属于人类了？ 五年后，人类将成为互联网上的一个「误差」。 在2026年二季度财报电话会上，Cloudflare的CFO Thomas Seifert对着投资人，撂…",
+          "analysis": [
+            "内容摘要：互联网，就要不属于人类了？ 五年后，人类将成为互联网上的一个「误差」。 在2026年二季度财报电话会上，Cloudflare的CFO Thomas Seifert对着投资人，撂…",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "180万刀，连亚马逊都烧不起Claude了",
+          "url": "https://www.qbitai.com/2026/08/469010.html",
+          "source": "量子位",
+          "published_at": "2026-08-09 17:25",
+          "summary": "Claude不是我说你，钱真不能这么花",
+          "analysis": [
+            "内容摘要：Claude不是我说你，钱真不能这么花",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕 VHENSS 11:00 Matrix精选",
+          "url": "https://sspai.com/post/113202",
+          "source": "少数派",
+          "published_at": "2026-08-10 17:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "ConnectionError: HTTPSConnectionPool(host='www.leiphone.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.leiphone.com', port=443): Failed to resolve 'www.leiphone.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Robot Brains",
+      "reason": "ConnectTimeout: HTTPSConnectionPool(host='shows.acast.com', port=443): Max retries exceeded with url: /the-robot-brains (Caused by ConnectTimeoutError(<HTTPSConnection(host='shows.acast.com', port=443) at 0x2c561b46d20>, 'Connection to shows.acast.com timed out. (connect timeout=25)'))；HTTPError: 522 Server Error: <none> for url: https://xoilac86zsz.io/"
+    },
+    {
+      "source": "AI Today",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    }
+  ]
+}

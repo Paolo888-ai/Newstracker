@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>科技 / AI 资讯日报 · 2026-08-10</title>
+  <style>
+    :root{--bg:#0b0f14;--surface:#141a22;--surface2:#1a222d;--border:#293342;--text:#e9eef5;--muted:#94a0af;--accent:#f28b45;--accent2:#ffad6b;--link:#65a9ff;--green:#78dba9;--red:#ff7474;--shadow:0 18px 55px rgba(0,0,0,.28);--radius:14px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#18212d 0,var(--bg) 38%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}
+    .container{width:min(1080px,calc(100% - 32px));margin:auto;padding:28px 0 64px}.report-header{position:relative;overflow:hidden;padding:30px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(135deg,#1b2430,#121820);box-shadow:var(--shadow)}
+    .report-header:after{content:"";position:absolute;width:240px;height:240px;right:-100px;top:-130px;border-radius:50%;background:var(--accent);filter:blur(90px);opacity:.16}.eyebrow{color:var(--accent2);font-size:12px;letter-spacing:.14em;text-transform:uppercase}.report-header h1{font-size:clamp(24px,5vw,34px);line-height:1.25;margin:6px 0}.date-badge{display:inline-block;margin-left:8px;padding:4px 10px;border-radius:7px;background:var(--accent);color:#17100c;font-size:13px;vertical-align:middle}.subtitle{color:var(--muted);font-size:14px}
+    .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}.stat-card{padding:13px 16px;border:1px solid var(--border);border-radius:10px;background:rgba(28,36,47,.8)}.stat-card span{display:block;color:var(--muted);font-size:11px;letter-spacing:.06em}.stat-card strong{display:block;margin-top:2px;color:var(--accent2);font-size:23px}
+    .section{margin-top:34px}.section-title{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:21px}.section-title:before{content:"";width:5px;height:22px;border-radius:9px;background:var(--accent)}.hint{margin:-8px 0 16px;color:var(--muted);font-size:12px}
+    .card{margin:0 0 12px;padding:16px 18px;border:1px solid var(--border);border-radius:11px;background:var(--surface2);cursor:pointer;transition:.2s ease}.card:hover,.card:focus-visible{border-color:#445267;background:#202a36;transform:translateY(-1px);outline:none}.card-title{margin:0 0 7px;font-size:15px;line-height:1.55}.card-summary{margin:0 0 10px;color:var(--muted);font-size:13px}.card-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:12px}.source,.count{padding:2px 9px;border-radius:999px;background:#252e3a;color:#d9e0e8}.link-btn{margin-left:auto;padding:5px 11px;border-radius:6px;background:var(--link);color:#08111d;font-weight:700;text-decoration:none}.card-body{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .35s ease,opacity .25s ease}.card-body>div{overflow:hidden}.card.expanded .card-body{grid-template-rows:1fr;opacity:1}.deep-analysis{margin-top:14px;padding-top:12px;border-top:1px solid var(--border);color:#cbd4df;font-size:14px}.deep-analysis p{margin:0 0 9px}.deep-analysis .verdict{color:var(--accent2);font-weight:700}
+    .domain-section{margin-bottom:14px;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--surface)}.domain-header{width:100%;display:flex;align-items:center;justify-content:space-between;padding:17px 19px;border:0;background:var(--surface2);color:var(--text);cursor:pointer;text-align:left}.domain-title{font-size:16px;font-weight:700}.domain-title small{display:block;color:var(--muted);font-size:11px;font-weight:400}.domain-actions{display:flex;align-items:center;gap:11px}.arrow{color:var(--muted);transition:transform .25s}.domain-body{display:none;padding:14px 16px 3px}.domain-section.open .domain-body{display:block}.domain-section.open .arrow{transform:rotate(180deg)}
+    .failures{padding:20px;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.failures h2{margin:0;color:var(--red);font-size:16px}.failures ul{margin:10px 0 0;padding:0;list-style:none}.failures li{padding:8px 0;border-bottom:1px solid var(--border);color:var(--muted);font-size:13px}.failures li:last-child{border:0}.failures strong{margin-right:8px;color:var(--text)}footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:12px;text-align:center}
+    @media(max-width:680px){.container{width:min(100% - 20px,1080px);padding-top:10px}.report-header{padding:22px 18px}.stats-grid{grid-template-columns:repeat(2,1fr)}.date-badge{display:table;margin:8px 0 0}.card{padding:14px}.link-btn{margin-left:0}.domain-header{padding:15px}.domain-title small{max-width:220px}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="report-header">
+      <div class="eyebrow">Daily Intelligence Briefing</div>
+      <h1>科技 / AI 资讯日报 <span class="date-badge">2026-08-10</span></h1>
+      <div class="subtitle">过去 24 小时 · 自动去重 · 按重要度筛选</div>
+      <div class="stats-grid">
+        <div class="stat-card"><span>收录文章</span><strong>39</strong></div>
+        <div class="stat-card"><span>领域分组</span><strong>5</strong></div>
+        <div class="stat-card"><span>信源扫描</span><strong>18</strong></div>
+        <div class="stat-card"><span>异常源</span><strong>14</strong></div>
+      </div>
+    </header>
+    <section class="section"><h2 class="section-title">今日要点</h2><p class="hint">点击卡片展开深度解析</p>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">对话郎咸朋：具身也会有“蔚小理”，靠融资实现不了物理AGI</h3>
+      <p class="card-summary">“我们90天就成了独角兽”</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 14:58</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469520.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：“我们90天就成了独角兽”</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知</h3>
+      <p class="card-summary">从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 09:12</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469076.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕 VHENSS 11:00 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113202" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Anthropic CEO急了：新人都是冲钱来的！AI巨头最大危机不是算力，是留人</h3>
+      <p class="card-summary">7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:06</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108519/anthropic-ceo%e6%80%a5%e4%ba%86%ef%bc%9a%e6%96%b0%e4%ba%ba%e9%83%bd%e6%98%af%e5%86%b2%e9%92%b1%e6%9d%a5%e7%9a%84%ef%bc%81ai%e5%b7%a8%e5%a4%b4%e6%9c%80%e5%a4%a7%e5%8d%b1%e6%9c%ba%e4%b8%8d%e6%98%af" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">糟糕，ChatGPT和Claude「攻击」真人了！</h3>
+      <p class="card-summary">这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:05</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108477/%e7%b3%9f%e7%b3%95%ef%bc%8cchatgpt%e5%92%8cclaude%e3%80%8c%e6%94%bb%e5%87%bb%e3%80%8d%e7%9c%9f%e4%ba%ba%e4%ba%86%ef%bc%81" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">[有奖]手机里的 AI 通话功能，你真的在用吗？ 一派讨论 点击了解详情</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/bullet/1785400922" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：Bose 发布新款 QuietComfort 头戴式耳机等 少数派编辑部 08/07 派早报</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113162" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why AI Agents Break the GenAI Security Model</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why AI Agent Benchmarks Are Harder Than They Look</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Meoo秒悟团队版全量上线， 接入Qwen-3.8-Max、即日起可直接订阅</h3>
+      <p class="card-summary">从面向个人的AI创作工具，扩展为可供组织使用的生产力平台</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 11:24</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469493.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：从面向个人的AI创作工具，扩展为可供组织使用的生产力平台</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article></section>
+    <section class="section"><h2 class="section-title">主题分组</h2>
+    <section class="domain-section open" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="true">
+        <span class="domain-title">AI<small>ai / 人工智能 / 大模型</small></span>
+        <span class="domain-actions"><span class="count">19 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">[有奖]手机里的 AI 通话功能，你真的在用吗？ 一派讨论 点击了解详情</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/bullet/1785400922" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">快速投票：模型打平、Harness 见分晓，你平时用哪一款？ 一派讨论 点击了解详情</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/bullet/1785741878" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why Models Are AI’s Next Training Dataset</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">How AI Learns to Smell</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/how-ai-learns-smell" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why AI Agents Break the GenAI Security Model</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Is RAG Dead? Lessons from Building AI for Tax Law</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/rag-dead-lessons-building-ai-tax-law" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">AI&#x27;s Production Era Is An Infrastructure Story</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why AI Agent Benchmarks Are Harder Than They Look</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">You Can’t Lead AI From the Sidelines</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Google Cloud Next &#x27;26: Delivering the Agentic Control Plane</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/google-cloud-next-26-recap" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Explore PMI-CPMAI Certification</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">AI Today</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://www.pmi.org/certifications/ai-project-management-cpmai" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Meoo秒悟团队版全量上线， 接入Qwen-3.8-Max、即日起可直接订阅</h3>
+      <p class="card-summary">从面向个人的AI创作工具，扩展为可供组织使用的生产力平台</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 11:24</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469493.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：从面向个人的AI创作工具，扩展为可供组织使用的生产力平台</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知</h3>
+      <p class="card-summary">从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 09:12</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469076.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">硅谷万亿AI帝国CEO，竟是双面「末日教主」！</h3>
+      <p class="card-summary">硅谷万亿CEO，竟是一位「双面末日教主」？！ 这几天，Information一篇重磅长文，几乎把Dario Amodei扒了个底朝天。</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:06</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108535/%e7%a1%85%e8%b0%b7%e4%b8%87%e4%ba%bfai%e5%b8%9d%e5%9b%bdceo%ef%bc%8c%e7%ab%9f%e6%98%af%e5%8f%8c%e9%9d%a2%e3%80%8c%e6%9c%ab%e6%97%a5%e6%95%99%e4%b8%bb%e3%80%8d%ef%bc%81" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：硅谷万亿CEO，竟是一位「双面末日教主」？！ 这几天，Information一篇重磅长文，几乎把Dario Amodei扒了个底朝天。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Anthropic CEO急了：新人都是冲钱来的！AI巨头最大危机不是算力，是留人</h3>
+      <p class="card-summary">7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:06</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108519/anthropic-ceo%e6%80%a5%e4%ba%86%ef%bc%9a%e6%96%b0%e4%ba%ba%e9%83%bd%e6%98%af%e5%86%b2%e9%92%b1%e6%9d%a5%e7%9a%84%ef%bc%81ai%e5%b7%a8%e5%a4%b4%e6%9c%80%e5%a4%a7%e5%8d%b1%e6%9c%ba%e4%b8%8d%e6%98%af" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：7月27日，AI科学家、北大校友Lilian Weng几乎以「逃命」的姿态，宣布离职。 作为独角兽Thinking Machines Lab的联合创始人，她直言身体吃不消，身心…</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">OpenAI首曝光：AI集会复活密谋网攻，人类被迫急刹车！</h3>
+      <p class="card-summary">「太疯狂了！」「我的上帝啊……」 在最近的年度黑帽大会上，全球顶尖白帽黑客和巨头高管们，发出一片惊呼。</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:05</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108495/openai%e9%a6%96%e6%9b%9d%e5%85%89%ef%bc%9aai%e9%9b%86%e4%bc%9a%e5%a4%8d%e6%b4%bb%e5%af%86%e8%b0%8b%e7%bd%91%e6%94%bb%ef%bc%8c%e4%ba%ba%e7%b1%bb%e8%a2%ab%e8%bf%ab%e6%80%a5%e5%88%b9%e8%bd%a6%ef%bc%81" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：「太疯狂了！」「我的上帝啊……」 在最近的年度黑帽大会上，全球顶尖白帽黑客和巨头高管们，发出一片惊呼。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">糟糕，ChatGPT和Claude「攻击」真人了！</h3>
+      <p class="card-summary">这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:05</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108477/%e7%b3%9f%e7%b3%95%ef%bc%8cchatgpt%e5%92%8cclaude%e3%80%8c%e6%94%bb%e5%87%bb%e3%80%8d%e7%9c%9f%e4%ba%ba%e4%ba%86%ef%bc%81" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：这回，AI已经对真人动手了！ 就在刚刚，英国AI安全研究所AISI发布了一份35页事故报告，并在X上同步发文。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">哈佛MIT造出「黑客帝国」！83亿智能体精确镜像全球真实人类</h3>
+      <p class="card-summary">如果你准备投胎，你大概率会降生在哪个国家？ 会拥有怎样的职业、收入、价值观，乃至对一个APP按钮颜色的小小偏好？</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:03</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108449/%e5%93%88%e4%bd%9bmit%e9%80%a0%e5%87%ba%e3%80%8c%e9%bb%91%e5%ae%a2%e5%b8%9d%e5%9b%bd%e3%80%8d%ef%bc%8183%e4%ba%bf%e6%99%ba%e8%83%bd%e4%bd%93%e7%b2%be%e7%a1%ae%e9%95%9c%e5%83%8f%e5%85%a8%e7%90%83" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：如果你准备投胎，你大概率会降生在哪个国家？ 会拥有怎样的职业、收入、价值观，乃至对一个APP按钮颜色的小小偏好？</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">GPT-5.6和Fable联手，解决了一道悬了25年的数学难题</h3>
+      <p class="card-summary">作者读博时就在研究，17年后被AI解开了</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-09 17:16</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/468913.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：作者读博时就在研究，17年后被AI解开了</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">芯片与硬件<small>芯片 / 半导体 / gpu</small></span>
+        <span class="domain-actions"><span class="count">0 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body"></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">机器人与具身<small>机器人 / 具身 / 自动驾驶</small></span>
+        <span class="domain-actions"><span class="count">1 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">对话郎咸朋：具身也会有“蔚小理”，靠融资实现不了物理AGI</h3>
+      <p class="card-summary">“我们90天就成了独角兽”</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 14:58</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469520.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：“我们90天就成了独角兽”</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">科技商业与创投<small>融资 / 估值 / ipo</small></span>
+        <span class="domain-actions"><span class="count">18 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">写给「跑两步就喘」的你：调整跑步姿势，舒适开跑 从跑步姿势、呼吸节奏、运动强度入手，让跑步更舒服。 阿帅的健康笔记 15:00</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113115" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：央视曝光酒店评级标识消费陷阱 少数派编辑部 07:08 派早报</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113268" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">我做了一个 Quote/0 看板，把 F1 赛程、积分和结果留在桌面 Belcheck 昨天 15:00 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113158" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">就内容创作而言，说话还是替代不了打字 AstrianZ 前天 13:11 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/112901" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">本周看什么 | 最近值得一看的 10 部作品 少数派编辑部 08/07</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113191" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">[限时优惠] 数据分析：用好 Excel 中的数据透视表 子不语Rex 08/07 免费试读</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113108" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">角落新声｜从合租到整租，我在客厅听见了自己的声音 蓝羽铭 08/07 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113144" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：Bose 发布新款 QuietComfort 头戴式耳机等 少数派编辑部 08/07 派早报</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113162" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">新玩意 248｜少数派的编辑们最近买了啥？ 少数派编辑部 08/06</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113139" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Work With Us</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/workwithus" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Contact Page</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">Lex Fridman</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://lexfridman.com/contact" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Claude Code倒计时5天默认自动模式，多花的钱A社自己掏</h3>
+      <p class="card-summary">会话越长，人的表现越差</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 13:37</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469500.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：会话越长，人的表现越差</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">苹果开测长鑫存储！百度、千问也一起挤进苹果供应链</h3>
+      <p class="card-summary">先解决这轮内存荒！</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 10:34</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469475.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：先解决这轮内存荒！</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">墨芯成立稀疏计算产学研联盟，以生态协同突破产业化壁垒</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 10:25</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469454.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只</h3>
+      <p class="card-summary">全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。 需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-10 09:34</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469213.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。 需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">诺奖得主Hassabis，也要走了！</h3>
+      <p class="card-summary">最新爆料称，在Jeff Dean离开之际，Demis Hassabis原本计划打包走人，却被谷歌给拦下了。</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:07</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108548/%e8%af%ba%e5%a5%96%e5%be%97%e4%b8%bbhassabis%ef%bc%8c%e4%b9%9f%e8%a6%81%e8%b5%b0%e4%ba%86%ef%bc%81" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：最新爆料称，在Jeff Dean离开之际，Demis Hassabis原本计划打包走人，却被谷歌给拦下了。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">今天，互联网不再只属于人类！Cloudflare实锤机器流量反超</h3>
+      <p class="card-summary">互联网，就要不属于人类了？ 五年后，人类将成为互联网上的一个「误差」。 在2026年二季度财报电话会上，Cloudflare的CFO Thomas Seifert对着投资人，撂…</p>
+      <div class="card-meta">
+        <span class="source">新智元</span>
+        <time>2026-08-10 08:04</time>
+        <a class="link-btn" href="https://aiera.com.cn/2026/08/10/other/admin/108462/%e4%bb%8a%e5%a4%a9%ef%bc%8c%e4%ba%92%e8%81%94%e7%bd%91%e4%b8%8d%e5%86%8d%e5%8f%aa%e5%b1%9e%e4%ba%8e%e4%ba%ba%e7%b1%bb%ef%bc%81cloudflare%e5%ae%9e%e9%94%a4%e6%9c%ba%e5%99%a8%e6%b5%81%e9%87%8f%e5%8f%8d" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：互联网，就要不属于人类了？ 五年后，人类将成为互联网上的一个「误差」。 在2026年二季度财报电话会上，Cloudflare的CFO Thomas Seifert对着投资人，撂…</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">180万刀，连亚马逊都烧不起Claude了</h3>
+      <p class="card-summary">Claude不是我说你，钱真不能这么花</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-08-09 17:25</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/08/469010.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：Claude不是我说你，钱真不能这么花</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">效率与数码生活<small>iphone / ipad / mac</small></span>
+        <span class="domain-actions"><span class="count">1 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕 VHENSS 11:00 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-08-10 17:08（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/113202" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p>内容摘要：原文未提供摘要，请点击链接查看详情。</p><p>信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article></div>
+    </section></section>
+    <section class="section failures"><h2>来源异常 / 抓取失败</h2><ul><li><strong>机器之心</strong>未发现 RSS，按首页排序近似选取</li><li><strong>极客公园</strong>HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/</li><li><strong>钛媒体</strong>未发现 RSS，按首页排序近似选取</li><li><strong>智东西</strong>未发现 RSS，按首页排序近似选取</li><li><strong>雷峰网</strong>ConnectionError: HTTPSConnectionPool(host=&#x27;www.leiphone.com&#x27;, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(&quot;HTTPSConnection(host=&#x27;www.leiphone.com&#x27;, port=443): Failed to resolve &#x27;www.leiphone.com&#x27; ([Errno 11001] getaddrinfo failed)&quot;))</li><li><strong>36氪</strong>未发现 RSS，按首页排序近似选取</li><li><strong>虎嗅</strong>未发现 RSS，按首页排序近似选取</li><li><strong>少数派</strong>未发现 RSS，按首页排序近似选取</li><li><strong>TWIML</strong>未发现 RSS，按首页排序近似选取</li><li><strong>Lex Fridman</strong>未发现 RSS，按首页排序近似选取</li><li><strong>Robot Brains</strong>ConnectTimeout: HTTPSConnectionPool(host=&#x27;shows.acast.com&#x27;, port=443): Max retries exceeded with url: /the-robot-brains (Caused by ConnectTimeoutError(&lt;HTTPSConnection(host=&#x27;shows.acast.com&#x27;, port=443) at 0x2c561b46d20&gt;, &#x27;Connection to shows.acast.com timed out. (connect timeout=25)&#x27;))；HTTPError: 522 Server Error: &lt;none&gt; for url: https://xoilac86zsz.io/</li><li><strong>AI Today</strong>未发现 RSS，按首页排序近似选取</li><li><strong>Data Skeptic</strong>未发现 RSS，按首页排序近似选取</li><li><strong>NVIDIA AI Podcast</strong>未发现 RSS，按首页排序近似选取</li></ul></section>
+    <footer>生成时间：2026-08-10 17:08 Asia/Shanghai · 内容来自公开信息，摘要仅供参考</footer>
+  </main>
+  <script>
+    document.querySelectorAll('[data-card]').forEach(card=>{
+      const toggle=()=>{const opening=!card.classList.contains('expanded');document.querySelectorAll('[data-card].expanded').forEach(x=>x.classList.remove('expanded'));if(opening)card.classList.add('expanded')};
+      card.addEventListener('click',e=>{if(!e.target.closest('a'))toggle()});
+      card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});
+    });
+    document.querySelectorAll('[data-domain-toggle]').forEach(button=>button.addEventListener('click',()=>{const section=button.closest('[data-domain]');section.classList.toggle('open');button.setAttribute('aria-expanded',section.classList.contains('open'))}));
+  </script>
+</body>
+</html>
+

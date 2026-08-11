@@ -1,0 +1,42 @@
+{
+  "title": "科技 / AI 日报",
+  "date": "2026-08-10 周一",
+  "subtitle": "过去 24 小时 · 自动筛选 · 按重要度排序",
+  "generated_at": "2026-08-10 08:00 Asia/Shanghai",
+  "stats": {"articles": 8, "sources": 17},
+  "highlights": [
+    {
+      "title": "示例：这里会显示当天最值得关注的新闻",
+      "summary": "抓取和筛选模块接入后，这里将由真实数据自动生成。",
+      "source": "NewsTracker",
+      "published_at": "2026-08-10",
+      "url": "https://example.com",
+      "analysis": ["核心事实：用简短、可验证的语言说明发生了什么。", "影响判断：解释这条新闻为什么值得关注，以及它可能影响谁。"],
+      "verdict": "一句话点评：明确区分事实、媒体观点与模型判断。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "大模型 / AI 研究 / AI 应用",
+      "articles": [
+        {
+          "title": "示例 AI 新闻",
+          "summary": "这是一条用于检查页面样式的数据。",
+          "source": "示例信源",
+          "published_at": "2026-08-10",
+          "url": "https://example.com",
+          "analysis": ["正式运行时，这里会呈现自动生成的深度解析。"],
+          "verdict": "一句话点评：先验证事实，再给出判断。"
+        }
+      ]
+    },
+    {"name": "芯片与硬件", "description": "芯片 / 半导体 / 硬件设备", "articles": []},
+    {"name": "机器人与具身", "description": "机器人 / 具身智能 / 自动化", "articles": []},
+    {"name": "科技商业与创投", "description": "融资 / 商业 / 行业动态", "articles": []},
+    {"name": "效率与数码生活", "description": "工具 / 效率 / 数码产品", "articles": []}
+  ],
+  "failures": [
+    {"source": "示例异常源", "reason": "抓取失败时会在这里记录原因，不会影响其他来源生成日报。"}
+  ]
+}
