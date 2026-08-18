@@ -1,0 +1,709 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-08-18",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-08-18 10:17 Asia/Shanghai",
+  "stats": {
+    "articles": 37,
+    "sources": 18
+  },
+  "highlights": [
+    {
+      "title": "70亿美元！全球最大「Token中转站」OpenRouter被收购",
+      "url": "https://aiera.com.cn/2026/08/18/other/admin/109484/70%e4%ba%bf%e7%be%8e%e5%85%83%ef%bc%81%e5%85%a8%e7%90%83%e6%9c%80%e5%a4%a7%e3%80%8ctoken%e4%b8%ad%e8%bd%ac%e7%ab%99%e3%80%8dopenrouter%e8%a2%ab%e6%94%b6%e8%b4%ad",
+      "source": "新智元",
+      "published_at": "2026-08-18 08:04",
+      "summary": "据Bloomberg爆料，Stripe以超70亿美元收购OpenRouter，被称今年AI圈最贵的中间商交易。",
+      "analysis": [
+        "核心事实：据Bloomberg爆料，Stripe已敲定收购OpenRouter，价格超70亿美元。",
+        "价值判断：70亿美元高价显示AI基础设施中间层的商业价值。",
+        "信号意义：这笔“中间商”交易或影响AI模型调用生态。",
+        "用户影响：开发者使用的Token中转服务可能随收购发生调整。",
+        "待验证事项：原始摘要未提及交易完成时间、监管审批及OpenRouter后续运营。"
+      ],
+      "verdict": "70亿美元收购“Token中转站”，AI基础设施整合加速。"
+    },
+    {
+      "title": "AI不是比人聪明，是输得起！菲尔兹奖得主点破OpenAI十项成果",
+      "url": "https://aiera.com.cn/2026/08/18/other/admin/109457/ai%e4%b8%8d%e6%98%af%e6%af%94%e4%ba%ba%e8%81%aa%e6%98%8e%ef%bc%8c%e6%98%af%e8%be%93%e5%be%97%e8%b5%b7%ef%bc%81%e8%8f%b2%e5%b0%94%e5%85%b9%e5%a5%96%e5%be%97%e4%b8%bb%e7%82%b9%e7%a0%b4openai%e5%8d%81",
+      "source": "新智元",
+      "published_at": "2026-08-18 08:03",
+      "summary": "媒体报道AI解决80年未解的埃尔德什平面单位距离猜想，菲尔兹奖得主Gowers最初误以为是证明，文章进而讨论AI的数学能力本质。",
+      "analysis": [
+        "核心事实：AI据称解决了埃尔德什平面单位距离猜想，该猜想已悬置80年（来源摘要）。",
+        "价值判断：菲尔兹奖得主Timothy Gowers最初认为这是AI给出的证明（来源摘要）。",
+        "信号意义：标题强调“AI不是比人聪明，是输得起”，引导对AI数学探索模式的思考（依据标题）。",
+        "待验证事项：原始摘要未提供OpenAI十项成果的具体内容与验证情况。"
+      ],
+      "verdict": "AI破解80年猜想若属实将震动数学界，但目前信息量不足，需静待验证。"
+    },
+    {
+      "title": "从Claude隐形水印回望GenAI时代信息隐藏：嵌入水印如何保证无损？",
+      "url": "https://aiera.com.cn/2026/08/18/other/admin/109447/%e4%bb%8eclaude%e9%9a%90%e5%bd%a2%e6%b0%b4%e5%8d%b0%e5%9b%9e%e6%9c%9bgenai%e6%97%b6%e4%bb%a3%e4%bf%a1%e6%81%af%e9%9a%90%e8%97%8f%ef%bc%9a%e5%b5%8c%e5%85%a5%e6%b0%b4%e5%8d%b0%e5%a6%82%e4%bd%95%e4%bf%9d",
+      "source": "新智元",
+      "published_at": "2026-08-18 08:03",
+      "summary": "Anthropic宣布新版Claude自8月2日起在生成文本中嵌入隐形水印，用于标记AI生成内容。",
+      "analysis": [
+        "核心事实：Anthropic于8月11日宣布，新版Claude自8月2日起在生成文本中嵌入隐形水印。",
+        "技术亮点：水印人眼不可见、机器可读，旨在复制传播后仍可追踪AI生成内容。",
+        "信号意义：主流大模型厂商加装隐形水印，或影响生成式AI内容溯源标准。",
+        "待验证事项：原始摘要未说明水印嵌入方式及“无损”保证原理。"
+      ],
+      "verdict": "隐形水印成AI内容标配，无损嵌入是技术看点。"
+    },
+    {
+      "title": "云网、场景与生态三者协同，加快构建物理AI数据基础设施",
+      "url": "https://aiera.com.cn/2026/08/18/other/admin/109577/%e4%ba%91%e7%bd%91%e3%80%81%e5%9c%ba%e6%99%af%e4%b8%8e%e7%94%9f%e6%80%81%e4%b8%89%e8%80%85%e5%8d%8f%e5%90%8c%ef%bc%8c%e5%8a%a0%e5%bf%ab%e6%9e%84%e5%bb%ba%e7%89%a9%e7%90%86ai%e6%95%b0%e6%8d%ae%e5%9f%ba",
+      "source": "新智元",
+      "published_at": "2026-08-18 10:17",
+      "summary": "觅蜂科技获中国电信领投数亿元融资，打造物理AI数据服务平台。标题强调云网、场景与生态协同构建基础设施。",
+      "analysis": [
+        "核心事实：中国电信领投，觅蜂科技再获数亿元融资，瞄准物理AI数据服务平台。",
+        "信号意义：运营商领投或体现产业资本对物理AI数据基础设施的布局。",
+        "待验证事项：原始摘要未提供融资轮次、估值及产品细节。"
+      ],
+      "verdict": "资本加码物理AI数据，云网、场景与生态协同或成关键。"
+    },
+    {
+      "title": "Fable 5夺冠！全球18大顶尖AI自主科研大赛，逼近人类极限",
+      "url": "https://aiera.com.cn/2026/08/18/other/admin/109504/fable-5%e5%a4%ba%e5%86%a0%ef%bc%81%e5%85%a8%e7%90%8318%e5%a4%a7%e9%a1%b6%e5%b0%96ai%e8%87%aa%e4%b8%bb%e7%a7%91%e7%a0%94%e5%a4%a7%e8%b5%9b%ef%bc%8c%e9%80%bc%e8%bf%91%e4%ba%ba%e7%b1%bb%e6%9e%81%e9%99%90",
+      "source": "新智元",
+      "published_at": "2026-08-18 08:05",
+      "summary": "新智元报道，18个全球顶尖大模型在断网环境中进行8天自主科研挑战，Fable 5夺冠。",
+      "analysis": [
+        "核心事实：18个全球顶尖大模型在断网环境中进行8天自主科研挑战，Fable 5夺冠。",
+        "媒体声称：“AI自动科研时代彻底爆发”系媒体评价，需谨慎看待。",
+        "待验证事项：比赛具体任务、评测标准及Fable 5的性能细节，原始摘要未提供。",
+        "信号意义：AI自主科研竞赛已具规模，或将成为后续技术趋势。"
+      ],
+      "verdict": "AI科研竞赛火热，但夺冠含金量仍需评测细节说话。"
+    },
+    {
+      "title": "Why Models Are AI’s Next Training Dataset",
+      "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+      "source": "TWIML",
+      "published_at": "2026-08-18 10:17（时间近似）",
+      "summary": "探讨模型作为AI下一阶段训练数据来源的趋势与可能性。",
+      "analysis": [
+        "核心事实：标题提出模型可能成为AI训练的新数据集，但具体机制和案例未在摘要中说明。",
+        "技术亮点：暗示利用现有模型生成或合成训练数据的方向，原始摘要未提供细节。",
+        "待验证事项：模型作为训练数据的有效性、偏差和成本问题需进一步验证。"
+      ],
+      "verdict": "观点前沿，但需更多实证支撑其可落地性。"
+    },
+    {
+      "title": "共生知行发布人形机器人赛车Demo：以卡丁车测试双足机器人的“全身智能”",
+      "url": "https://www.qbitai.com/2026/08/474537.html",
+      "source": "量子位",
+      "published_at": "2026-08-17 17:30",
+      "summary": "共生知行发布双足人形机器人驾驶卡丁车Demo，用于测试“全身智能”。",
+      "analysis": [
+        "核心事实：8月17日，共生知行发布双足人形机器人驾驶卡丁车Demo。",
+        "技术亮点：以卡丁车场景测试双足机器人的“全身智能”，强调动态平衡与协调。",
+        "信号意义：用赛车类动态任务验证机器人全身控制，是具身智能测试的新尝试。",
+        "待验证事项：原始摘要未提供演示视频、成功参数及量产计划。"
+      ],
+      "verdict": "双足机器人开卡丁车，全身智能验证有新意，但离落地尚远。"
+    },
+    {
+      "title": "Why AI Agents Break the GenAI Security Model",
+      "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+      "source": "TWIML",
+      "published_at": "2026-08-18 10:17（时间近似）",
+      "summary": "TWIML文章标题提出：AI代理会打破生成式AI安全模型，引发对新安全挑战的关注。",
+      "analysis": [
+        "核心事实：TWIML文章标题提出AI代理会打破生成式AI安全模型。",
+        "分析判断：这意味着现有GenAI安全模型可能未充分考虑AI代理的自主性与行动能力。",
+        "待验证事项：具体技术原因、案例及应对方案，原始摘要未提供。"
+      ],
+      "verdict": "AI代理正在挑战旧安全防线，GenAI安全模型亟需重新设计。"
+    },
+    {
+      "title": "20%的美国打工人把活儿甩给AI！被替代的是任务，不是岗位",
+      "url": "https://aiera.com.cn/2026/08/18/other/admin/109527/20%e7%9a%84%e7%be%8e%e5%9b%bd%e6%89%93%e5%b7%a5%e4%ba%ba%e6%8a%8a%e6%b4%bb%e5%84%bf%e7%94%a9%e7%bb%99ai%ef%bc%81%e8%a2%ab%e6%9b%bf%e4%bb%a3%e7%9a%84%e6%98%af%e4%bb%bb%e5%8a%a1%ef%bc%8c%e4%b8%8d",
+      "source": "新智元",
+      "published_at": "2026-08-18 08:05",
+      "summary": "Epoch AI联合Ipsos发布职场调查，标题称20%美国打工人把部分任务交给AI，指被替代的是任务而非岗位。",
+      "analysis": [
+        "核心事实：Epoch AI联合Ipsos于8月6日发布职场调查报告，标题称20%美国打工人将任务外包给AI。",
+        "价值判断：“被替代的是任务，不是岗位”的结论或为AI对职场影响提供更细致视角。",
+        "疑问解答：原始摘要未提供调查样本量、方法论及具体任务类型。",
+        "上下文对比：将AI与外包给同事/实习生类比，突出任务级分工。"
+      ],
+      "verdict": "任务外包给AI而非岗位消失，为AI取代论提供微观证据。"
+    },
+    {
+      "title": "快讯｜范式PhanRouter上线智谱GLM-5.3，即日开放调用",
+      "url": "https://www.qbitai.com/2026/08/474361.html",
+      "source": "量子位",
+      "published_at": "2026-08-17 16:26",
+      "summary": "智谱GLM-5.3首次上线范式PhanRouter，即日起开放调用，具体功能尚未披露。",
+      "analysis": [
+        "核心事实：范式PhanRouter在智谱GLM-5.3上首发并即日开放调用（来源摘要）。",
+        "用户影响：开发者自即日起可调用该服务（依据摘要）。",
+        "信号意义：模型平台与第三方工具的集成速度加快（推断）。",
+        "待验证事项：PhanRouter的功能细节和使用方式原始摘要未提供。"
+      ],
+      "verdict": "快讯信息有限，先观望PhanRouter能带来什么新能力。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "快速投票：模型打平、Harness 见分晓，你平时用哪一款？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1785741878",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "文章发起投票，讨论模型比较中Harness的差异，邀请读者选择自己常用的方案。",
+          "analysis": [
+            "核心事实：文章发起投票，比较模型测试中“Harness”的取舍（依据标题）。",
+            "用户影响：邀请用户分享常用工具，可能沉淀社区实践经验（推断）。",
+            "待验证事项：原始摘要未提供具体模型、Harness类型及投票背景。"
+          ],
+          "verdict": "与其说是新闻，不如说是社区调查，休闲看看即可。"
+        },
+        {
+          "title": "Why Models Are AI’s Next Training Dataset",
+          "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "探讨模型作为AI下一阶段训练数据来源的趋势与可能性。",
+          "analysis": [
+            "核心事实：标题提出模型可能成为AI训练的新数据集，但具体机制和案例未在摘要中说明。",
+            "技术亮点：暗示利用现有模型生成或合成训练数据的方向，原始摘要未提供细节。",
+            "待验证事项：模型作为训练数据的有效性、偏差和成本问题需进一步验证。"
+          ],
+          "verdict": "观点前沿，但需更多实证支撑其可落地性。"
+        },
+        {
+          "title": "How AI Learns to Smell",
+          "url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agents Break the GenAI Security Model",
+          "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "TWIML文章标题提出：AI代理会打破生成式AI安全模型，引发对新安全挑战的关注。",
+          "analysis": [
+            "核心事实：TWIML文章标题提出AI代理会打破生成式AI安全模型。",
+            "分析判断：这意味着现有GenAI安全模型可能未充分考虑AI代理的自主性与行动能力。",
+            "待验证事项：具体技术原因、案例及应对方案，原始摘要未提供。"
+          ],
+          "verdict": "AI代理正在挑战旧安全防线，GenAI安全模型亟需重新设计。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "探讨AI Agent基准测试为何难以设计，涉及评估方法论与潜在误区。",
+          "analysis": [
+            "核心事实：文章围绕AI Agent基准测试的难度展开讨论（依据标题）。",
+            "信号意义：反映AI评估领域对基准测试有效性的关注正在升温（推断）。",
+            "疑问解答：可能探讨为何Agent评测比传统模型评测更复杂（推断）。",
+            "待验证事项：原始摘要未提供文章的具体观点和案例。"
+          ],
+          "verdict": "标题一针见血，Agent评测确实复杂，值得研究者细读原文。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+          "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "100%纯血国产AI反超Suno！一个下午做出百万预算主题曲",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109516/100%e7%ba%af%e8%a1%80%e5%9b%bd%e4%ba%a7ai%e5%8f%8d%e8%b6%85suno%ef%bc%81%e4%b8%80%e4%b8%aa%e4%b8%8b%e5%8d%88%e5%81%9a%e5%87%ba%e7%99%be%e4%b8%87%e9%a2%84%e7%ae%97%e4%b8%bb%e9%a2%98%e6%9b%b2",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:05",
+          "summary": "日产7.5万首，播放却不到3%。 这是流媒体平台Deezer最新披露的一组数据。AI歌曲每天涌入平台的速度，从2025年初的1万首飙升到如今的7.5万首，占当日新增上传的44%…",
+          "analysis": [
+            "内容摘要：日产7.5万首，播放却不到3%。 这是流媒体平台Deezer最新披露的一组数据。AI歌曲每天涌入平台的速度，从2025年初的1万首飙升到如今的7.5万首，占当日新增上传的44%…",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Fable 5夺冠！全球18大顶尖AI自主科研大赛，逼近人类极限",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109504/fable-5%e5%a4%ba%e5%86%a0%ef%bc%81%e5%85%a8%e7%90%8318%e5%a4%a7%e9%a1%b6%e5%b0%96ai%e8%87%aa%e4%b8%bb%e7%a7%91%e7%a0%94%e5%a4%a7%e8%b5%9b%ef%bc%8c%e9%80%bc%e8%bf%91%e4%ba%ba%e7%b1%bb%e6%9e%81%e9%99%90",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:05",
+          "summary": "新智元报道，18个全球顶尖大模型在断网环境中进行8天自主科研挑战，Fable 5夺冠。",
+          "analysis": [
+            "核心事实：18个全球顶尖大模型在断网环境中进行8天自主科研挑战，Fable 5夺冠。",
+            "媒体声称：“AI自动科研时代彻底爆发”系媒体评价，需谨慎看待。",
+            "待验证事项：比赛具体任务、评测标准及Fable 5的性能细节，原始摘要未提供。",
+            "信号意义：AI自主科研竞赛已具规模，或将成为后续技术趋势。"
+          ],
+          "verdict": "AI科研竞赛火热，但夺冠含金量仍需评测细节说话。"
+        },
+        {
+          "title": "AI视频运镜玄学已破！告别无限抽卡，3D预演台直接封神",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109469/ai%e8%a7%86%e9%a2%91%e8%bf%90%e9%95%9c%e7%8e%84%e5%ad%a6%e5%b7%b2%e7%a0%b4%ef%bc%81%e5%91%8a%e5%88%ab%e6%97%a0%e9%99%90%e6%8a%bd%e5%8d%a1%ef%bc%8c3d%e9%a2%84%e6%bc%94%e5%8f%b0%e7%9b%b4%e6%8e%a5",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:04",
+          "summary": "针对AI视频运镜难以精确控制的问题，文章介绍一种3D预演台方案，宣称可告别反复抽卡，实现精准画面控制。",
+          "analysis": [
+            "核心事实：摘要描述AI视频生成中运镜控制不精准的常见痛点（模型输出与提示词不一致）。",
+            "技术亮点：文章提出3D预演台方案，宣称能实现精准运镜和走位控制（依据标题与摘要）。",
+            "用户影响：有望减少AI视频创作中的反复抽卡，提升效率（推断）。",
+            "待验证事项：3D预演台的具体技术实现与效果数据原始摘要未提供。"
+          ],
+          "verdict": "3D预演台听起来是个好主意，但能否真正告别抽卡还得看实测。"
+        },
+        {
+          "title": "AI不是比人聪明，是输得起！菲尔兹奖得主点破OpenAI十项成果",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109457/ai%e4%b8%8d%e6%98%af%e6%af%94%e4%ba%ba%e8%81%aa%e6%98%8e%ef%bc%8c%e6%98%af%e8%be%93%e5%be%97%e8%b5%b7%ef%bc%81%e8%8f%b2%e5%b0%94%e5%85%b9%e5%a5%96%e5%be%97%e4%b8%bb%e7%82%b9%e7%a0%b4openai%e5%8d%81",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:03",
+          "summary": "媒体报道AI解决80年未解的埃尔德什平面单位距离猜想，菲尔兹奖得主Gowers最初误以为是证明，文章进而讨论AI的数学能力本质。",
+          "analysis": [
+            "核心事实：AI据称解决了埃尔德什平面单位距离猜想，该猜想已悬置80年（来源摘要）。",
+            "价值判断：菲尔兹奖得主Timothy Gowers最初认为这是AI给出的证明（来源摘要）。",
+            "信号意义：标题强调“AI不是比人聪明，是输得起”，引导对AI数学探索模式的思考（依据标题）。",
+            "待验证事项：原始摘要未提供OpenAI十项成果的具体内容与验证情况。"
+          ],
+          "verdict": "AI破解80年猜想若属实将震动数学界，但目前信息量不足，需静待验证。"
+        },
+        {
+          "title": "从Claude隐形水印回望GenAI时代信息隐藏：嵌入水印如何保证无损？",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109447/%e4%bb%8eclaude%e9%9a%90%e5%bd%a2%e6%b0%b4%e5%8d%b0%e5%9b%9e%e6%9c%9bgenai%e6%97%b6%e4%bb%a3%e4%bf%a1%e6%81%af%e9%9a%90%e8%97%8f%ef%bc%9a%e5%b5%8c%e5%85%a5%e6%b0%b4%e5%8d%b0%e5%a6%82%e4%bd%95%e4%bf%9d",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:03",
+          "summary": "Anthropic宣布新版Claude自8月2日起在生成文本中嵌入隐形水印，用于标记AI生成内容。",
+          "analysis": [
+            "核心事实：Anthropic于8月11日宣布，新版Claude自8月2日起在生成文本中嵌入隐形水印。",
+            "技术亮点：水印人眼不可见、机器可读，旨在复制传播后仍可追踪AI生成内容。",
+            "信号意义：主流大模型厂商加装隐形水印，或影响生成式AI内容溯源标准。",
+            "待验证事项：原始摘要未说明水印嵌入方式及“无损”保证原理。"
+          ],
+          "verdict": "隐形水印成AI内容标配，无损嵌入是技术看点。"
+        },
+        {
+          "title": "菲尔兹奖得主：AI现在主要靠「抬杠」突破重大数学猜想",
+          "url": "https://www.qbitai.com/2026/08/474381.html",
+          "source": "量子位",
+          "published_at": "2026-08-17 16:36",
+          "summary": "量子位报道，菲尔兹奖得主称AI突破数学猜想主要靠“抬杠”找反例，近期出圈突破多属此类。",
+          "analysis": [
+            "核心事实：菲尔兹奖得主称AI突破数学猜想主要靠“抬杠”（找反例）；近期AI数学突破集中于反例发现。",
+            "分析判断：该说法暗示AI在数学推理中长于质疑反例，短于构建系统证明。",
+            "待验证事项：菲尔兹奖得主身份及具体数学突破案例，原始摘要未提供。"
+          ],
+          "verdict": "AI找反例是巧劲，数学证明仍需长路。"
+        },
+        {
+          "title": "快讯｜范式PhanRouter上线智谱GLM-5.3，即日开放调用",
+          "url": "https://www.qbitai.com/2026/08/474361.html",
+          "source": "量子位",
+          "published_at": "2026-08-17 16:26",
+          "summary": "智谱GLM-5.3首次上线范式PhanRouter，即日起开放调用，具体功能尚未披露。",
+          "analysis": [
+            "核心事实：范式PhanRouter在智谱GLM-5.3上首发并即日开放调用（来源摘要）。",
+            "用户影响：开发者自即日起可调用该服务（依据摘要）。",
+            "信号意义：模型平台与第三方工具的集成速度加快（推断）。",
+            "待验证事项：PhanRouter的功能细节和使用方式原始摘要未提供。"
+          ],
+          "verdict": "快讯信息有限，先观望PhanRouter能带来什么新能力。"
+        },
+        {
+          "title": "终于！世界模型进入“有声时代”：24FPS画面+48kHz立体声实时生成",
+          "url": "https://www.qbitai.com/2026/08/474334.html",
+          "source": "量子位",
+          "published_at": "2026-08-17 15:39",
+          "summary": "即将完全开源",
+          "analysis": [
+            "内容摘要：即将完全开源",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": []
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": [
+        {
+          "title": "从实验室到真实家庭：人形机器人的「终极考题」为什么在栖息地",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109565/%e4%bb%8e%e5%ae%9e%e9%aa%8c%e5%ae%a4%e5%88%b0%e7%9c%9f%e5%ae%9e%e5%ae%b6%e5%ba%ad%ef%bc%9a%e4%ba%ba%e5%bd%a2%e6%9c%ba%e5%99%a8%e4%ba%ba%e7%9a%84%e3%80%8c%e7%bb%88%e6%9e%81%e8%80%83%e9%a2%98%e3%80%8d",
+          "source": "新智元",
+          "published_at": "2026-08-18 09:27",
+          "summary": "2026年8月18日-8月20日，由北京市人民政府、中央广播电视总台、世界机器人合作组织、亚太机器人世界杯国际理事会共同主办的「第二届世界人形机器人运动会-家庭场景赛」在北京栖…",
+          "analysis": [
+            "内容摘要：2026年8月18日-8月20日，由北京市人民政府、中央广播电视总台、世界机器人合作组织、亚太机器人世界杯国际理事会共同主办的「第二届世界人形机器人运动会-家庭场景赛」在北京栖…",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "共生知行发布人形机器人赛车Demo：以卡丁车测试双足机器人的“全身智能”",
+          "url": "https://www.qbitai.com/2026/08/474537.html",
+          "source": "量子位",
+          "published_at": "2026-08-17 17:30",
+          "summary": "共生知行发布双足人形机器人驾驶卡丁车Demo，用于测试“全身智能”。",
+          "analysis": [
+            "核心事实：8月17日，共生知行发布双足人形机器人驾驶卡丁车Demo。",
+            "技术亮点：以卡丁车场景测试双足机器人的“全身智能”，强调动态平衡与协调。",
+            "信号意义：用赛车类动态任务验证机器人全身控制，是具身智能测试的新尝试。",
+            "待验证事项：原始摘要未提供演示视频、成功参数及量产计划。"
+          ],
+          "verdict": "双足机器人开卡丁车，全身智能验证有新意，但离落地尚远。"
+        },
+        {
+          "title": "人形机器人开始打国球了！两台机器人完整打完11分制比赛",
+          "url": "https://www.qbitai.com/2026/08/474518.html",
+          "source": "量子位",
+          "published_at": "2026-08-17 17:04",
+          "summary": "没有遥控、没人喂球",
+          "analysis": [
+            "内容摘要：没有遥控、没人喂球",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "派早报：阿里巴巴出售灵犀互娱，Linux 7.2 内核稳定版发布等 少数派编辑部 08:04 派早报",
+          "url": "https://sspai.com/post/113566",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "少数派早报提及阿里巴巴出售灵犀互娱、Linux 7.2内核稳定版发布等动态。",
+          "analysis": [
+            "核心事实：标题列出阿里巴巴出售灵犀互娱、Linux 7.2内核稳定版发布两件事。",
+            "待验证事项：交易细节与内核更新内容，原始摘要未提供。",
+            "信号意义：显示科技公司业务调整与开源系统进展并行。"
+          ],
+          "verdict": "阿里业务变动与Linux新版同框，今日科技圈动态密集。"
+        },
+        {
+          "title": "派评 | 近期值得关注的 App 少数派编辑部 昨天 18:14",
+          "url": "https://sspai.com/post/113544",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "分享我知识管理 12 年来最重要的经验：INL 结构 羊清乐 昨天 15:00 视频",
+          "url": "https://sspai.com/post/113368",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "当陶瓷水杯遇上像素屏：PixelMug 体验 M00Nface 昨天 13:55",
+          "url": "https://sspai.com/post/113448",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "成年人包里的唯一一支笔：模块笔入门导购 如果你的包里想带一支笔以备不时之需，这支笔应该就是你想要的。 北鸮 昨天 11:00",
+          "url": "https://sspai.com/post/113445",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：😭（放声大哭）成为最流行 emoji 少数派编辑部 昨天 06:54 派早报",
+          "url": "https://sspai.com/post/113524",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」 在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？ 克莱德 前天 12:48",
+          "url": "https://sspai.com/post/113495",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "有毒职场正在炼成：OKR 变成 KPI，敏捷开发变成切碎的瀑布 LOSSES 08/15 Matrix精选",
+          "url": "https://sspai.com/post/111974",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 9 部作品 少数派编辑部 08/14",
+          "url": "https://sspai.com/post/113459",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "你初高中时的书单里，总有本「东野圭吾」吧？ 纪念并且感谢他为我们留下的推理世界。 潘誉晗 08/14",
+          "url": "https://sspai.com/post/113416",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why Image Generation Needs More Than Bigger Models",
+          "url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "云网、场景与生态三者协同，加快构建物理AI数据基础设施",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109577/%e4%ba%91%e7%bd%91%e3%80%81%e5%9c%ba%e6%99%af%e4%b8%8e%e7%94%9f%e6%80%81%e4%b8%89%e8%80%85%e5%8d%8f%e5%90%8c%ef%bc%8c%e5%8a%a0%e5%bf%ab%e6%9e%84%e5%bb%ba%e7%89%a9%e7%90%86ai%e6%95%b0%e6%8d%ae%e5%9f%ba",
+          "source": "新智元",
+          "published_at": "2026-08-18 10:17",
+          "summary": "觅蜂科技获中国电信领投数亿元融资，打造物理AI数据服务平台。标题强调云网、场景与生态协同构建基础设施。",
+          "analysis": [
+            "核心事实：中国电信领投，觅蜂科技再获数亿元融资，瞄准物理AI数据服务平台。",
+            "信号意义：运营商领投或体现产业资本对物理AI数据基础设施的布局。",
+            "待验证事项：原始摘要未提供融资轮次、估值及产品细节。"
+          ],
+          "verdict": "资本加码物理AI数据，云网、场景与生态协同或成关键。"
+        },
+        {
+          "title": "刚刚，Claude水印一夜变废纸！",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109554/%e5%88%9a%e5%88%9a%ef%bc%8cclaude%e6%b0%b4%e5%8d%b0%e4%b8%80%e5%a4%9c%e5%8f%98%e5%ba%9f%e7%ba%b8%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:06",
+          "summary": "就在刚刚，Anthropic的护城河被踩碎了。 今早，一个去水印神器代码库在GitHub上彻底爆火，狂揽11,000颗星！",
+          "analysis": [
+            "内容摘要：就在刚刚，Anthropic的护城河被踩碎了。 今早，一个去水印神器代码库在GitHub上彻底爆火，狂揽11,000颗星！",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "70亿美元！全球最大「Token中转站」OpenRouter被收购",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109484/70%e4%ba%bf%e7%be%8e%e5%85%83%ef%bc%81%e5%85%a8%e7%90%83%e6%9c%80%e5%a4%a7%e3%80%8ctoken%e4%b8%ad%e8%bd%ac%e7%ab%99%e3%80%8dopenrouter%e8%a2%ab%e6%94%b6%e8%b4%ad",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:04",
+          "summary": "据Bloomberg爆料，Stripe以超70亿美元收购OpenRouter，被称今年AI圈最贵的中间商交易。",
+          "analysis": [
+            "核心事实：据Bloomberg爆料，Stripe已敲定收购OpenRouter，价格超70亿美元。",
+            "价值判断：70亿美元高价显示AI基础设施中间层的商业价值。",
+            "信号意义：这笔“中间商”交易或影响AI模型调用生态。",
+            "用户影响：开发者使用的Token中转服务可能随收购发生调整。",
+            "待验证事项：原始摘要未提及交易完成时间、监管审批及OpenRouter后续运营。"
+          ],
+          "verdict": "70亿美元收购“Token中转站”，AI基础设施整合加速。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "[有奖]手机里的 AI 通话功能，你真的在用吗？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1785400922",
+          "source": "少数派",
+          "published_at": "2026-08-18 10:17（时间近似）",
+          "summary": "少数派发起有奖讨论：手机里的AI通话功能，你真的在用吗？",
+          "analysis": [
+            "核心事实：少数派发起有奖讨论，话题聚焦手机AI通话功能的实际使用情况。",
+            "用户影响：征集真实用户反馈，或可反映该功能的接受度与体验。",
+            "待验证事项：AI通话功能具体指代及讨论结果，原始摘要未提供。"
+          ],
+          "verdict": "AI通话功能别只宣传，让用户用脚投票。"
+        },
+        {
+          "title": "20%的美国打工人把活儿甩给AI！被替代的是任务，不是岗位",
+          "url": "https://aiera.com.cn/2026/08/18/other/admin/109527/20%e7%9a%84%e7%be%8e%e5%9b%bd%e6%89%93%e5%b7%a5%e4%ba%ba%e6%8a%8a%e6%b4%bb%e5%84%bf%e7%94%a9%e7%bb%99ai%ef%bc%81%e8%a2%ab%e6%9b%bf%e4%bb%a3%e7%9a%84%e6%98%af%e4%bb%bb%e5%8a%a1%ef%bc%8c%e4%b8%8d",
+          "source": "新智元",
+          "published_at": "2026-08-18 08:05",
+          "summary": "Epoch AI联合Ipsos发布职场调查，标题称20%美国打工人把部分任务交给AI，指被替代的是任务而非岗位。",
+          "analysis": [
+            "核心事实：Epoch AI联合Ipsos于8月6日发布职场调查报告，标题称20%美国打工人将任务外包给AI。",
+            "价值判断：“被替代的是任务，不是岗位”的结论或为AI对职场影响提供更细致视角。",
+            "疑问解答：原始摘要未提供调查样本量、方法论及具体任务类型。",
+            "上下文对比：将AI与外包给同事/实习生类比，突出任务级分工。"
+          ],
+          "verdict": "任务外包给AI而非岗位消失，为AI取代论提供微观证据。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.huxiu.com/"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    }
+  ]
+}
