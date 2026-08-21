@@ -1,0 +1,911 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-08-21",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-08-21 10:24 Asia/Shanghai",
+  "stats": {
+    "articles": 53,
+    "sources": 18
+  },
+  "highlights": [
+    {
+      "title": "从一条导盲路到五种真实生活服务，高德动量机器狗途途亮相 WRC",
+      "url": "https://aiera.com.cn/2026/08/21/other/admin/110061/%e4%bb%8e%e4%b8%80%e6%9d%a1%e5%af%bc%e7%9b%b2%e8%b7%af%e5%88%b0%e4%ba%94%e7%a7%8d%e7%9c%9f%e5%ae%9e%e7%94%9f%e6%b4%bb%e6%9c%8d%e5%8a%a1%ef%bc%8c%e9%ab%98%e5%be%b7%e5%8a%a8%e9%87%8f%e6%9c%ba%e5%99%a8",
+      "source": "新智元",
+      "published_at": "2026-08-21 08:32",
+      "summary": "高德动量在WRC发布机器狗途途，支持视障导盲、沉浸式导览、智慧导购、智能巡检和末端配送五大场景。",
+      "analysis": [
+        "核心事实：高德动量发布机器狗途途，支持导盲、导览、导购、巡检和末端配送五大场景。",
+        "用户影响：视障导盲等应用有望改善特殊人群生活。",
+        "信号意义：机器狗从演示走向真实生活服务。",
+        "待验证事项：全球首款的说法和实际部署情况未提供。"
+      ],
+      "verdict": "机器狗服务多元化，导盲场景最具社会价值。"
+    },
+    {
+      "title": "WRC首秀！大晓机器人携开悟世界模型3.1、环境式数采方案及三大行业解决方案引爆现场",
+      "url": "https://aiera.com.cn/2026/08/21/other/admin/110076/wrc%e9%a6%96%e7%a7%80%ef%bc%81%e5%a4%a7%e6%99%93%e6%9c%ba%e5%99%a8%e4%ba%ba%e6%90%ba%e5%bc%80%e6%82%9f%e4%b8%96%e7%95%8c%e6%a8%a1%e5%9e%8b3-1%e3%80%81%e7%8e%af%e5%a2%83%e5%bc%8f%e6%95%b0%e9%87%87",
+      "source": "新智元",
+      "published_at": "2026-08-21 10:13",
+      "summary": "8月19日，大晓机器人亮相2026世界机器人大会，展示开悟世界模型3.1、环境式数据采集方案2.0及面向即时零售、酒店等场景的行业解决方案。",
+      "analysis": [
+        "核心事实：大晓机器人在2026世界机器人大会展示开悟世界模型3.1、环境式数据采集方案2.0及三大行业解决方案。",
+        "技术亮点：世界模型与数据采集方案是具身智能的关键技术。",
+        "上下文对比：WRC是机器人行业重要展示平台，厂商集中展示最新成果。",
+        "待验证事项：技术参数与商业落地详情未提供。"
+      ],
+      "verdict": "WRC首秀展技术布局，落地能力待观察。"
+    },
+    {
+      "title": "刚刚，全球千万开发者「AI命门」一夜易主！",
+      "url": "https://aiera.com.cn/2026/08/21/other/admin/110050/%e5%88%9a%e5%88%9a%ef%bc%8c%e5%85%a8%e7%90%83%e5%8d%83%e4%b8%87%e5%bc%80%e5%8f%91%e8%80%85%e3%80%8cai%e5%91%bd%e9%97%a8%e3%80%8d%e4%b8%80%e5%a4%9c%e6%98%93%e4%b8%bb%ef%bc%81",
+      "source": "新智元",
+      "published_at": "2026-08-21 08:13",
+      "summary": "Stripe CEO官宣已签署协议收购OpenRouter，全球千万开发者AI命门易主。",
+      "analysis": [
+        "核心事实：Stripe CEO正式宣布已签署协议收购OpenRouter。",
+        "用户影响：OpenRouter是开发者使用AI模型的常用入口，收购可能影响其服务模式和稳定性。",
+        "信号意义：支付巨头Stripe切入AI基础设施领域。",
+        "待验证事项：交易金额及后续运营安排尚未公布。"
+      ],
+      "verdict": "Stripe收购OpenRouter，开发者AI工具生态迎来重大变局。"
+    },
+    {
+      "title": "山姆·阿尔特曼亲自下场拉人，OpenAI 押注医疗",
+      "url": "https://www.huxiu.com/article/4880547.html",
+      "source": "虎嗅",
+      "published_at": "2026-08-21 10:24（时间近似）",
+      "summary": "OpenAI CEO山姆·阿尔特曼亲自招募人才，公司押注医疗领域。",
+      "analysis": [
+        "核心事实：OpenAI CEO阿尔特曼亲自参与人才招募，公司押注医疗领域。",
+        "信号意义：AI巨头加速进入医疗赛道。",
+        "待验证事项：具体合作或产品细节原始摘要未提供。"
+      ],
+      "verdict": "OpenAI加码医疗，AI与医疗融合将提速。"
+    },
+    {
+      "title": "美国在造上帝，中国在找落地：AI竞争的两种动力",
+      "url": "https://www.huxiu.com/article/4880521.html",
+      "source": "虎嗅",
+      "published_at": "2026-08-21 10:24（时间近似）",
+      "summary": "评论文章对比美国前沿探索与中国应用落地的AI竞争动力。",
+      "analysis": [
+        "核心事实：文章对比美国与中国在AI发展上的不同动力。",
+        "观点判断：美国倾向基础前沿探索，中国注重应用落地。",
+        "价值分析：两种路线各有优劣，但二元概括可能简化复杂性。",
+        "待验证事项：原文未提供具体案例或数据。"
+      ],
+      "verdict": "造神与落地，两种路线终将交汇？"
+    },
+    {
+      "title": "派早报：华为发布 Pura X View、享界 G9 等多款新品 少数派编辑部 07:00 派早报",
+      "url": "https://sspai.com/post/113666",
+      "source": "少数派",
+      "published_at": "2026-08-21 10:24（时间近似）",
+      "summary": "华为发布Pura X View、享界G9等多款新品，具体配置和价格待披露。",
+      "analysis": [
+        "核心事实：少数派报道称，华为发布了Pura X View、享界G9等多款新品。",
+        "待验证事项：新品详细参数、售价、上市时间等均未在标题中给出。",
+        "用户影响：华为生态用户可关注新品带来的功能更新。",
+        "上下文对比：享界G9或涉及智能汽车领域，但原始摘要未提供相关背景。"
+      ],
+      "verdict": "新品发布为事实，信息有限，期待后续详细评测。"
+    },
+    {
+      "title": "刚花600亿买下Cursor，马斯克又要对Devin下手",
+      "url": "https://aiera.com.cn/2026/08/21/other/admin/110011/%e5%88%9a%e8%8a%b1600%e4%ba%bf%e4%b9%b0%e4%b8%8bcursor%ef%bc%8c%e9%a9%ac%e6%96%af%e5%85%8b%e5%8f%88%e8%a6%81%e5%af%b9devin%e4%b8%8b%e6%89%8b",
+      "source": "新智元",
+      "published_at": "2026-08-21 08:12",
+      "summary": "马斯克花600亿美元收购Cursor后，被曝又接洽AI编程公司Cognition探讨收购，后者旗下有Devin。",
+      "analysis": [
+        "核心事实：SpaceX曾接洽AI编程创业公司Cognition，探讨潜在收购。",
+        "上下文对比：据称此前已以600亿美元收购编程工具Cursor。",
+        "信号意义：马斯克连续加码AI编程赛道，意图构建工具生态。",
+        "待验证事项：彭博社爆料仅为消息源，交易是否达成有待证实。"
+      ],
+      "verdict": "马斯克连续收购AI编程工具，Devin或成下一目标，市场格局可能生变。"
+    },
+    {
+      "title": "硅谷CEO: Grok Bot诞生，震撼程度堪比Claude Code时刻！",
+      "url": "https://aiera.com.cn/2026/08/21/other/admin/109979/%e7%a1%85%e8%b0%b7ceo-grok-bot%e8%af%9e%e7%94%9f%ef%bc%8c%e9%9c%87%e6%92%bc%e7%a8%8b%e5%ba%a6%e5%a0%aa%e6%af%94claude-code%e6%97%b6%e5%88%bb%ef%bc%81",
+      "source": "新智元",
+      "published_at": "2026-08-21 08:08",
+      "summary": "硅谷CEO称Grok Bot是AI的又一个Claude Code时刻，个人AI使用量增长约100倍。",
+      "analysis": [
+        "核心事实：一位硅谷CEO公开称Grok Bot是AI领域的‘Claude Code时刻’。",
+        "声称：该CEO称个人对AI的使用量增长了约100倍。",
+        "价值判断：这种比较带有主观色彩，需实际体验验证。",
+        "待验证事项：Grok Bot的具体功能或评测数据未提供。"
+      ],
+      "verdict": "CEO的夸张说法听听就好，Grok Bot成色需实测。"
+    },
+    {
+      "title": "对话凯文·凯利：中国真正的挑战，不是人工智能，是原创性",
+      "url": "https://www.huxiu.com/article/4879089.html",
+      "source": "虎嗅",
+      "published_at": "2026-08-21 10:24（时间近似）",
+      "summary": "凯文·凯利对话称，中国真正的挑战是原创性，而非人工智能。",
+      "analysis": [
+        "核心事实：凯文·凯利在对话中提出中国真正挑战是原创性而非AI。",
+        "观点判断：这是凯文·凯利的个人见解，聚焦创新能力。",
+        "上下文对比：与主流关注AI技术不同，他更强调原创性。",
+        "待验证事项：对话具体内容未提供。"
+      ],
+      "verdict": "凯文·凯利点中原创性，比AI本身更值得深思。"
+    },
+    {
+      "title": "五一视界发布两大具身产品，首次披露“低空-太空-深空”三层空天战略",
+      "url": "https://aiera.com.cn/2026/08/21/other/admin/110054/%e4%ba%94%e4%b8%80%e8%a7%86%e7%95%8c%e5%8f%91%e5%b8%83%e4%b8%a4%e5%a4%a7%e5%85%b7%e8%ba%ab%e4%ba%a7%e5%93%81%ef%bc%8c%e9%a6%96%e6%ac%a1%e6%8a%ab%e9%9c%b2%e4%bd%8e%e7%a9%ba-%e5%a4%aa%e7%a9%ba",
+      "source": "新智元",
+      "published_at": "2026-08-21 08:26",
+      "summary": "8月18日，51WORLD发布具身数据底座AperData和具身应用平台AperOne，并首次披露三层空天战略。",
+      "analysis": [
+        "核心事实：51WORLD在8月18日发布会上推出AperData与AperOne两大产品。",
+        "产品定位：AperData为具身数据底座，AperOne为具身应用平台。",
+        "战略发布：首次披露“低空-太空-深空”三层空天战略。",
+        "信号意义：显示其向物理AI和具身智能方向深入布局。"
+      ],
+      "verdict": "51WORLD加码具身智能，产品与战略齐发，瞄准物理AI时代。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "训练大模型的医生干不动了",
+          "url": "https://www.huxiu.com/article/4884422.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原始摘要未提供。标题称训练大模型的‘医生’‘干不动了’。",
+          "analysis": [
+            "核心事实：原始摘要未提供，仅标题显示“训练大模型的医生干不动了”这一表述。",
+            "信号意义：标题暗示大模型训练领域可能存在人力压力或职业倦怠现象，属于分析判断。",
+            "待验证事项：“医生”具体指代角色、困境表现及数据支撑，均未披露。",
+            "用户影响：对大模型从业者可能引发共鸣，但对普通用户影响不明确。"
+          ],
+          "verdict": "标题抓人但缺乏正文信息，建议关注后续详细报道。"
+        },
+        {
+          "title": "[有奖]手机里的 AI 通话功能，你真的在用吗？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1785400922",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "少数派发起“手机里的AI通话功能你在用吗”有奖讨论。",
+          "analysis": [
+            "核心事实：少数派社区发起关于手机AI通话功能的讨论，并设有奖参与。",
+            "疑问解答：以提问形式引发对AI通话实际使用率的思考。",
+            "用户影响：话题贴合日常，可帮助了解AI功能的实用价值。",
+            "待验证事项：用户使用情况数据和讨论结论未提供。"
+          ],
+          "verdict": "轻松话题，反映AI落地应用的真实用户反馈值得关注。"
+        },
+        {
+          "title": "Why Models Are AI’s Next Training Dataset",
+          "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "How AI Learns to Smell",
+          "url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agents Break the GenAI Security Model",
+          "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "文章探讨AI代理可能突破现有生成式AI安全模型的边界，提出安全挑战。",
+          "analysis": [
+            "核心事实：文章讨论AI代理对GenAI安全模型的冲击。",
+            "技术判断：AI代理的自主行动可能绕过传统安全限制，属于推断。",
+            "待验证事项：具体突破方式和应对方案原始摘要未提供。"
+          ],
+          "verdict": "AI代理正在掀翻安全模型的旧账，但怎么补课还没答案。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "讨论AI代理基准测试的难度，指出评估比表面看起来更复杂。",
+          "analysis": [
+            "核心事实：文章主题是AI代理基准测试的困难。",
+            "技术难点：代理的长期任务和交互能力难以用简单基准全面评估。",
+            "待验证事项：具体测试方法和失败案例原文未提供。"
+          ],
+          "verdict": "评测AI代理比想象中难，别被简单数字骗了。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+          "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "刚刚，全球千万开发者「AI命门」一夜易主！",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110050/%e5%88%9a%e5%88%9a%ef%bc%8c%e5%85%a8%e7%90%83%e5%8d%83%e4%b8%87%e5%bc%80%e5%8f%91%e8%80%85%e3%80%8cai%e5%91%bd%e9%97%a8%e3%80%8d%e4%b8%80%e5%a4%9c%e6%98%93%e4%b8%bb%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:13",
+          "summary": "Stripe CEO官宣已签署协议收购OpenRouter，全球千万开发者AI命门易主。",
+          "analysis": [
+            "核心事实：Stripe CEO正式宣布已签署协议收购OpenRouter。",
+            "用户影响：OpenRouter是开发者使用AI模型的常用入口，收购可能影响其服务模式和稳定性。",
+            "信号意义：支付巨头Stripe切入AI基础设施领域。",
+            "待验证事项：交易金额及后续运营安排尚未公布。"
+          ],
+          "verdict": "Stripe收购OpenRouter，开发者AI工具生态迎来重大变局。"
+        },
+        {
+          "title": "刚花600亿买下Cursor，马斯克又要对Devin下手",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110011/%e5%88%9a%e8%8a%b1600%e4%ba%bf%e4%b9%b0%e4%b8%8bcursor%ef%bc%8c%e9%a9%ac%e6%96%af%e5%85%8b%e5%8f%88%e8%a6%81%e5%af%b9devin%e4%b8%8b%e6%89%8b",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:12",
+          "summary": "马斯克花600亿美元收购Cursor后，被曝又接洽AI编程公司Cognition探讨收购，后者旗下有Devin。",
+          "analysis": [
+            "核心事实：SpaceX曾接洽AI编程创业公司Cognition，探讨潜在收购。",
+            "上下文对比：据称此前已以600亿美元收购编程工具Cursor。",
+            "信号意义：马斯克连续加码AI编程赛道，意图构建工具生态。",
+            "待验证事项：彭博社爆料仅为消息源，交易是否达成有待证实。"
+          ],
+          "verdict": "马斯克连续收购AI编程工具，Devin或成下一目标，市场格局可能生变。"
+        },
+        {
+          "title": "300万全归中国学生！冠军全靠DeepSeek、ChatGPT",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/109997/300%e4%b8%87%e5%85%a8%e5%bd%92%e4%b8%ad%e5%9b%bd%e5%ad%a6%e7%94%9f%ef%bc%81%e5%86%a0%e5%86%9b%e5%85%a8%e9%9d%a0deepseek%e3%80%81chatgpt",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:09",
+          "summary": "韩国济州岛，KDD 2026现场。 当最终榜单打在大屏上时，这场从今年春天延烧至今的算法马拉松，终于有了结局。",
+          "analysis": [
+            "内容摘要：韩国济州岛，KDD 2026现场。 当最终榜单打在大屏上时，这场从今年春天延烧至今的算法马拉松，终于有了结局。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "硅谷CEO: Grok Bot诞生，震撼程度堪比Claude Code时刻！",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/109979/%e7%a1%85%e8%b0%b7ceo-grok-bot%e8%af%9e%e7%94%9f%ef%bc%8c%e9%9c%87%e6%92%bc%e7%a8%8b%e5%ba%a6%e5%a0%aa%e6%af%94claude-code%e6%97%b6%e5%88%bb%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:08",
+          "summary": "硅谷CEO称Grok Bot是AI的又一个Claude Code时刻，个人AI使用量增长约100倍。",
+          "analysis": [
+            "核心事实：一位硅谷CEO公开称Grok Bot是AI领域的‘Claude Code时刻’。",
+            "声称：该CEO称个人对AI的使用量增长了约100倍。",
+            "价值判断：这种比较带有主观色彩，需实际体验验证。",
+            "待验证事项：Grok Bot的具体功能或评测数据未提供。"
+          ],
+          "verdict": "CEO的夸张说法听听就好，Grok Bot成色需实测。"
+        },
+        {
+          "title": "刚刚，人类历史上第一次用AI治愈癌症",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/109962/%e5%88%9a%e5%88%9a%ef%bc%8c%e4%ba%ba%e7%b1%bb%e5%8e%86%e5%8f%b2%e4%b8%8a%e7%ac%ac%e4%b8%80%e6%ac%a1%e7%94%a8ai%e6%b2%bb%e6%84%88%e7%99%8c%e7%97%87",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:07",
+          "summary": "刚刚，人类在历史上第一次用AI辅助治好了癌症！ 今夜，全球医学界迎来一场足以载入史册的大地震。",
+          "analysis": [
+            "内容摘要：刚刚，人类在历史上第一次用AI辅助治好了癌症！ 今夜，全球医学界迎来一场足以载入史册的大地震。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家",
+          "url": "https://www.qbitai.com/2026/08/476280.html",
+          "source": "量子位",
+          "published_at": "2026-08-20 18:17",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "扩散语言模型驱动的实时交互视频模型：SigmaZ 完成数百万美元融资",
+          "url": "https://aiera.com.cn/2026/08/20/other/admin/109885/%e6%89%a9%e6%95%a3%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e9%a9%b1%e5%8a%a8%e7%9a%84%e5%ae%9e%e6%97%b6%e4%ba%a4%e4%ba%92%e8%a7%86%e9%a2%91%e6%a8%a1%e5%9e%8b%ef%bc%9asigmaz-%e5%ae%8c%e6%88%90%e6%95%b0",
+          "source": "新智元",
+          "published_at": "2026-08-20 18:04",
+          "summary": "SigmaZ完成数百万美元融资，聚焦扩散语言模型驱动的实时交互视频模型；摘要提及Pixel与Code的视觉表达，未来或走向联合。",
+          "analysis": [
+            "核心事实：SigmaZ完成数百万美元融资，聚焦扩散语言模型驱动的实时交互视频模型。",
+            "技术亮点：原始摘要提到Pixel擅长外观、Code擅长结构，未来或结合两者。",
+            "待验证事项：具体融资金额、投资方及产品进展未提供。"
+          ],
+          "verdict": "融资为视频生成赛道添火，技术路线尚待验证。"
+        },
+        {
+          "title": "闭源RSI的严父：18个Agent自主科研，Kimi K3靠Harness逼近Opus 5",
+          "url": "https://www.qbitai.com/2026/08/476199.html",
+          "source": "量子位",
+          "published_at": "2026-08-20 17:46",
+          "summary": "经典RSI剧本开始动摇",
+          "analysis": [
+            "内容摘要：经典RSI剧本开始动摇",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "攻克行业级柔性操作难题！招商局狮子山人工智能实验室首次亮相WRC 2026",
+          "url": "https://www.qbitai.com/2026/08/476129.html",
+          "source": "量子位",
+          "published_at": "2026-08-20 17:22",
+          "summary": "全栈自研，真机叠衣ICRA夺冠",
+          "analysis": [
+            "内容摘要：全栈自研，真机叠衣ICRA夺冠",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": []
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": [
+        {
+          "title": "WRC首秀！大晓机器人携开悟世界模型3.1、环境式数采方案及三大行业解决方案引爆现场",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110076/wrc%e9%a6%96%e7%a7%80%ef%bc%81%e5%a4%a7%e6%99%93%e6%9c%ba%e5%99%a8%e4%ba%ba%e6%90%ba%e5%bc%80%e6%82%9f%e4%b8%96%e7%95%8c%e6%a8%a1%e5%9e%8b3-1%e3%80%81%e7%8e%af%e5%a2%83%e5%bc%8f%e6%95%b0%e9%87%87",
+          "source": "新智元",
+          "published_at": "2026-08-21 10:13",
+          "summary": "8月19日，大晓机器人亮相2026世界机器人大会，展示开悟世界模型3.1、环境式数据采集方案2.0及面向即时零售、酒店等场景的行业解决方案。",
+          "analysis": [
+            "核心事实：大晓机器人在2026世界机器人大会展示开悟世界模型3.1、环境式数据采集方案2.0及三大行业解决方案。",
+            "技术亮点：世界模型与数据采集方案是具身智能的关键技术。",
+            "上下文对比：WRC是机器人行业重要展示平台，厂商集中展示最新成果。",
+            "待验证事项：技术参数与商业落地详情未提供。"
+          ],
+          "verdict": "WRC首秀展技术布局，落地能力待观察。"
+        },
+        {
+          "title": "软硬全栈、大脑泛化，星海图在WRC组了个“最强打工天团“",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110068/%e8%bd%af%e7%a1%ac%e5%85%a8%e6%a0%88%e3%80%81%e5%a4%a7%e8%84%91%e6%b3%9b%e5%8c%96%ef%bc%8c%e6%98%9f%e6%b5%b7%e5%9b%be%e5%9c%a8wrc%e7%bb%84%e4%ba%86%e4%b8%aa%e6%9c%80%e5%bc%ba%e6%89%93",
+          "source": "新智元",
+          "published_at": "2026-08-21 09:05",
+          "summary": "近日，2026世界机器人大会（WRC）在北京隆重启幕。星海图以“生产力觉醒”为主题，展出十余款多场景技术Demo。与多数展台侧重运动展示不同，星海图的演示全部围绕“真实工作”展…",
+          "analysis": [
+            "内容摘要：近日，2026世界机器人大会（WRC）在北京隆重启幕。星海图以“生产力觉醒”为主题，展出十余款多场景技术Demo。与多数展台侧重运动展示不同，星海图的演示全部围绕“真实工作”展…",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "从一条导盲路到五种真实生活服务，高德动量机器狗途途亮相 WRC",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110061/%e4%bb%8e%e4%b8%80%e6%9d%a1%e5%af%bc%e7%9b%b2%e8%b7%af%e5%88%b0%e4%ba%94%e7%a7%8d%e7%9c%9f%e5%ae%9e%e7%94%9f%e6%b4%bb%e6%9c%8d%e5%8a%a1%ef%bc%8c%e9%ab%98%e5%be%b7%e5%8a%a8%e9%87%8f%e6%9c%ba%e5%99%a8",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:32",
+          "summary": "高德动量在WRC发布机器狗途途，支持视障导盲、沉浸式导览、智慧导购、智能巡检和末端配送五大场景。",
+          "analysis": [
+            "核心事实：高德动量发布机器狗途途，支持导盲、导览、导购、巡检和末端配送五大场景。",
+            "用户影响：视障导盲等应用有望改善特殊人群生活。",
+            "信号意义：机器狗从演示走向真实生活服务。",
+            "待验证事项：全球首款的说法和实际部署情况未提供。"
+          ],
+          "verdict": "机器狗服务多元化，导盲场景最具社会价值。"
+        },
+        {
+          "title": "五一视界发布两大具身产品，首次披露“低空-太空-深空”三层空天战略",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110054/%e4%ba%94%e4%b8%80%e8%a7%86%e7%95%8c%e5%8f%91%e5%b8%83%e4%b8%a4%e5%a4%a7%e5%85%b7%e8%ba%ab%e4%ba%a7%e5%93%81%ef%bc%8c%e9%a6%96%e6%ac%a1%e6%8a%ab%e9%9c%b2%e4%bd%8e%e7%a9%ba-%e5%a4%aa%e7%a9%ba",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:26",
+          "summary": "8月18日，51WORLD发布具身数据底座AperData和具身应用平台AperOne，并首次披露三层空天战略。",
+          "analysis": [
+            "核心事实：51WORLD在8月18日发布会上推出AperData与AperOne两大产品。",
+            "产品定位：AperData为具身数据底座，AperOne为具身应用平台。",
+            "战略发布：首次披露“低空-太空-深空”三层空天战略。",
+            "信号意义：显示其向物理AI和具身智能方向深入布局。"
+          ],
+          "verdict": "51WORLD加码具身智能，产品与战略齐发，瞄准物理AI时代。"
+        },
+        {
+          "title": "这家黑马把AI做成了「机器人时代的iOS」！不写代码，一句话生成App",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/109933/%e8%bf%99%e5%ae%b6%e9%bb%91%e9%a9%ac%e6%8a%8aai%e5%81%9a%e6%88%90%e4%ba%86%e3%80%8c%e6%9c%ba%e5%99%a8%e4%ba%ba%e6%97%b6%e4%bb%a3%e7%9a%84ios%e3%80%8d%ef%bc%81%e4%b8%8d%e5%86%99%e4%bb%a3%e7%a0%81",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:06",
+          "summary": "世界机器人大会上，头部公司各述具身智能终局；有黑马称其AI可实现一句话生成App。",
+          "analysis": [
+            "核心事实：世界机器人大会（WRC）上，头部公司各自给出对具身智能终局的答案。",
+            "技术亮点：据标题，有黑马宣称其AI可不写代码、一句话生成App（原始摘要未提供具体细节）。",
+            "待验证事项：该黑马公司身份与产品能力未在摘要中明确。"
+          ],
+          "verdict": "具身智能赛道百花齐放，但噱头与真技术仍需甄别。"
+        },
+        {
+          "title": "今年WRC最大展台，预告具身智能未来",
+          "url": "https://www.qbitai.com/2026/08/476141.html",
+          "source": "量子位",
+          "published_at": "2026-08-20 17:42",
+          "summary": "从自主泛化到真生产力",
+          "analysis": [
+            "内容摘要：从自主泛化到真生产力",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "宇树科技上市首日大涨629%，世界机器人大会里谁是“下一个宇树”？",
+          "url": "https://www.qbitai.com/2026/08/476120.html",
+          "source": "量子位",
+          "published_at": "2026-08-20 14:17",
+          "summary": "这几个玩家或可被“押注”",
+          "analysis": [
+            "内容摘要：这几个玩家或可被“押注”",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "超市货架上，摆满了三四年前的白酒",
+          "url": "https://www.huxiu.com/article/4884706.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "他创造了一个价值十亿美元的错误，却让每一个现代程序员受益至今",
+          "url": "https://www.huxiu.com/article/4884743.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "快手反倒成可灵的“血包”了",
+          "url": "https://www.huxiu.com/article/4884599.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "“医生，豆包说你诊断错了”",
+          "url": "https://www.huxiu.com/article/4884627.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "山姆·阿尔特曼亲自下场拉人，OpenAI 押注医疗",
+          "url": "https://www.huxiu.com/article/4880547.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "OpenAI CEO山姆·阿尔特曼亲自招募人才，公司押注医疗领域。",
+          "analysis": [
+            "核心事实：OpenAI CEO阿尔特曼亲自参与人才招募，公司押注医疗领域。",
+            "信号意义：AI巨头加速进入医疗赛道。",
+            "待验证事项：具体合作或产品细节原始摘要未提供。"
+          ],
+          "verdict": "OpenAI加码医疗，AI与医疗融合将提速。"
+        },
+        {
+          "title": "暑期消费：当10亿人次在路上，热闹之后怎么办？",
+          "url": "https://www.huxiu.com/article/4884728.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "暑假来了，有多少酒店民宿老板根本笑不出来？",
+          "url": "https://www.huxiu.com/article/4879091.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "近二十位文旅从业者：暑期游客预算收紧，赚钱更难",
+          "url": "https://www.huxiu.com/article/4879854.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "一个被中国制裁的美国天才军火商，在里根图书馆把中国夸上了天……",
+          "url": "https://www.huxiu.com/article/4884747.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "美国在造上帝，中国在找落地：AI竞争的两种动力",
+          "url": "https://www.huxiu.com/article/4880521.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "评论文章对比美国前沿探索与中国应用落地的AI竞争动力。",
+          "analysis": [
+            "核心事实：文章对比美国与中国在AI发展上的不同动力。",
+            "观点判断：美国倾向基础前沿探索，中国注重应用落地。",
+            "价值分析：两种路线各有优劣，但二元概括可能简化复杂性。",
+            "待验证事项：原文未提供具体案例或数据。"
+          ],
+          "verdict": "造神与落地，两种路线终将交汇？"
+        },
+        {
+          "title": "对话凯文·凯利：中国真正的挑战，不是人工智能，是原创性",
+          "url": "https://www.huxiu.com/article/4879089.html",
+          "source": "虎嗅",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "凯文·凯利对话称，中国真正的挑战是原创性，而非人工智能。",
+          "analysis": [
+            "核心事实：凯文·凯利在对话中提出中国真正挑战是原创性而非AI。",
+            "观点判断：这是凯文·凯利的个人见解，聚焦创新能力。",
+            "上下文对比：与主流关注AI技术不同，他更强调原创性。",
+            "待验证事项：对话具体内容未提供。"
+          ],
+          "verdict": "凯文·凯利点中原创性，比AI本身更值得深思。"
+        },
+        {
+          "title": "新玩意 249｜少数派的编辑们最近买了啥？ 少数派编辑部 昨天 17:30",
+          "url": "https://sspai.com/post/113650",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "「务实且高效」的日系次旗舰：夏普 AQUOS R9 评测 WangMT 昨天 10:41 Matrix精选",
+          "url": "https://sspai.com/post/113497",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "iOS 27 测试版近期动向，还有 Apple 产品新消息 Vanilla 前天 17:39",
+          "url": "https://sspai.com/post/113618",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "《控制》新作体验：新怪谈游戏的祖师爷，又杀回来了 游研社 前天 15:20",
+          "url": "https://sspai.com/post/113588",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "App+1 | Inkive：把纸质书上划好的线存进 Obsidian jiyee 前天 10:54 Matrix精选",
+          "url": "https://sspai.com/post/111936",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "线下活动 | 爵士律动唤醒动漫回忆：炒饭 Fried Rice 音乐分享签售会 听歌的水獭 08/18",
+          "url": "https://sspai.com/post/113564",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why Image Generation Needs More Than Bigger Models",
+          "url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "钛动科技宣布完成新一轮融资",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110058/%e9%92%9b%e5%8a%a8%e7%a7%91%e6%8a%80%e5%ae%a3%e5%b8%83%e5%ae%8c%e6%88%90%e6%96%b0%e4%b8%80%e8%bd%ae%e8%9e%8d%e8%b5%84",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:28",
+          "summary": "8月20日，AI营销科技公司钛动科技宣布完成新一轮融资，由华泰泛大西洋基金领投，多家机构跟投。",
+          "analysis": [
+            "核心事实：钛动科技于8月20日宣布完成新一轮融资。",
+            "资方阵容：华泰泛大西洋基金领投，鲲鹏光远、广汽资本、金沙江联合资本等跟投。",
+            "资金用途：将用于下一阶段AI技术研发。",
+            "待验证事项：本轮融资金额未披露。"
+          ],
+          "verdict": "钛动科技获新一轮融资，AI营销领域资本热度持续。"
+        },
+        {
+          "title": "Claude Code神话破灭？大量用户正在取消订阅",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/110028/claude-code%e7%a5%9e%e8%af%9d%e7%a0%b4%e7%81%ad%ef%bc%9f%e5%a4%a7%e9%87%8f%e7%94%a8%e6%88%b7%e6%ad%a3%e5%9c%a8%e5%8f%96%e6%b6%88%e8%ae%a2%e9%98%85",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:13",
+          "summary": "Claude Code的增长神话，破灭了！ 「Anthropic完蛋了，现在有大量用户正在疯狂取消订阅。」",
+          "analysis": [
+            "内容摘要：Claude Code的增长神话，破灭了！ 「Anthropic完蛋了，现在有大量用户正在疯狂取消订阅。」",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "黎曼猜想之后，Claude再破百年猜想！",
+          "url": "https://aiera.com.cn/2026/08/21/other/admin/109914/%e9%bb%8e%e6%9b%bc%e7%8c%9c%e6%83%b3%e4%b9%8b%e5%90%8e%ef%bc%8cclaude%e5%86%8d%e7%a0%b4%e7%99%be%e5%b9%b4%e7%8c%9c%e6%83%b3%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-21 08:05",
+          "summary": "百年猜想，又倒了一个。 Anthropic/哈佛数学家Levent Alpöge联合Claude，直接证伪了困扰数学界超过100年的Carathéodory猜想，顺带击碎了Lo…",
+          "analysis": [
+            "内容摘要：百年猜想，又倒了一个。 Anthropic/哈佛数学家Levent Alpöge联合Claude，直接证伪了困扰数学界超过100年的Carathéodory猜想，顺带击碎了Lo…",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "派早报：华为发布 Pura X View、享界 G9 等多款新品 少数派编辑部 07:00 派早报",
+          "url": "https://sspai.com/post/113666",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "华为发布Pura X View、享界G9等多款新品，具体配置和价格待披露。",
+          "analysis": [
+            "核心事实：少数派报道称，华为发布了Pura X View、享界G9等多款新品。",
+            "待验证事项：新品详细参数、售价、上市时间等均未在标题中给出。",
+            "用户影响：华为生态用户可关注新品带来的功能更新。",
+            "上下文对比：享界G9或涉及智能汽车领域，但原始摘要未提供相关背景。"
+          ],
+          "verdict": "新品发布为事实，信息有限，期待后续详细评测。"
+        },
+        {
+          "title": "十年阅读历程，这是我的阅读工具推荐 ElijahLee 昨天 15:25",
+          "url": "https://sspai.com/post/113567",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：石头发布 A30 Pro Steam 3.0 洗地机、Framework 升级 Laptop 12 笔记本 少数派编辑部 昨天 08:46 派早报",
+          "url": "https://sspai.com/post/113638",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "石头发布A30 Pro Steam 3.0洗地机，Framework升级Laptop 12笔记本。",
+          "analysis": [
+            "核心事实：石头发布A30 Pro Steam 3.0洗地机，Framework升级Laptop 12笔记本。",
+            "技术亮点：洗地机涉及‘Steam 3.0’技术，但具体升级内容原始摘要未提供。",
+            "用户影响：清洁电器和笔记本用户有了新选择。",
+            "待验证事项：产品实际性能、价格和购买渠道等均未披露。"
+          ],
+          "verdict": "产品更新消息明确，但细节不足，可等待产品评测。"
+        },
+        {
+          "title": "社区速递 154 | AI 代码助手大乱斗、租房电钻组合与神奇实体卡片故事机 Matrix机器人 08/18",
+          "url": "https://sspai.com/post/113593",
+          "source": "少数派",
+          "published_at": "2026-08-21 10:24（时间近似）",
+          "summary": "少数派社区速递第154期，涵盖AI代码助手对比、租房工具和实体故事机等内容。",
+          "analysis": [
+            "核心事实：少数派社区速递第154期汇总了多类内容，包括AI代码助手对比、租房工具组合、实体卡片故事机等。",
+            "技术亮点：AI代码助手‘大乱斗’可能指多方工具横向比较，但具体产品未说明。",
+            "用户影响：开发者与生活爱好者可获得多样化信息。",
+            "待验证事项：各产品的具体表现和推荐结论未披露。"
+          ],
+          "verdict": "内容聚合，信息繁杂，可各取所需。"
+        },
+        {
+          "title": "光帆AI技术正式落地韶音OpenFit 2 AI耳机，携手突破AI边界",
+          "url": "https://www.qbitai.com/2026/08/476281.html",
+          "source": "量子位",
+          "published_at": "2026-08-20 18:13",
+          "summary": "韶音与光帆科技合作，将在OpenFit 2 AI耳机上线基于光帆自研AI OS的“AI实验室”功能合集。",
+          "analysis": [
+            "核心事实：韶音与光帆科技达成AI技术合作，将在OpenFit 2 AI耳机上线“AI实验室”功能合集。",
+            "信号意义：AI技术加速向耳机等可穿戴设备渗透。",
+            "用户影响：用户有望获得更多AI驱动的效率功能，具体功能待公布。",
+            "待验证事项：光帆AI OS能力及功能上线时间未披露。"
+          ],
+          "verdict": "AI耳机落地再进一步，合作效果需市场检验。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    }
+  ]
+}
