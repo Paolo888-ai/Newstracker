@@ -63,6 +63,13 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", BeautifulSoup(value or "", "html.parser").get_text(" ")).strip()
 
 
+def looks_mojibake(value: str) -> bool:
+    """Detect common UTF-8 text decoded as a legacy single-byte encoding."""
+    text = value or ""
+    markers = ("ďź", "ĺ", "č", "ć", "ä¸", "çš", "â€", "Ã", "Â", "�")
+    return sum(text.count(marker) for marker in markers) >= 2
+
+
 def canonical_url(value: str) -> str:
     parsed = urlparse(value)
     return urlunparse((parsed.scheme, parsed.netloc.lower(), parsed.path.rstrip("/"), "", "", ""))
@@ -103,6 +110,15 @@ def discover_feed(page_url: str, soup: BeautifulSoup) -> str | None:
 def from_feed(source: dict, feed_url: str, now: datetime, cutoff: datetime) -> list[Article]:
     raw = get(feed_url).content
     feed = feedparser.parse(raw)
+    sample = " ".join(str(entry.get("title", "")) for entry in feed.entries[:10])
+    # Some feeds claim UTF-8 but contain one malformed byte. feedparser then
+    # falls back to a legacy encoding and corrupts every Chinese title. Decode
+    # the bytes as UTF-8 with local replacement so only the bad byte is lost.
+    if looks_mojibake(sample) or str(feed.get("encoding", "")).lower() not in ("utf-8", "utf-8-sig"):
+        repaired = feedparser.parse(raw.decode("utf-8", errors="replace"))
+        repaired_sample = " ".join(str(entry.get("title", "")) for entry in repaired.entries[:10])
+        if repaired.entries and not looks_mojibake(repaired_sample):
+            feed = repaired
     if feed.bozo and not feed.entries:
         raise RuntimeError(f"Feed 无法解析: {feed.bozo_exception}")
     items = []
@@ -111,9 +127,12 @@ def from_feed(source: dict, feed_url: str, now: datetime, cutoff: datetime) -> l
         if not published or not cutoff <= published <= now + timedelta(hours=2):
             continue
         title = clean_text(entry.get("title", ""))
+        summary = clean_text(entry.get("summary", ""))
         url = canonical_url(entry.get("link", ""))
-        if title and url:
-            items.append(Article(title, url, source["name"], published, entry.get("summary", "")))
+        if title and url and not looks_mojibake(title):
+            if looks_mojibake(summary):
+                summary = ""
+            items.append(Article(title, url, source["name"], published, summary))
     return items
 
 
