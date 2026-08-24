@@ -1,0 +1,657 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-08-24",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-08-24 10:24 Asia/Shanghai",
+  "stats": {
+    "articles": 31,
+    "sources": 18
+  },
+  "highlights": [
+    {
+      "title": "清华沃顿师徒破解40年悬案！核心数学全是GPT写的，你上你也行",
+      "url": "https://aiera.com.cn/2026/08/24/other/admin/110395/%e6%b8%85%e5%8d%8e%e6%b2%83%e9%a1%bf%e5%b8%88%e5%be%92%e7%a0%b4%e8%a7%a340%e5%b9%b4%e6%82%ac%e6%a1%88%ef%bc%81%e6%a0%b8%e5%bf%83%e6%95%b0%e5%ad%a6%e5%85%a8%e6%98%afgpt%e5%86%99%e7%9a%84%ef%bc%8c",
+      "source": "新智元",
+      "published_at": "2026-08-24 08:01",
+      "summary": "清华与沃顿研究者发布论文，给优化理论界等待40年的结论；标题称核心数学由GPT写成。原始摘要未透露结论内容。",
+      "analysis": [
+        "核心事实：清华大学与宾大沃顿商学院两位研究者发布新论文，给出优化理论界等了40年的结论。",
+        "技术亮点：摘要称“训练一切AI的算法被AI自己判了死刑”，暗示结论可能动摇现有优化基础。",
+        "价值判断：标题声称核心数学由GPT生成，将AI工具在科研中的作用推向台前。",
+        "待验证事项：论文结论是什么、数学是否真由GPT生成、同行评审如何，均未在摘要中说明。",
+        "上下文对比：若属实，这是AI辅助理论发现的重要案例，但也可能需谨慎对待。"
+      ],
+      "verdict": "GPT写数学破悬案？若属实，AI科研能力再上台阶，但还差同行评审这一脚。"
+    },
+    {
+      "title": "Why Models Are AI’s Next Training Dataset",
+      "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+      "source": "TWIML",
+      "published_at": "2026-08-24 10:24（时间近似）",
+      "summary": "探讨模型本身作为下一代 AI 训练数据集的趋势与意义。",
+      "analysis": [
+        "核心事实：文章论述模型将构成 AI 训练数据的新来源。",
+        "上下文对比：与常规训练数据相比，模型数据具有独特属性。",
+        "信号意义：AI 数据来源多元化趋势显现。",
+        "待验证事项：模型数据的实际效果与风险需进一步探讨。"
+      ],
+      "verdict": "模型即数据，AI 训练迎来新思路。"
+    },
+    {
+      "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+      "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+      "source": "TWIML",
+      "published_at": "2026-08-24 10:24（时间近似）",
+      "summary": "Google Cloud Next '26将推出“代理控制平面”，面向AI代理的编排与治理。原始摘要未提供细节。",
+      "analysis": [
+        "核心事实：据标题，Google Cloud Next '26将展示“代理控制平面”。",
+        "技术亮点：代理控制平面可能用于统一管理、调度和治理AI代理。",
+        "信号意义：云厂商竞争正从模型能力转向代理基础设施。",
+        "待验证事项：原始摘要未涉及具体功能、发布时间或客户案例。"
+      ],
+      "verdict": "云巨头开始押注代理治理，AI基础设施战火再升级。"
+    },
+    {
+      "title": "影视飓风Tim看呆！鸡排哥2小时做出八大菜系，AI首次长出「大厨大脑」",
+      "url": "https://aiera.com.cn/2026/08/24/other/admin/110352/%e5%bd%b1%e8%a7%86%e9%a3%93%e9%a3%8etim%e7%9c%8b%e5%91%86%ef%bc%81%e9%b8%a1%e6%8e%92%e5%93%a52%e5%b0%8f%e6%97%b6%e5%81%9a%e5%87%ba%e5%85%ab%e5%a4%a7%e8%8f%9c%e7%b3%bb%ef%bc%8cai%e9%a6%96%e6%ac%a1",
+      "source": "新智元",
+      "published_at": "2026-08-24 08:01",
+      "summary": "在北京亦庄世界机器人大会上，一名炸鸡排摊主用两小时学会八大菜系，AI首次展现‘大厨大脑’。",
+      "analysis": [
+        "核心事实：在北京亦庄世界机器人大会上，一个路边摊主用两小时学会了八大菜系，据称AI首次长出‘大厨大脑’。",
+        "媒体声称：新智元称这是真实发生的一幕，但原始摘要未提供具体技术细节和演示验证。",
+        "技术亮点：核心可能在于AI将烹饪知识转化为可操作技能，不过实现方式未披露。",
+        "待验证事项：‘学会’的判定标准、是否涉及具身操作或仅知识学习，原始摘要未提供。"
+      ],
+      "verdict": "‘两小时学会八大菜系’颇具传播力，但距离可靠的大厨智能仍需更多证据。"
+    },
+    {
+      "title": "AI's Production Era Is An Infrastructure Story",
+      "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+      "source": "TWIML",
+      "published_at": "2026-08-24 10:24（时间近似）",
+      "summary": "分析 AI 从研发走向生产，基础设施建设成为关键支撑。",
+      "analysis": [
+        "核心事实：文章指出 AI 生产时代的基础设施重要性。",
+        "价值判断：基础设施是 AI 规模化落地的关键。",
+        "上下文对比：生产阶段对基础设施要求高于研发阶段。",
+        "信号意义：提示产业投资和布局重点转向基础设施。"
+      ],
+      "verdict": "AI 生产化，基础设施是最大瓶颈与机遇。"
+    },
+    {
+      "title": "Github万星Agent整锅端进OpenAI！「AI版Firebase」宣布全队加入",
+      "url": "https://aiera.com.cn/2026/08/24/other/admin/110281/github%e4%b8%87%e6%98%9fagent%e6%95%b4%e9%94%85%e7%ab%af%e8%bf%9bopenai%ef%bc%81%e3%80%8cai%e7%89%88firebase%e3%80%8d%e5%ae%a3%e5%b8%83%e5%85%a8%e9%98%9f%e5%8a%a0%e5%85%a5",
+      "source": "新智元",
+      "published_at": "2026-08-24 08:00",
+      "summary": "OpenAI宣布Instant团队全体加入，该公司曾打造“AI版Firebase”，在Github有万星。",
+      "analysis": [
+        "核心事实：OpenAI宣布YC S22创业公司Instant整个团队正式加入。",
+        "信号意义：OpenAI持续吸纳创业团队，强化Agent相关能力布局。",
+        "背景信息：据标题，Instant曾开发被称为“AI版Firebase”的Github万星Agent。",
+        "待验证事项：加入后Instant原产品是否继续维护、团队具体职责，原始摘要未提供。"
+      ],
+      "verdict": "OpenAI再次以“招安”方式吸纳明星团队，强化Agent生态，但原产品走向尚不明朗。"
+    },
+    {
+      "title": "How AI Learns to Smell",
+      "url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell",
+      "source": "TWIML",
+      "published_at": "2026-08-24 10:24（时间近似）",
+      "summary": "介绍 AI 学习嗅觉感知的技术路径与应用前景。",
+      "analysis": [
+        "核心事实：文章探讨 AI 如何学习嗅觉。",
+        "技术亮点：涉及嗅觉识别相关技术路径。",
+        "应用前景：可能推动气味检测等领域发展。",
+        "待验证事项：具体技术细节与成熟度原始摘要未提供。"
+      ],
+      "verdict": "AI 嗅觉研究，开辟新感知维度。"
+    },
+    {
+      "title": "神秘「牛来」掀翻硅谷！谷歌抢着认领被全网笑惨",
+      "url": "https://aiera.com.cn/2026/08/24/other/admin/110310/%e7%a5%9e%e7%a7%98%e3%80%8c%e7%89%9b%e6%9d%a5%e3%80%8d%e6%8e%80%e7%bf%bb%e7%a1%85%e8%b0%b7%ef%bc%81%e8%b0%b7%e6%ad%8c%e6%8a%a2%e7%9d%80%e8%ae%a4%e9%a2%86%e8%a2%ab%e5%85%a8%e7%bd%91%e7%ac%91%e6%83%a8",
+      "source": "新智元",
+      "published_at": "2026-08-24 08:00",
+      "summary": "8月21日，神秘模型Ox Alpha现身OpenRouter和OpenCode，引发AI圈热议，谷歌疑似认领遭调侃。",
+      "analysis": [
+        "核心事实：8月21日，名为Ox Alpha的模型出现在OpenRouter和OpenCode，来源不明。",
+        "信号意义：标题称该事件‘掀翻硅谷’，谷歌抢着认领但被网友调侃，具体反应和影响需原文。",
+        "媒体声称：‘牛来’这一称呼和‘全网笑惨’属于标题表达，原始摘要未提供细节。",
+        "待验证事项：Ox Alpha是否由谷歌开发、评测表现如何，均未在摘要中说明。"
+      ],
+      "verdict": "神秘模型引发围观，身份未明前不宜过度解读；认领闹剧本身就是AI圈生态的缩影。"
+    },
+    {
+      "title": "Why AI Agents Break the GenAI Security Model",
+      "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+      "source": "TWIML",
+      "published_at": "2026-08-24 10:24（时间近似）",
+      "summary": "文章探讨AI智能体为何会打破现有GenAI安全模型。",
+      "analysis": [
+        "核心事实：文章讨论AI Agents与GenAI安全模型的关系。",
+        "疑问解答：提出AI Agents可能破坏现有安全模型的原因，但具体内容未提供。",
+        "信号意义：AI Agent发展对安全防护提出新挑战。",
+        "待验证事项：文章的具体论证和建议，原始摘要未提供。"
+      ],
+      "verdict": "AI Agent安全成新焦点，需重新审视防护边界。"
+    },
+    {
+      "title": "mRNA疫苗太慢，狗主人痛失爱犬！全球首个AI定制狗癌疫苗来了",
+      "url": "https://aiera.com.cn/2026/08/24/other/admin/110380/mrna%e7%96%ab%e8%8b%97%e5%a4%aa%e6%85%a2%ef%bc%8c%e7%8b%97%e4%b8%bb%e4%ba%ba%e7%97%9b%e5%a4%b1%e7%88%b1%e7%8a%ac%ef%bc%81%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aaai%e5%ae%9a%e5%88%b6%e7%8b%97%e7%99%8c",
+      "source": "新智元",
+      "published_at": "2026-08-24 08:01",
+      "summary": "澳洲AI爱好者自学基因组学，为癌症晚期爱犬研制全球首支定制mRNA疫苗。有效性及后续未经证实。",
+      "analysis": [
+        "核心事实：一位澳洲AI大神自学基因组学，为癌症晚期爱犬手搓出全球首支定制mRNA癌症疫苗（据来源摘要）。",
+        "技术亮点：AI背景者跨界完成定制化mRNA疫苗，体现AI辅助生物设计的潜力。",
+        "用户影响：可能推动宠物精准医疗，但安全与监管问题复杂。",
+        "待验证事项：疫苗是否有效、是否为“全球首支”、是否获得机构认可，原始摘要未提供。"
+      ],
+      "verdict": "AI手搓狗疫苗很燃，但科学需要验证，不是故事会。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "快速投票：模型打平、Harness 见分晓，你平时用哪一款？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1785741878",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "发起投票，讨论在模型表现接近时，用户更常用哪款 Harness。",
+          "analysis": [
+            "核心事实：社区发起投票，比较模型打平时的 Harness 选择。",
+            "信号意义：反映用户对模型评估工具的重视。",
+            "疑问解答：具体模型与 Harness 名称未提及，需点击了解详情。",
+            "用户影响：投票结果可供工具选择参考。"
+          ],
+          "verdict": "社区互动投票，Harness 选择见仁见智。"
+        },
+        {
+          "title": "Why Models Are AI’s Next Training Dataset",
+          "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "探讨模型本身作为下一代 AI 训练数据集的趋势与意义。",
+          "analysis": [
+            "核心事实：文章论述模型将构成 AI 训练数据的新来源。",
+            "上下文对比：与常规训练数据相比，模型数据具有独特属性。",
+            "信号意义：AI 数据来源多元化趋势显现。",
+            "待验证事项：模型数据的实际效果与风险需进一步探讨。"
+          ],
+          "verdict": "模型即数据，AI 训练迎来新思路。"
+        },
+        {
+          "title": "How AI Learns to Smell",
+          "url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "介绍 AI 学习嗅觉感知的技术路径与应用前景。",
+          "analysis": [
+            "核心事实：文章探讨 AI 如何学习嗅觉。",
+            "技术亮点：涉及嗅觉识别相关技术路径。",
+            "应用前景：可能推动气味检测等领域发展。",
+            "待验证事项：具体技术细节与成熟度原始摘要未提供。"
+          ],
+          "verdict": "AI 嗅觉研究，开辟新感知维度。"
+        },
+        {
+          "title": "Why AI Agents Break the GenAI Security Model",
+          "url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "文章探讨AI智能体为何会打破现有GenAI安全模型。",
+          "analysis": [
+            "核心事实：文章讨论AI Agents与GenAI安全模型的关系。",
+            "疑问解答：提出AI Agents可能破坏现有安全模型的原因，但具体内容未提供。",
+            "信号意义：AI Agent发展对安全防护提出新挑战。",
+            "待验证事项：文章的具体论证和建议，原始摘要未提供。"
+          ],
+          "verdict": "AI Agent安全成新焦点，需重新审视防护边界。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "探讨AI智能体基准测试为何比表面更复杂，涉及评估方法、真实性与可复现性等挑战。",
+          "analysis": [
+            "核心事实：原始摘要未提供，仅有标题，文章讨论AI Agent基准测试为何比表面更难。",
+            "技术亮点：标题暗示基准测试存在设计、评估和泛化等方面的深层挑战。",
+            "待验证事项：文中具体案例、论证和结论需查看原文。"
+          ],
+          "verdict": "标题点出关键问题，基准测试的可靠性仍是智能体落地的隐形瓶颈。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "观点：领导AI不能袖手旁观，必须亲自入局。原始摘要未提供具体论述。",
+          "analysis": [
+            "核心事实：文章标题提出“你不能从场边领导AI”，强调领导者需积极参与AI实践。",
+            "价值判断：文章可能认为AI领导力需要深度参与而非远程指挥。",
+            "信号意义：反映业界对AI管理需“躬身入局”的共识。",
+            "疑问解答：原始摘要未提供背景、作者或具体论据。"
+          ],
+          "verdict": "AI领导力不在旁观，而在下深水。但内容细节欠奉。"
+        },
+        {
+          "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+          "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "Google Cloud Next '26将推出“代理控制平面”，面向AI代理的编排与治理。原始摘要未提供细节。",
+          "analysis": [
+            "核心事实：据标题，Google Cloud Next '26将展示“代理控制平面”。",
+            "技术亮点：代理控制平面可能用于统一管理、调度和治理AI代理。",
+            "信号意义：云厂商竞争正从模型能力转向代理基础设施。",
+            "待验证事项：原始摘要未涉及具体功能、发布时间或客户案例。"
+          ],
+          "verdict": "云巨头开始押注代理治理，AI基础设施战火再升级。"
+        },
+        {
+          "title": "清华沃顿师徒破解40年悬案！核心数学全是GPT写的，你上你也行",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110395/%e6%b8%85%e5%8d%8e%e6%b2%83%e9%a1%bf%e5%b8%88%e5%be%92%e7%a0%b4%e8%a7%a340%e5%b9%b4%e6%82%ac%e6%a1%88%ef%bc%81%e6%a0%b8%e5%bf%83%e6%95%b0%e5%ad%a6%e5%85%a8%e6%98%afgpt%e5%86%99%e7%9a%84%ef%bc%8c",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:01",
+          "summary": "清华与沃顿研究者发布论文，给优化理论界等待40年的结论；标题称核心数学由GPT写成。原始摘要未透露结论内容。",
+          "analysis": [
+            "核心事实：清华大学与宾大沃顿商学院两位研究者发布新论文，给出优化理论界等了40年的结论。",
+            "技术亮点：摘要称“训练一切AI的算法被AI自己判了死刑”，暗示结论可能动摇现有优化基础。",
+            "价值判断：标题声称核心数学由GPT生成，将AI工具在科研中的作用推向台前。",
+            "待验证事项：论文结论是什么、数学是否真由GPT生成、同行评审如何，均未在摘要中说明。",
+            "上下文对比：若属实，这是AI辅助理论发现的重要案例，但也可能需谨慎对待。"
+          ],
+          "verdict": "GPT写数学破悬案？若属实，AI科研能力再上台阶，但还差同行评审这一脚。"
+        },
+        {
+          "title": "mRNA疫苗太慢，狗主人痛失爱犬！全球首个AI定制狗癌疫苗来了",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110380/mrna%e7%96%ab%e8%8b%97%e5%a4%aa%e6%85%a2%ef%bc%8c%e7%8b%97%e4%b8%bb%e4%ba%ba%e7%97%9b%e5%a4%b1%e7%88%b1%e7%8a%ac%ef%bc%81%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aaai%e5%ae%9a%e5%88%b6%e7%8b%97%e7%99%8c",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:01",
+          "summary": "澳洲AI爱好者自学基因组学，为癌症晚期爱犬研制全球首支定制mRNA疫苗。有效性及后续未经证实。",
+          "analysis": [
+            "核心事实：一位澳洲AI大神自学基因组学，为癌症晚期爱犬手搓出全球首支定制mRNA癌症疫苗（据来源摘要）。",
+            "技术亮点：AI背景者跨界完成定制化mRNA疫苗，体现AI辅助生物设计的潜力。",
+            "用户影响：可能推动宠物精准医疗，但安全与监管问题复杂。",
+            "待验证事项：疫苗是否有效、是否为“全球首支”、是否获得机构认可，原始摘要未提供。"
+          ],
+          "verdict": "AI手搓狗疫苗很燃，但科学需要验证，不是故事会。"
+        },
+        {
+          "title": "Anthropic：AI没有导致失业率的增加",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110323/anthropic%ef%bc%9aai%e6%b2%a1%e6%9c%89%e5%af%bc%e8%87%b4%e5%a4%b1%e4%b8%9a%e7%8e%87%e7%9a%84%e5%a2%9e%e5%8a%a0",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:00",
+          "summary": "Anthropic经济研究负责人Peter McCrory发布长文，称AI目前并未导致失业率上升。",
+          "analysis": [
+            "核心事实：Anthropic经济研究负责人Peter McCrory发布长文，认为AI尚未导致失业率增加。",
+            "价值判断：该结论出自AI公司，可能受其商业立场影响，需独立验证。",
+            "待验证事项：原始摘要未提供具体数据、研究方法和样本范围。",
+            "上下文对比：与公众对AI取代工作的担忧形成对照，提供不同视角。"
+          ],
+          "verdict": "Anthropic称AI尚未抢走工作，但需审慎看待其立场，等待更多独立研究验证。"
+        },
+        {
+          "title": "神秘「牛来」掀翻硅谷！谷歌抢着认领被全网笑惨",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110310/%e7%a5%9e%e7%a7%98%e3%80%8c%e7%89%9b%e6%9d%a5%e3%80%8d%e6%8e%80%e7%bf%bb%e7%a1%85%e8%b0%b7%ef%bc%81%e8%b0%b7%e6%ad%8c%e6%8a%a2%e7%9d%80%e8%ae%a4%e9%a2%86%e8%a2%ab%e5%85%a8%e7%bd%91%e7%ac%91%e6%83%a8",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:00",
+          "summary": "8月21日，神秘模型Ox Alpha现身OpenRouter和OpenCode，引发AI圈热议，谷歌疑似认领遭调侃。",
+          "analysis": [
+            "核心事实：8月21日，名为Ox Alpha的模型出现在OpenRouter和OpenCode，来源不明。",
+            "信号意义：标题称该事件‘掀翻硅谷’，谷歌抢着认领但被网友调侃，具体反应和影响需原文。",
+            "媒体声称：‘牛来’这一称呼和‘全网笑惨’属于标题表达，原始摘要未提供细节。",
+            "待验证事项：Ox Alpha是否由谷歌开发、评测表现如何，均未在摘要中说明。"
+          ],
+          "verdict": "神秘模型引发围观，身份未明前不宜过度解读；认领闹剧本身就是AI圈生态的缩影。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": [
+        {
+          "title": "派早报：华为发布 Pura X View、享界 G9 等多款新品 少数派编辑部 08/21 派早报",
+          "url": "https://sspai.com/post/113666",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "华为发布Pura X View、享界G9等多款新品。",
+          "analysis": [
+            "核心事实：华为发布Pura X View、享界G9等多款新品。",
+            "信号意义：华为持续推进硬件产品迭代。",
+            "用户影响：消费者迎来新的华为硬件选择。",
+            "待验证事项：具体配置、价格和上市时间，原始摘要未提供。"
+          ],
+          "verdict": "华为新品频出，覆盖多个品类，细节待官方公布。"
+        }
+      ]
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": [
+        {
+          "title": "影视飓风Tim看呆！鸡排哥2小时做出八大菜系，AI首次长出「大厨大脑」",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110352/%e5%bd%b1%e8%a7%86%e9%a3%93%e9%a3%8etim%e7%9c%8b%e5%91%86%ef%bc%81%e9%b8%a1%e6%8e%92%e5%93%a52%e5%b0%8f%e6%97%b6%e5%81%9a%e5%87%ba%e5%85%ab%e5%a4%a7%e8%8f%9c%e7%b3%bb%ef%bc%8cai%e9%a6%96%e6%ac%a1",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:01",
+          "summary": "在北京亦庄世界机器人大会上，一名炸鸡排摊主用两小时学会八大菜系，AI首次展现‘大厨大脑’。",
+          "analysis": [
+            "核心事实：在北京亦庄世界机器人大会上，一个路边摊主用两小时学会了八大菜系，据称AI首次长出‘大厨大脑’。",
+            "媒体声称：新智元称这是真实发生的一幕，但原始摘要未提供具体技术细节和演示验证。",
+            "技术亮点：核心可能在于AI将烹饪知识转化为可操作技能，不过实现方式未披露。",
+            "待验证事项：‘学会’的判定标准、是否涉及具身操作或仅知识学习，原始摘要未提供。"
+          ],
+          "verdict": "‘两小时学会八大菜系’颇具传播力，但距离可靠的大厨智能仍需更多证据。"
+        }
+      ]
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "派早报：九家车企召回近 430 万辆不易识别应急拉手汽车 少数派编辑部 07:13 派早报",
+          "url": "https://sspai.com/post/113767",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "你给自己搭建过哪些「反投喂」信息源？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1787035394",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 10 部作品 少数派编辑部 08/21",
+          "url": "https://sspai.com/post/113693",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "TDS REVIEW | Nothing Ear (3a) 降噪真无线耳机体验 KingTsui 08/21",
+          "url": "https://sspai.com/post/113586",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "新玩意 249｜少数派的编辑们最近买了啥？ 少数派编辑部 08/20",
+          "url": "https://sspai.com/post/113650",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "「务实且高效」的日系次旗舰：夏普 AQUOS R9 评测 WangMT 08/20 Matrix精选",
+          "url": "https://sspai.com/post/113497",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why Image Generation Needs More Than Bigger Models",
+          "url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "分析 AI 从研发走向生产，基础设施建设成为关键支撑。",
+          "analysis": [
+            "核心事实：文章指出 AI 生产时代的基础设施重要性。",
+            "价值判断：基础设施是 AI 规模化落地的关键。",
+            "上下文对比：生产阶段对基础设施要求高于研发阶段。",
+            "信号意义：提示产业投资和布局重点转向基础设施。"
+          ],
+          "verdict": "AI 生产化，基础设施是最大瓶颈与机遇。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Anthropic「巴拿马计划」曝光！数百万旧书被切脊喂给ASI",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110431/anthropic%e3%80%8c%e5%b7%b4%e6%8b%bf%e9%a9%ac%e8%ae%a1%e5%88%92%e3%80%8d%e6%9b%9d%e5%85%89%ef%bc%81%e6%95%b0%e7%99%be%e4%b8%87%e6%97%a7%e4%b9%a6%e8%a2%ab%e5%88%87%e8%84%8a%e5%96%82%e7%bb%99asi",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:02",
+          "summary": "Anthropic「巴拿马计划」曝光了！ 2024年4月13日，Anthropic内部传阅了一份文档。",
+          "analysis": [
+            "内容摘要：Anthropic「巴拿马计划」曝光了！ 2024年4月13日，Anthropic内部传阅了一份文档。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "刚刚，Anthropic把员工入职第一课给公开了！",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110412/%e5%88%9a%e5%88%9a%ef%bc%8canthropic%e6%8a%8a%e5%91%98%e5%b7%a5%e5%85%a5%e8%81%8c%e7%ac%ac%e4%b8%80%e8%af%be%e7%bb%99%e5%85%ac%e5%bc%80%e4%ba%86%ef%bc%81",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:01",
+          "summary": "Anthropic把自家员工入职培训的那套课程，原样搬到了网上。免费。 就在昨天，Claude Academy正式上线。",
+          "analysis": [
+            "内容摘要：Anthropic把自家员工入职培训的那套课程，原样搬到了网上。免费。 就在昨天，Claude Academy正式上线。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Github万星Agent整锅端进OpenAI！「AI版Firebase」宣布全队加入",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110281/github%e4%b8%87%e6%98%9fagent%e6%95%b4%e9%94%85%e7%ab%af%e8%bf%9bopenai%ef%bc%81%e3%80%8cai%e7%89%88firebase%e3%80%8d%e5%ae%a3%e5%b8%83%e5%85%a8%e9%98%9f%e5%8a%a0%e5%85%a5",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:00",
+          "summary": "OpenAI宣布Instant团队全体加入，该公司曾打造“AI版Firebase”，在Github有万星。",
+          "analysis": [
+            "核心事实：OpenAI宣布YC S22创业公司Instant整个团队正式加入。",
+            "信号意义：OpenAI持续吸纳创业团队，强化Agent相关能力布局。",
+            "背景信息：据标题，Instant曾开发被称为“AI版Firebase”的Github万星Agent。",
+            "待验证事项：加入后Instant原产品是否继续维护、团队具体职责，原始摘要未提供。"
+          ],
+          "verdict": "OpenAI再次以“招安”方式吸纳明星团队，强化Agent生态，但原产品走向尚不明朗。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "AI 时代的 Surface Pro 7 改造指南：看板、轻量工作站与 Linux 笔记本 neyham 昨天 15:25 会员内容",
+          "url": "https://sspai.com/prime/story/surface-pro-7-linux-ai-dashboard",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "AI时代下把Surface Pro 7改造成看板、轻量工作站和Linux笔记本的使用指南。",
+          "analysis": [
+            "核心事实：原始摘要未提供，从标题看是一篇会员文章，介绍AI时代改造Surface Pro 7的方案，包括看板、轻量工作站和Linux笔记本。",
+            "用户影响：对旧设备用户有参考价值，可能帮助延长硬件寿命并适配AI工作流。",
+            "待验证事项：具体操作步骤、适用配置和成本等需阅读全文。"
+          ],
+          "verdict": "旧设备改造是普通人拥抱AI的务实路径，但需判断硬件性能是否够用。"
+        },
+        {
+          "title": "让 PC 与 HomePod 互联：音频串流工具 WinAirCast isayyeah 昨天 11:00 Matrix精选",
+          "url": "https://sspai.com/post/113002",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "介绍WinAirCast音频串流工具，让PC与HomePod互联。",
+          "analysis": [
+            "核心事实：文章介绍了一款名为WinAirCast的音频串流工具。",
+            "用户影响：该工具可实现PC与HomePod的音频互联。",
+            "技术亮点：解决了PC到HomePod的串流问题。",
+            "待验证事项：兼容性、使用效果和收费情况，原始摘要未提供。"
+          ],
+          "verdict": "PC与HomePod互联的实用小工具，具体效果待实测。"
+        },
+        {
+          "title": "线下活动｜Echoes Remain：迈克尔杰克逊 68 周年诞辰唱片展 听歌的水獭 前天 11:00",
+          "url": "https://sspai.com/post/113675",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "线下活动：迈克尔·杰克逊68周年诞辰唱片展，主题为Echoes Remain。",
+          "analysis": [
+            "核心事实：少数派发布线下活动，主题为迈克尔·杰克逊68周年诞辰唱片展，活动名Echoes Remain。",
+            "用户影响：适合音乐爱好者与MJ粉丝线下参与，具体时间和地点原始摘要未提供。",
+            "待验证事项：活动日程、参与方式和场地等信息缺失。"
+          ],
+          "verdict": "借纪念日做唱片展，是连接粉丝与实体音乐记忆的一种线下尝试。"
+        },
+        {
+          "title": "十年阅读历程，这是我的阅读工具推荐 ElijahLee 08/20",
+          "url": "https://sspai.com/post/113567",
+          "source": "少数派",
+          "published_at": "2026-08-24 10:24（时间近似）",
+          "summary": "作者结合十年阅读经历，推荐个人常用阅读工具，分享使用心得。",
+          "analysis": [
+            "核心事实：作者分享十年阅读历程中的阅读工具推荐。",
+            "用户影响：为读者选择阅读工具提供参考。",
+            "待验证事项：具体工具名单及体验细节，原始摘要未提供。",
+            "价值判断：个人经验类内容，实用性因人而异。"
+          ],
+          "verdict": "十年经验分享，阅读工具推荐值得一读。"
+        },
+        {
+          "title": "AI时代，声音如何成为「声产力」？韶音OpenFit 2 AI媒体沟通会举行",
+          "url": "https://aiera.com.cn/2026/08/24/other/admin/110436/ai%e6%97%b6%e4%bb%a3%ef%bc%8c%e5%a3%b0%e9%9f%b3%e5%a6%82%e4%bd%95%e6%88%90%e4%b8%ba%e3%80%8c%e5%a3%b0%e4%ba%a7%e5%8a%9b%e3%80%8d%ef%bc%9f%e9%9f%b6%e9%9f%b3openfit-2-ai%e5%aa%92%e4%bd%93%e6%b2%9f",
+          "source": "新智元",
+          "published_at": "2026-08-24 08:38",
+          "summary": "韶音8月18日在上海办OpenFit 2 AI媒体沟通会，主题“AI时代，声音如何成为声产力”。摘要截断，产品细节未明。",
+          "analysis": [
+            "核心事实：8月18日，Shokz韶音在上海举办OpenFit 2 AI媒体沟通会，主题“AI时代，声音如何成为「声产力」”。",
+            "技术亮点：开放式耳机与AI结合，可能涉及语音交互或声音生产力工具。",
+            "用户影响：若AI赋能声音，或可提升用户创作与沟通效率。",
+            "待验证事项：原始摘要未给出具体AI功能或产品参数。"
+          ],
+          "verdict": "耳朵上的AI，是噱头还是真生产力？等产品说话。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "量子位",
+      "reason": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "ReadTimeout: HTTPSConnectionPool(host='www.huxiu.com', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    }
+  ]
+}
