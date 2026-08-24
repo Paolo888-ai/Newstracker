@@ -52,6 +52,28 @@ def render_domain(domain: dict, index: int) -> str:
     </section>"""
 
 
+def render_lesson(lesson: dict) -> str:
+    if not lesson:
+        return ""
+    sections = []
+    for value in lesson.get("sections", []):
+        label, separator, content = str(value).partition("：")
+        if separator:
+            sections.append(f'<p><span class="lesson-label">{esc(label)}：</span>{esc(content)}</p>')
+        else:
+            sections.append(f"<p>{esc(value)}</p>")
+    example = f'<div class="lesson-box"><strong>举个例子</strong><p>{esc(lesson.get("example"))}</p></div>' if lesson.get("example") else ""
+    question = f'<div class="lesson-question"><strong>想一想</strong><p>{esc(lesson.get("question"))}</p></div>' if lesson.get("question") else ""
+    return f"""
+    <article class="lesson-card">
+      <div class="lesson-topline"><span class="lesson-category">{esc(lesson.get('category'))}</span><span>约 5 分钟</span></div>
+      <h3>{esc(lesson.get('title'))}</h3>
+      <p class="lesson-summary">{esc(lesson.get('summary'))}</p>
+      <div class="lesson-content">{''.join(sections)}{example}{question}</div>
+      <p class="lesson-disclaimer">{esc(lesson.get('disclaimer'))}</p>
+    </article>"""
+
+
 def render_report(data: dict, template_text: str) -> str:
     highlights = "".join(render_article(item) for item in data.get("highlights", []))
     domains = "".join(render_domain(item, index) for index, item in enumerate(data.get("domains", [])))
@@ -68,6 +90,7 @@ def render_report(data: dict, template_text: str) -> str:
         "domain_count": esc(len(data.get("domains", []))),
         "source_count": esc(stats.get("sources", 0)),
         "failure_count": esc(len(data.get("failures", []))),
+        "business_lesson": render_lesson(data.get("business_lesson", {})),
         "highlights": highlights,
         "domains": domains,
         "failures": failures,

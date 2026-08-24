@@ -274,7 +274,72 @@ def apply_ai_analysis(items: list[Article], failures: list[dict]) -> None:
         failures.append({"source": "DeepSeek AI 分析", "reason": f"{type(exc).__name__}: {str(exc)[:300]}；已回退到规则摘要"})
 
 
-def build_report(items: list[Article], sources: list[dict], failures: list[dict], now: datetime) -> dict:
+def lesson_fallback(topic: dict) -> dict:
+    return {
+        "title": topic["topic"],
+        "category": topic["category"],
+        "summary": "今天先认识这个概念：理解它解决什么商业问题，以及做决策时应关注哪些边界。",
+        "sections": [
+            "核心概念：先用自己的话解释这个概念，并区分它与相近概念。",
+            "学习方法：结合一家熟悉的公司，找出这个概念在收入、成本、现金流或权责关系中的体现。",
+            "常见误区：不要只记定义；商业知识的价值在于帮助判断真实交易和利益关系。"
+        ],
+        "example": "试着用你熟悉的一家公司或一次交易举例，并写出涉及的人、钱、权利和风险。",
+        "question": "如果其中一个条件发生变化，谁获益、谁承担成本或风险？",
+        "disclaimer": "学习内容仅作通识教育，不构成法律、税务、投资或会计意见。"
+    }
+
+
+def generate_business_lesson(now: datetime, failures: list[dict]) -> dict:
+    topics_path = ROOT / "config" / "business_lessons.json"
+    topics = json.loads(topics_path.read_text(encoding="utf-8"))
+    local_date = now.astimezone(TZ).date()
+    topic = topics[local_date.toordinal() % len(topics)]
+    fallback = lesson_fallback(topic)
+    api_key = os.getenv("DEEPSEEK_API_KEY")
+    if not api_key:
+        return fallback
+
+    system = """你是一位严谨、善于举例的商业通识老师，面向没有系统学过商业和财务的成年人。请围绕指定主题生成一节5分钟微课，并输出合法json。
+要求：用通俗中文解释，但保留必要术语；案例必须是虚构、简单、数字可核算；明确人物之间的钱、权利、责任和风险；不假定读者已有专业知识；不提供个性化投资建议。
+涉及税务时，只讲合法合规的税务筹划、基本原理和风险边界，绝不提供隐瞒收入、虚假交易、伪造凭证等逃税方法。涉及法律、会计或投资时必须提示各地规则可能不同，应咨询持证专业人士。
+返回格式：{"title":"...","category":"...","summary":"不超过70字","sections":["核心概念：...","为什么重要：...","利益关系：...","常见误区：..."],"example":"一个具体的数字案例，不超过220字","question":"一个思考题","disclaimer":"..."}。sections必须为3至5项。"""
+    try:
+        response = requests.post(
+            "https://api.deepseek.com/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json={
+                "model": os.getenv("DEEPSEEK_MODEL") or "deepseek-v4-flash",
+                "messages": [
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": f"今天的主题：{topic['topic']}；课程分类：{topic['category']}。请返回json。"}
+                ],
+                "response_format": {"type": "json_object"},
+                "temperature": 0.35,
+                "max_tokens": 2200
+            },
+            timeout=120
+        )
+        response.raise_for_status()
+        result = json.loads(response.json()["choices"][0]["message"]["content"])
+        sections = [clean_text(str(value)) for value in result.get("sections", []) if clean_text(str(value))]
+        if not clean_text(str(result.get("title", ""))) or not 3 <= len(sections) <= 5:
+            raise ValueError("课程返回结构不完整")
+        return {
+            "title": clean_text(str(result["title"])),
+            "category": clean_text(str(result.get("category", topic["category"]))) or topic["category"],
+            "summary": clean_text(str(result.get("summary", "")))[:180],
+            "sections": sections,
+            "example": clean_text(str(result.get("example", ""))),
+            "question": clean_text(str(result.get("question", ""))),
+            "disclaimer": clean_text(str(result.get("disclaimer", fallback["disclaimer"])))
+        }
+    except Exception as exc:
+        failures.append({"source": "每日商业课", "reason": f"{type(exc).__name__}: {str(exc)[:260]}；已使用基础课程卡片"})
+        return fallback
+
+
+def build_report(items: list[Article], sources: list[dict], failures: list[dict], now: datetime, lesson: dict) -> dict:
     grouped = {name: [] for name in DOMAINS}
     for item in items:
         grouped[category(item)].append(item.output())
@@ -285,6 +350,7 @@ def build_report(items: list[Article], sources: list[dict], failures: list[dict]
         "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
         "generated_at": now.astimezone(TZ).strftime("%Y-%m-%d %H:%M Asia/Shanghai"),
         "stats": {"articles": len(items), "sources": len(sources)},
+        "business_lesson": lesson,
         "highlights": [item.output() for item in highlights],
         "domains": [{"name": name, "description": " / ".join(words[:3]), "articles": grouped[name]} for name, words in DOMAINS.items()],
         "failures": failures
@@ -300,8 +366,10 @@ def post_json(url: str, payload: dict) -> dict:
 def notify(report: dict, public_url: str | None, failures: list[dict]) -> None:
     points = report["highlights"][:8]
     digest = "\n".join(f"{i}. {item['title']}（{item['source']}）" for i, item in enumerate(points, 1))
+    lesson = report.get("business_lesson", {})
+    lesson_text = f"今日商业课：{lesson.get('title')}\n\n" if lesson.get("title") else ""
     link_text = f"\n完整日报：{public_url}" if public_url else "\n完整日报已生成，请查看运行产物。"
-    message = f"{report['title']}｜{report['date']}\n\n{digest}{link_text}"
+    message = f"{report['title']}｜{report['date']}\n\n{lesson_text}{digest}{link_text}"
 
     bark_url = os.getenv("BARK_URL")
     if bark_url:
@@ -341,7 +409,8 @@ def main() -> None:
 
     articles = dedupe(articles)
     apply_ai_analysis(articles, failures)
-    report = build_report(articles, sources, failures, now)
+    lesson = generate_business_lesson(now, failures)
+    report = build_report(articles, sources, failures, now, lesson)
     date_key = now.astimezone(TZ).strftime("%Y%m%d")
     args.output_dir.mkdir(parents=True, exist_ok=True)
     json_path = args.output_dir / f"report_{date_key}.json"
