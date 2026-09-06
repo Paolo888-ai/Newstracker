@@ -1,0 +1,710 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-09-06",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-09-06 13:43 Asia/Shanghai",
+  "stats": {
+    "articles": 37,
+    "sources": 18
+  },
+  "business_lesson": {
+    "title": "有限责任并不等于没有个人风险",
+    "category": "法律常识",
+    "summary": "理解股东有限责任的边界：一般情况下出资额为限，但个人担保、财产混同、违法经营等情形下，股东可能需以个人财产承担责任。",
+    "sections": [
+      "核心概念：有限责任指公司股东仅以认缴的出资额为限对公司债务负责。但这是公司层面的债务隔离，并非股东个人债务的“免罪金牌”。",
+      "为什么重要：很多创业者误以为成立公司后个人财产就安全了，实际上如果发生个人连带担保、公私账户混同、虚假出资或恶意逃避债务等情形，法律可能“刺破公司面纱”，让股东承担无限责任。",
+      "利益关系：公司、股东、债权人三者之间，债权人的利益需要保护。股东若滥用有限责任损害债权人，法律会优先保护债权人，要求股东用个人财产偿债。",
+      "常见误区：误区一：公司欠债与我无关；误区二：只要不占大股就没风险；误区三：签了个人担保也没关系。实际上，签了担保函，你就是债务人；帮公司代收款、公款私用，也可能让个人资产暴露在风险中。"
+    ],
+    "example": "张三和朋友李四各出资10万元成立一家贸易公司，注册资本20万元。公司经营不善欠供应商王五货款50万元。正常情况下，公司以全部资产偿还，股东最多亏掉各自10万元投资。但张三为了让供应商发货，曾以个人名义与王五签订连带责任担保协议。王五起诉后，法院判决公司先偿还，不足部分由张三个人承担剩余债务，而李四只损失10万元。可见，张三的个人风险远超出资额。",
+    "question": "如果你是一家公司的小股东，从不参与经营，但曾为公司贷款签了个人保证担保。若公司破产，你是否需要用个人财产偿还贷款？为什么？",
+    "disclaimer": "本内容仅为通用法律常识科普，不构成法律意见。不同地区和具体情况下的法律规定可能有所不同，请务必咨询持牌律师或专业顾问。"
+  },
+  "highlights": [
+    {
+      "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等 少数派编辑部 前天 08:47 派早报",
+      "url": "https://sspai.com/post/114164",
+      "source": "少数派",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "OpenAI发布GPT-6 Astra模型；Meta发布Muse Spark 1.3模型。",
+      "analysis": [
+        "核心事实：OpenAI发布GPT-6 Astra模型；Meta发布Muse Spark 1.3模型。",
+        "信号意义：两大AI头部厂商同日推出新模型，模型竞赛持续升温。",
+        "待验证事项：两模型的具体性能、参数及可用范围，原始摘要未提供。",
+        "用户影响：AI模型用户预计将获得更强的能力选项，但实际表现需后续评测。"
+      ],
+      "verdict": "AI双雄同日上新，技术竞赛不断提速，模型实力仍需实测验证。"
+    },
+    {
+      "title": "“硬科技”提出者米磊：5万亿英伟达收的是“智商税”",
+      "url": "https://www.huxiu.com/article/4887895.html",
+      "source": "虎嗅",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "“硬科技”提出者米磊称，5万亿市值的英伟达收的是“智商税”。",
+      "analysis": [
+        "核心事实：米磊发表观点，认为英伟达5万亿市值是在收“智商税”。",
+        "价值判断：这是对AI芯片市场估值泡沫化的直接警示。",
+        "上下文对比：米磊作为“硬科技”概念提出者，言论或与他对实体技术价值的强调相关。",
+        "信号意义：表明业内对英伟达高估值的分歧正在加大。",
+        "待验证事项：“智商税”论断的具体逻辑和依据，原始摘要未提供。"
+      ],
+      "verdict": "对英伟达估值的另类质疑，是否“智商税”仍待市场检验。"
+    },
+    {
+      "title": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
+      "url": "https://www.qbitai.com/2026/09/484683.html",
+      "source": "量子位",
+      "published_at": "2026-09-05 22:46",
+      "summary": "曾押中SpaceX的硅谷老将，投资了一家中国世界模型公司，AI技术或可“预演”暴雨。",
+      "analysis": [
+        "核心事实：一位硅谷老将投资中国世界模型公司；摘要显示AI可“预演”暴雨。",
+        "价值判断：世界模型是AI前沿方向，此次投资凸显中国在该领域的技术吸引力。",
+        "信号意义：国际资本正在关注中国世界模型公司的潜力。",
+        "疑问解答：该硅谷老将及公司的具体名称、投资金额，原始摘要未提供。",
+        "待验证事项：AI“预演”天气的实际准确度与实用价值仍需更多验证。"
+      ],
+      "verdict": "世界模型赛道升温，中国公司获国际资本关注，但技术落地仍需时间检验。"
+    },
+    {
+      "title": "派早报：Google 发布 Gemini 3.8 Flash、理想推出新一代 MEGA 等 少数派编辑部 09/03 派早报",
+      "url": "https://sspai.com/post/114113",
+      "source": "少数派",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "Google发布Gemini 3.8 Flash，理想推出新一代MEGA等。",
+      "analysis": [
+        "核心事实：Google发布Gemini 3.8 Flash；理想汽车推出新一代MEGA。",
+        "上下文对比：科技公司在AI与智能出行领域几乎同步更新产品。",
+        "技术亮点：Gemini 3.8 Flash或为轻量级模型更新，MEGA的新特性尚未披露。",
+        "用户影响：AI用户与汽车消费者将迎来更多新品选择，细节待官方公布。"
+      ],
+      "verdict": "AI模型与电动车同日更新，科技巨头多线布局，产品实力仍需明细。"
+    },
+    {
+      "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+      "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+      "source": "TWIML",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "文章探讨AI Agent基准测试的真实难度，指出其比表面看起来更具挑战性。",
+      "analysis": [
+        "核心事实：TWIML节目或文章讨论AI Agent基准测试为何比表面更难。",
+        "技术亮点：指出Agent评估面临比通常认知更复杂的难点。",
+        "价值判断：对Agent能力的评估需警惕简单分数，应建立更严谨的测评框架。",
+        "待验证事项：原文章的具体论据、案例与解决建议，原始摘要未提供。"
+      ],
+      "verdict": "为AI Agent评测敲响警钟，业界需深入反思评估体系。"
+    },
+    {
+      "title": "新学期，新气象：正版软件 & 付费栏目限时优惠 多款付费栏目和正版软件上新，以及口碑、质量都非常优秀的现有产品优惠活动，快来看看有没有你需要的吧。 福利派 前天 15:11 商店",
+      "url": "https://sspai.com/post/114110",
+      "source": "少数派",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "开学季 | 超级闹钟、算教学周、统计作业：三条快捷指令让学校生活轻松一点 谷雨G2rain 前天 15:01",
+      "url": "https://sspai.com/post/114117",
+      "source": "少数派",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "TDS REVIEW | 无印良品 MUJI 头戴式蓝牙降噪耳机体验 经过一个季度的使用，聊聊这个此前不会考虑其数码产品的品牌。 KingTsui 09/03",
+      "url": "https://sspai.com/post/113998",
+      "source": "少数派",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "World Models and the Future of Spatial AI",
+      "url": "https://twimlai.com/podcast/twimlai/world-models-future-spatial-ai",
+      "source": "TWIML",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Why the Next AI Breakthrough May Come from Physics",
+      "url": "https://twimlai.com/podcast/twimlai/why-next-ai-breakthrough-may-come-physics",
+      "source": "TWIML",
+      "published_at": "2026-09-06 13:43（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "开学季 | 超级闹钟、算教学周、统计作业：三条快捷指令让学校生活轻松一点 谷雨G2rain 前天 15:01",
+          "url": "https://sspai.com/post/114117",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等 少数派编辑部 前天 08:47 派早报",
+          "url": "https://sspai.com/post/114164",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "OpenAI发布GPT-6 Astra模型；Meta发布Muse Spark 1.3模型。",
+          "analysis": [
+            "核心事实：OpenAI发布GPT-6 Astra模型；Meta发布Muse Spark 1.3模型。",
+            "信号意义：两大AI头部厂商同日推出新模型，模型竞赛持续升温。",
+            "待验证事项：两模型的具体性能、参数及可用范围，原始摘要未提供。",
+            "用户影响：AI模型用户预计将获得更强的能力选项，但实际表现需后续评测。"
+          ],
+          "verdict": "AI双雄同日上新，技术竞赛不断提速，模型实力仍需实测验证。"
+        },
+        {
+          "title": "World Models and the Future of Spatial AI",
+          "url": "https://twimlai.com/podcast/twimlai/world-models-future-spatial-ai",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why the Next AI Breakthrough May Come from Physics",
+          "url": "https://twimlai.com/podcast/twimlai/why-next-ai-breakthrough-may-come-physics",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why Models Are AI’s Next Training Dataset",
+          "url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "文章探讨AI Agent基准测试的真实难度，指出其比表面看起来更具挑战性。",
+          "analysis": [
+            "核心事实：TWIML节目或文章讨论AI Agent基准测试为何比表面更难。",
+            "技术亮点：指出Agent评估面临比通常认知更复杂的难点。",
+            "价值判断：对Agent能力的评估需警惕简单分数，应建立更严谨的测评框架。",
+            "待验证事项：原文章的具体论据、案例与解决建议，原始摘要未提供。"
+          ],
+          "verdict": "为AI Agent评测敲响警钟，业界需深入反思评估体系。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+          "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "B站首届AI创造公开赛收官，超八成参赛者为一人团队",
+          "url": "https://www.qbitai.com/2026/09/484890.html",
+          "source": "量子位",
+          "published_at": "2026-09-06 12:40",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
+          "url": "https://www.qbitai.com/2026/09/484683.html",
+          "source": "量子位",
+          "published_at": "2026-09-05 22:46",
+          "summary": "曾押中SpaceX的硅谷老将，投资了一家中国世界模型公司，AI技术或可“预演”暴雨。",
+          "analysis": [
+            "核心事实：一位硅谷老将投资中国世界模型公司；摘要显示AI可“预演”暴雨。",
+            "价值判断：世界模型是AI前沿方向，此次投资凸显中国在该领域的技术吸引力。",
+            "信号意义：国际资本正在关注中国世界模型公司的潜力。",
+            "疑问解答：该硅谷老将及公司的具体名称、投资金额，原始摘要未提供。",
+            "待验证事项：AI“预演”天气的实际准确度与实用价值仍需更多验证。"
+          ],
+          "verdict": "世界模型赛道升温，中国公司获国际资本关注，但技术落地仍需时间检验。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": []
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": []
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "燃油车的末日已经近在眼前",
+          "url": "https://www.huxiu.com/article/4888872.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "教师节免门票，景区为何被群嘲？",
+          "url": "https://www.huxiu.com/article/4888883.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "“硬科技”提出者米磊：5万亿英伟达收的是“智商税”",
+          "url": "https://www.huxiu.com/article/4887895.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "“硬科技”提出者米磊称，5万亿市值的英伟达收的是“智商税”。",
+          "analysis": [
+            "核心事实：米磊发表观点，认为英伟达5万亿市值是在收“智商税”。",
+            "价值判断：这是对AI芯片市场估值泡沫化的直接警示。",
+            "上下文对比：米磊作为“硬科技”概念提出者，言论或与他对实体技术价值的强调相关。",
+            "信号意义：表明业内对英伟达高估值的分歧正在加大。",
+            "待验证事项：“智商税”论断的具体逻辑和依据，原始摘要未提供。"
+          ],
+          "verdict": "对英伟达估值的另类质疑，是否“智商税”仍待市场检验。"
+        },
+        {
+          "title": "今晚美国CPI料温和放缓，9月加息预期或再遭一击",
+          "url": "https://www.huxiu.com/article/4882669.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "库克最后一天，和他的苹果15年",
+          "url": "https://www.huxiu.com/article/4887984.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "库克卸任，苹果留下了什么",
+          "url": "https://www.huxiu.com/article/4887602.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "中国汽车出口破千万，这个省赢麻了",
+          "url": "https://www.huxiu.com/article/4885941.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "狂揽全球七成订单、船东排队等船，中国绿色船舶造疯了",
+          "url": "https://www.huxiu.com/article/4886519.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "原创 黄仁勋140亿美元豪赌一只鸭",
+          "url": "https://www.huxiu.com/article/4888420.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "早餐羊毛党，终于把酒店薅急眼了",
+          "url": "https://www.huxiu.com/article/4888484.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "近5万通电话打爆12345，这场饭圈闹剧该谁买单？",
+          "url": "https://www.huxiu.com/article/4888707.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "GPT-6 Astra上线，AGI时代真到来了吗？",
+          "url": "https://www.huxiu.com/article/4888432.html",
+          "source": "虎嗅",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "最值得买的顶级公路车？TREK 八代 Madone 评测 写小黑文的Alex 昨天 16:00 Matrix精选",
+          "url": "https://sspai.com/post/114040",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 8 部作品 少数派编辑部 前天 17:32",
+          "url": "https://sspai.com/post/114175",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Tim Cook 掌舵十五年：哪些苹果产品真正改变了你的数字生活？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1788244609",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "在 16:10 屏幕普及的当下，聊聊那台最后的 4:3 版 ThinkPad T61p 随便好啦 前天 11:25 Matrix精选",
+          "url": "https://sspai.com/post/113990",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "新玩意 251｜少数派的编辑们最近买了啥？ 少数派编辑部 09/03",
+          "url": "https://sspai.com/post/114154",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "当说起「Hi-Fi」时，我们到底在追求什么？ DerQi 09/03 Matrix精选",
+          "url": "https://sspai.com/post/113159",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：Google 发布 Gemini 3.8 Flash、理想推出新一代 MEGA 等 少数派编辑部 09/03 派早报",
+          "url": "https://sspai.com/post/114113",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "Google发布Gemini 3.8 Flash，理想推出新一代MEGA等。",
+          "analysis": [
+            "核心事实：Google发布Gemini 3.8 Flash；理想汽车推出新一代MEGA。",
+            "上下文对比：科技公司在AI与智能出行领域几乎同步更新产品。",
+            "技术亮点：Gemini 3.8 Flash或为轻量级模型更新，MEGA的新特性尚未披露。",
+            "用户影响：AI用户与汽车消费者将迎来更多新品选择，细节待官方公布。"
+          ],
+          "verdict": "AI模型与电动车同日更新，科技巨头多线布局，产品实力仍需明细。"
+        },
+        {
+          "title": "八月买了什么好东西？ 一派讨论 点击了解详情",
+          "url": "https://sspai.com/bullet/1787798597",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why Image Generation Needs More Than Bigger Models",
+          "url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "GPT-6带火循环Transformer，阿里早已布局",
+          "url": "https://www.qbitai.com/2026/09/484726.html",
+          "source": "量子位",
+          "published_at": "2026-09-05 23:07",
+          "summary": "手握两篇顶会论文",
+          "analysis": [
+            "内容摘要：手握两篇顶会论文",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "新学期，新气象：正版软件 & 付费栏目限时优惠 多款付费栏目和正版软件上新，以及口碑、质量都非常优秀的现有产品优惠活动，快来看看有没有你需要的吧。 福利派 前天 15:11 商店",
+          "url": "https://sspai.com/post/114110",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "TDS REVIEW | 无印良品 MUJI 头戴式蓝牙降噪耳机体验 经过一个季度的使用，聊聊这个此前不会考虑其数码产品的品牌。 KingTsui 09/03",
+          "url": "https://sspai.com/post/113998",
+          "source": "少数派",
+          "published_at": "2026-09-06 13:43（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "新智元",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "DeepSeek AI 分析",
+      "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)；已回退到规则摘要"
+    }
+  ]
+}
