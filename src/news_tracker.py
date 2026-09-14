@@ -286,6 +286,7 @@ def lesson_fallback(topic: dict) -> dict:
         ],
         "example": "试着用你熟悉的一家公司或一次交易举例，并写出涉及的人、钱、权利和风险。",
         "question": "如果其中一个条件发生变化，谁获益、谁承担成本或风险？",
+        "answer": "参考思路：先列出参与者，再分别写出每个人获得的收益、拥有的权利、需要承担的成本和最坏情况下的风险。最后改变一个条件，观察利益是否从一方转移到另一方。",
         "disclaimer": "学习内容仅作通识教育，不构成法律、税务、投资或会计意见。"
     }
 
@@ -303,7 +304,8 @@ def generate_business_lesson(now: datetime, failures: list[dict]) -> dict:
     system = """你是一位严谨、善于举例的商业通识老师，面向没有系统学过商业和财务的成年人。请围绕指定主题生成一节5分钟微课，并输出合法json。
 要求：用通俗中文解释，但保留必要术语；案例必须是虚构、简单、数字可核算；明确人物之间的钱、权利、责任和风险；不假定读者已有专业知识；不提供个性化投资建议。
 涉及税务时，只讲合法合规的税务筹划、基本原理和风险边界，绝不提供隐瞒收入、虚假交易、伪造凭证等逃税方法。涉及法律、会计或投资时必须提示各地规则可能不同，应咨询持证专业人士。
-返回格式：{"title":"...","category":"...","summary":"不超过70字","sections":["核心概念：...","为什么重要：...","利益关系：...","常见误区：..."],"example":"一个具体的数字案例，不超过220字","question":"一个思考题","disclaimer":"..."}。sections必须为3至5项。"""
+思考题必须能够根据本节内容推导；answer必须给出参考解答，展示2至4步推理。财务主题尽量给出计算过程；股权、治理或利益关系主题要说明谁受益、谁承担成本和风险。
+返回格式：{"title":"...","category":"...","summary":"不超过70字","sections":["核心概念：...","为什么重要：...","利益关系：...","常见误区：..."],"example":"一个具体的数字案例，不超过220字","question":"一个思考题","answer":"参考解答或补充案例，不超过260字","disclaimer":"..."}。sections必须为3至5项。"""
     try:
         response = requests.post(
             "https://api.deepseek.com/chat/completions",
@@ -332,6 +334,7 @@ def generate_business_lesson(now: datetime, failures: list[dict]) -> dict:
             "sections": sections,
             "example": clean_text(str(result.get("example", ""))),
             "question": clean_text(str(result.get("question", ""))),
+            "answer": clean_text(str(result.get("answer", ""))) or fallback["answer"],
             "disclaimer": clean_text(str(result.get("disclaimer", fallback["disclaimer"])))
         }
     except Exception as exc:

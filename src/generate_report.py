@@ -63,7 +63,9 @@ def render_lesson(lesson: dict) -> str:
         else:
             sections.append(f"<p>{esc(value)}</p>")
     example = f'<div class="lesson-box"><strong>举个例子</strong><p>{esc(lesson.get("example"))}</p></div>' if lesson.get("example") else ""
-    question = f'<div class="lesson-question"><strong>想一想</strong><p>{esc(lesson.get("question"))}</p></div>' if lesson.get("question") else ""
+    answer = lesson.get("answer")
+    answer_html = f'<details class="lesson-answer"><summary>查看参考解答</summary><p>{esc(answer)}</p></details>' if answer else ""
+    question = f'<div class="lesson-question"><strong>想一想</strong><p>{esc(lesson.get("question"))}</p>{answer_html}</div>' if lesson.get("question") else ""
     return f"""
     <article class="lesson-card">
       <div class="lesson-topline"><span class="lesson-category">{esc(lesson.get('category'))}</span><span>约 5 分钟</span></div>

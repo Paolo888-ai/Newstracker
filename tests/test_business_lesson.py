@@ -19,6 +19,7 @@ class BusinessLessonTests(unittest.TestCase):
             first = generate_business_lesson(now, [])
             second = generate_business_lesson(now, [])
         self.assertEqual(first["title"], second["title"])
+        self.assertTrue(first["answer"])
         self.assertIn("不构成", first["disclaimer"])
 
     def test_lesson_renders_before_highlights_and_escapes_content(self) -> None:
@@ -33,6 +34,7 @@ class BusinessLessonTests(unittest.TestCase):
                 "sections": ["核心概念：测试"],
                 "example": "甲公司",
                 "question": "谁承担风险？",
+                "answer": "甲承担经营风险，乙承担资金风险。",
                 "disclaimer": "仅供学习"
             },
             "highlights": [], "domains": [], "failures": []
@@ -42,6 +44,8 @@ class BusinessLessonTests(unittest.TestCase):
         self.assertLess(result.index("每日商业课"), result.index("今日要点"))
         self.assertIn("股权 &lt; 分红权", result)
         self.assertNotIn("股权 < 分红权", result)
+        self.assertIn("查看参考解答", result)
+        self.assertIn("甲承担经营风险", result)
 
 
 if __name__ == "__main__":
