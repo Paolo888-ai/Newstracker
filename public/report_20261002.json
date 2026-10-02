@@ -1,0 +1,604 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-10-02",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-10-02 14:51 Asia/Shanghai",
+  "stats": {
+    "articles": 25,
+    "sources": 18
+  },
+  "business_lesson": {
+    "title": "控股、实际控制人与一致行动人：谁真正说了算？",
+    "category": "公司治理",
+    "summary": "用通俗语言讲清控股、实际控制人、一致行动人如何认定，谁有权、谁担责，并揭示常见误区。",
+    "sections": [
+      "核心概念：控股是持股比例或协议安排能支配公司；实际控制人是最终能实际支配公司行为的人；一致行动人通过协议或安排，在投票时保持一致，表决权常被合并计算。",
+      "为什么重要：它决定谁选董事、定战略、分利益，也影响收购、关联交易、信息披露和监管认定；小股东和债权人需要看清谁真正控制公司。",
+      "利益关系：控股股东和实际控制人获得控制权收益，也承担出资和法律责任；一致行动人让渡部分投票自主权，换取保护或利益，违约可能担责；小股东和债权人承担被控制风险。",
+      "常见误区：只看持股比例；把一致行动人等同于关联方；认为名义股东就是实际控制人；忽略章程特别决议门槛和披露义务。"
+    ],
+    "example": "A公司总股本1000万股。甲持350万股（35%），乙持200万股（20%），丙持150万股（15%），公众300万股。甲、乙签一致行动协议，投票由甲决定。合并表决权550万股=55%，甲成为控股股东和实际控制人，能选多数董事；乙让渡部分投票自主权，换取协议保护；丙和公众承担被控制风险。若乙违约投票，甲可追究违约责任。",
+    "question": "A公司总股本1000万股，甲持35%、乙持20%并签一致行动协议由甲决定投票，丙持15%，其他30%。甲能否单独通过普通决议？能否单独修改公司章程？",
+    "answer": "1）甲与乙合并表决权=35%+20%=55%，即550万股。2）普通决议通常需过半数，55%>50%，甲可单独通过。3）修改章程通常需2/3以上，即约667万股，55%不足，不能单独通过。4）所以控股或实际控制不等于所有事都能定，还要看决议类型、章程和各地法律。",
+    "disclaimer": "本微课仅作通识讲解，不构成投资、法律或会计意见；各地规则和公司章程可能不同，请咨询持证专业人士。"
+  },
+  "highlights": [
+    {
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "url": "https://www.qbitai.com/2026/10/499663.html",
+      "source": "量子位",
+      "published_at": "2026-10-01 23:02",
+      "summary": "量子位称谷歌 Gemini 4 突然发布，提及 RSI 加持；来源摘要称价格只有 Astra 一半。",
+      "analysis": [
+        "核心事实：量子位标题称谷歌 Gemini 4 突然发布，并提到 RSI 加持；来源摘要称“价格只有 Astra 一半”。",
+        "媒体声称：标题中“GPT 和 Opus 都让让”属于媒体渲染，非可验证事实；原始摘要未提供官方信息。",
+        "待验证事项：Gemini 4 的具体能力、RSI 含义、Astra 指代及定价对比，原始摘要未提供。",
+        "价值判断：若发布与定价属实，可能加剧大模型竞争，但需以官方发布为准。"
+      ],
+      "verdict": "若 Gemini 4 发布与定价属实，竞争将更激烈；但标题渲染成分明显，需等待官方信息核实。"
+    },
+    {
+      "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 少数派编辑部 前天 07:39 派早报",
+      "url": "https://sspai.com/post/115197",
+      "source": "少数派",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "派早报汇总：OpenAI 发布 Dot 智能体；Apple 移动睡眠呼吸暂停迹象提示软件在国内获批。",
+      "analysis": [
+        "核心事实：标题显示 OpenAI 发布 Dot 智能体，Apple 移动睡眠呼吸暂停迹象提示软件在国内获批。",
+        "待验证事项：Dot 智能体的功能、可用范围、定价及技术细节，原始摘要未提供。",
+        "用户影响：Apple 相关健康提示软件国内获批，可能影响移动端健康功能用户，但具体设备与条件原始摘要未提供。",
+        "信号意义：早报同时覆盖 AI 智能体与健康软件获批，显示消费级 AI 与数字健康仍是关注点。",
+        "价值判断：单条摘要信息有限，需等待官方细节确认功能与落地范围。"
+      ],
+      "verdict": "值得关注，但 Dot 智能体与获批软件的具体能力仍需官方细节验证。"
+    },
+    {
+      "title": "Open models and the future of Physical AI with NVIDIA",
+      "url": "https://share.transistor.fm/s/217445d3",
+      "source": "Practical AI",
+      "published_at": "2026-10-01 17:00",
+      "summary": "播客对话 NVIDIA Cosmos Lab 副总裁 Ming-Yu Liu，讨论开放模型、世界模型与物理 AI 的未来。",
+      "analysis": [
+        "核心事实：Practical AI 播客邀请 NVIDIA Cosmos Lab 副总裁 Ming-Yu Liu，讨论开放模型、世界模型与物理 AI。",
+        "技术亮点：摘要称 AI 正从云端走向机器人、车辆等物理系统，模型、仿真与推理出现新方法。",
+        "价值判断：嘉宾认为开放模型对创新重要，世界模型可帮助 AI 理解与模拟物理世界；这属于节目中的观点。",
+        "务实落地：讨论涉及构建更强物理 AI 系统所需条件，但具体方案与时间表原始摘要未提供。",
+        "待验证事项：开放模型性能、世界模型效果、物理 AI 商业化路径均需更多材料验证。"
+      ],
+      "verdict": "开放模型与世界模型是物理 AI 的重要叙事，但落地仍待具体成果验证。"
+    },
+    {
+      "title": "AI's Production Era Is An Infrastructure Story",
+      "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+      "source": "TWIML",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "TWIML 文章称 AI 进入生产时代，核心叙事是基础设施；原始摘要未提供具体设施、厂商或数据。",
+      "analysis": [
+        "核心事实：标题判断 AI 的生产时代是一个基础设施故事。",
+        "分析判断：若聚焦生产落地，算力、数据管道、推理服务与可靠性可能比单点模型更关键，但原文论证原始摘要未提供。",
+        "价值判断：该框架把关注点从模型发布转向部署与运维，但属于标题层面的观点。",
+        "待验证事项：具体基础设施类型、成本、规模与案例，原始摘要未提供。"
+      ],
+      "verdict": "标题点出从模型竞赛转向基础设施竞赛，但缺少摘要，不能确认论据与适用范围。"
+    },
+    {
+      "title": "派早报：荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX 等 少数派编辑部 09/29 派早报",
+      "url": "https://sspai.com/post/115134",
+      "source": "少数派",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "派早报汇总：荣耀发布 Magic9 系列，鸿蒙智行发布智界 RX 等新品动态。",
+      "analysis": [
+        "核心事实：标题显示荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX。",
+        "待验证事项：新品规格、价格、上市时间、芯片与功能细节，原始摘要未提供。",
+        "信号意义：手机与智能汽车新品同现于早报，显示消费电子与出行科技仍是发布密集领域。",
+        "用户影响：关注荣耀手机或鸿蒙智行车型的用户可留意后续官方信息。",
+        "价值判断：仅凭标题无法判断产品竞争力，需等详细参数与实测。"
+      ],
+      "verdict": "新品发布信息有限，是否值得关注取决于后续规格、价格与交付表现。"
+    },
+    {
+      "title": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing?",
+      "url": "https://twimlai.com/podcast/twimlai/math-olympiads-navier-stokes-how-fast-ai-progressing",
+      "source": "TWIML",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "TWIML 文章以数学奥林匹克到纳维-斯托克斯方程为线索，讨论 AI 进步速度；原始摘要未提供具体结论或数据。",
+      "analysis": [
+        "核心事实：标题提出从数学奥赛到纳维-斯托克斯问题，追问 AI 进步有多快。",
+        "媒体声称：标题隐含用数学难题作为衡量 AI 能力的参照，但原始摘要未提供论证与数据。",
+        "分析判断：该议题涉及评测基准、泛化能力与复杂推理，需原文区分演示与实质突破。",
+        "待验证事项：具体模型、测试条件、成绩及是否可复现，原始摘要未提供。"
+      ],
+      "verdict": "问题意识重要，但缺少摘要支撑，不能判断文章给出的是趋势观察还是实证结论。"
+    },
+    {
+      "title": "World Models and the Future of Spatial AI",
+      "url": "https://twimlai.com/podcast/twimlai/world-models-future-spatial-ai",
+      "source": "TWIML",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "TWIML 讨论世界模型与空间 AI 的未来；原始摘要未提供具体技术路线、应用场景或研究结论。",
+      "analysis": [
+        "核心事实：标题聚焦世界模型和空间 AI 的未来。",
+        "技术亮点：世界模型通常与预测、规划和空间理解相关，但原文具体定义和方法原始摘要未提供。",
+        "务实落地：可能影响机器人、自动驾驶、AR/VR 等，但标题未给出落地证据。",
+        "待验证事项：模型架构、数据集、评测结果和商业化时间表，原始摘要未提供。"
+      ],
+      "verdict": "方向热门，但仅凭标题无法判断是综述、观点还是技术突破。"
+    },
+    {
+      "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+      "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+      "source": "TWIML",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "Google Cloud Next '26 标题称交付智能体控制平面，原始摘要未提供功能、客户或发布日期细节。",
+      "analysis": [
+        "核心事实：标题显示Google Cloud Next '26将交付Agentic Control Plane。",
+        "技术亮点：涉及智能体控制平面这一AI基础设施概念。",
+        "待验证事项：该控制平面的具体功能、可用时间、客户案例原始摘要未提供。",
+        "信号意义：云厂商可能推进智能体编排与治理层，但需原始材料确认。"
+      ],
+      "verdict": "方向值得关注，但只有标题，无法判断实际落地与差异。"
+    },
+    {
+      "title": "经典任务管理软件的现代重构：新版 2Do 详解 完全重构的 2Do 是我的心目中最佳的任务管理工具。 广陵止息 前天 15:00",
+      "url": "https://sspai.com/post/115166",
+      "source": "少数派",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "少数派详解完全重构的新版 2Do，作者称其为心目中最佳任务管理工具。",
+      "analysis": [
+        "核心事实：文章介绍经典任务管理软件 2Do 的现代重构版本，并做详解。",
+        "媒体声称：标题中的“完全重构”与“心目中最佳”分别为作者描述与主观评价。",
+        "待验证事项：新版 2Do 的具体功能、平台、价格、发布时间原始摘要未提供。",
+        "用户影响：任务管理工具用户可关注其重构是否改善体验，但需实际试用判断。",
+        "上下文对比：作为经典任务管理软件，2Do 的重构反映老牌效率工具持续更新。"
+      ],
+      "verdict": "文章可作了解新版 2Do 的入口，但“最佳”属作者个人体验，需自行验证。"
+    },
+    {
+      "title": "更懂你的心，也更懂你：Apple Watch Series 12 体验 全新 Apple Watch Series 12，有哪些可感知的升级？ ElijahLee 09/29",
+      "url": "https://sspai.com/post/115061",
+      "source": "少数派",
+      "published_at": "2026-10-02 14:51（时间近似）",
+      "summary": "少数派发布Apple Watch Series 12体验，聚焦可感知升级，原始摘要未提供具体功能与结论。",
+      "analysis": [
+        "核心事实：标题称Apple Watch Series 12体验，关注可感知升级。",
+        "用户影响：可感知升级可能影响购买与升级决策，但具体项目原始摘要未提供。",
+        "待验证事项：健康、传感器、续航、交互等细节原始摘要未提供。"
+      ],
+      "verdict": "体验方向明确，但缺少细节，无法评估升级幅度。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的 胡九思 前天 11:02 Matrix精选",
+          "url": "https://sspai.com/post/114945",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "作者以国庆七天河南自驾为例，分享自己如何在旅行规划中使用 Agent，而非全交给 AI。",
+          "analysis": [
+            "核心事实：文章记录作者在国庆七天河南自驾中如何使用 Agent 规划或辅助行程。",
+            "价值判断：标题主张“别再把攻略全甩给 AI”，强调人工参与和具体使用方法。",
+            "待验证事项：所用 Agent 产品、指令方法、实际效果原始摘要未提供。",
+            "用户影响：为旅行等复杂任务中的人机协作提供个人经验参考。"
+          ],
+          "verdict": "这是一篇个人实践分享，重点不是 Agent 能力边界，而是用户如何参与其中。"
+        },
+        {
+          "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 少数派编辑部 前天 07:39 派早报",
+          "url": "https://sspai.com/post/115197",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "派早报汇总：OpenAI 发布 Dot 智能体；Apple 移动睡眠呼吸暂停迹象提示软件在国内获批。",
+          "analysis": [
+            "核心事实：标题显示 OpenAI 发布 Dot 智能体，Apple 移动睡眠呼吸暂停迹象提示软件在国内获批。",
+            "待验证事项：Dot 智能体的功能、可用范围、定价及技术细节，原始摘要未提供。",
+            "用户影响：Apple 相关健康提示软件国内获批，可能影响移动端健康功能用户，但具体设备与条件原始摘要未提供。",
+            "信号意义：早报同时覆盖 AI 智能体与健康软件获批，显示消费级 AI 与数字健康仍是关注点。",
+            "价值判断：单条摘要信息有限，需等待官方细节确认功能与落地范围。"
+          ],
+          "verdict": "值得关注，但 Dot 智能体与获批软件的具体能力仍需官方细节验证。"
+        },
+        {
+          "title": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing?",
+          "url": "https://twimlai.com/podcast/twimlai/math-olympiads-navier-stokes-how-fast-ai-progressing",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "TWIML 文章以数学奥林匹克到纳维-斯托克斯方程为线索，讨论 AI 进步速度；原始摘要未提供具体结论或数据。",
+          "analysis": [
+            "核心事实：标题提出从数学奥赛到纳维-斯托克斯问题，追问 AI 进步有多快。",
+            "媒体声称：标题隐含用数学难题作为衡量 AI 能力的参照，但原始摘要未提供论证与数据。",
+            "分析判断：该议题涉及评测基准、泛化能力与复杂推理，需原文区分演示与实质突破。",
+            "待验证事项：具体模型、测试条件、成绩及是否可复现，原始摘要未提供。"
+          ],
+          "verdict": "问题意识重要，但缺少摘要支撑，不能判断文章给出的是趋势观察还是实证结论。"
+        },
+        {
+          "title": "From Voice Agents to AI Avatars",
+          "url": "https://twimlai.com/podcast/twimlai/voice-agents-ai-avatars",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "TWIML 内容标题为从语音智能体到 AI 虚拟形象，原始摘要未提供具体观点与案例。",
+          "analysis": [
+            "核心事实：TWIML 发布标题为“From Voice Agents to AI Avatars”的内容；原始摘要未提供。",
+            "技术趋势：标题暗示从语音智能体向 AI 虚拟形象演进，但具体技术路径与案例原始摘要未提供。",
+            "待验证事项：涉及的产品、模型、时间表与效果均原始摘要未提供。",
+            "信号意义：若内容深入，可能反映多模态交互方向，但需原文佐证。"
+          ],
+          "verdict": "标题揭示语音智能体向 AI 虚拟形象演进的可能方向，但无摘要佐证，暂宜作为趋势线索观察。"
+        },
+        {
+          "title": "Do AI Tokenomics Matter More Than Model Benchmarks?",
+          "url": "https://twimlai.com/podcast/twimlai/do-ai-tokenomics-matter-more-than-model-benchmarks",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "TWIML 讨论 AI 的 Token 经济账是否比模型基准更重要；原始摘要未提供具体论点、数据或案例。",
+          "analysis": [
+            "核心事实：标题提出 AI 的 Token 经济性是否比模型基准更重要。",
+            "分析判断：若从落地成本、延迟和吞吐看，单位 Token 成本可能影响采用，但需与任务质量联合评估。",
+            "待验证事项：原文是否给出定价、推理成本、模型对比或商业案例，原始摘要未提供。",
+            "信号意义：标题可能指向行业从刷榜转向关注推理经济性与生产可用性，但这是基于标题的推测。"
+          ],
+          "verdict": "基准重要，经济性也重要；缺摘要无法确认文章是否给出可复核的对比框架。"
+        },
+        {
+          "title": "World Models and the Future of Spatial AI",
+          "url": "https://twimlai.com/podcast/twimlai/world-models-future-spatial-ai",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "TWIML 讨论世界模型与空间 AI 的未来；原始摘要未提供具体技术路线、应用场景或研究结论。",
+          "analysis": [
+            "核心事实：标题聚焦世界模型和空间 AI 的未来。",
+            "技术亮点：世界模型通常与预测、规划和空间理解相关，但原文具体定义和方法原始摘要未提供。",
+            "务实落地：可能影响机器人、自动驾驶、AR/VR 等，但标题未给出落地证据。",
+            "待验证事项：模型架构、数据集、评测结果和商业化时间表，原始摘要未提供。"
+          ],
+          "verdict": "方向热门，但仅凭标题无法判断是综述、观点还是技术突破。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "TWIML 文章称 AI 进入生产时代，核心叙事是基础设施；原始摘要未提供具体设施、厂商或数据。",
+          "analysis": [
+            "核心事实：标题判断 AI 的生产时代是一个基础设施故事。",
+            "分析判断：若聚焦生产落地，算力、数据管道、推理服务与可靠性可能比单点模型更关键，但原文论证原始摘要未提供。",
+            "价值判断：该框架把关注点从模型发布转向部署与运维，但属于标题层面的观点。",
+            "待验证事项：具体基础设施类型、成本、规模与案例，原始摘要未提供。"
+          ],
+          "verdict": "标题点出从模型竞赛转向基础设施竞赛，但缺少摘要，不能确认论据与适用范围。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "TWIML 讨论 AI 智能体基准测试比看起来更难，原始摘要未提供具体论据与结论。",
+          "analysis": [
+            "核心事实：TWIML 发布标题为“Why AI Agent Benchmarks Are Harder Than They Look”的内容；原始摘要未提供。",
+            "疑问解答：标题指向 AI 智能体基准测试的难度与陷阱，但具体论点与证据原始摘要未提供。",
+            "价值判断：若讨论属实，提示评估智能体不能只看基准分数，但需原文支撑。",
+            "待验证事项：涉及的基准名称、缺陷类型与改进建议原始摘要未提供。"
+          ],
+          "verdict": "基准测试比看起来更难是值得关注的提醒，但需原文提供具体论据才能判断其说服力。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "标题观点：领导者不能在场边领导AI，但原始摘要未提供具体论据、案例与嘉宾信息。",
+          "analysis": [
+            "核心事实：仅有标题，主张“You Can’t Lead AI From the Sidelines”。",
+            "待验证事项：原始摘要未提供具体论据、案例、嘉宾观点或发布时间背景。",
+            "价值判断：可作为AI领导力讨论的引子，但缺乏细节支撑。"
+          ],
+          "verdict": "观点鲜明但无摘要支撑，无法评估其论证与适用性。"
+        },
+        {
+          "title": "Google Cloud Next '26: Delivering the Agentic Control Plane",
+          "url": "https://twimlai.com/articles/google-cloud-next-26-recap",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "Google Cloud Next '26 标题称交付智能体控制平面，原始摘要未提供功能、客户或发布日期细节。",
+          "analysis": [
+            "核心事实：标题显示Google Cloud Next '26将交付Agentic Control Plane。",
+            "技术亮点：涉及智能体控制平面这一AI基础设施概念。",
+            "待验证事项：该控制平面的具体功能、可用时间、客户案例原始摘要未提供。",
+            "信号意义：云厂商可能推进智能体编排与治理层，但需原始材料确认。"
+          ],
+          "verdict": "方向值得关注，但只有标题，无法判断实际落地与差异。"
+        },
+        {
+          "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+          "url": "https://www.qbitai.com/2026/10/499663.html",
+          "source": "量子位",
+          "published_at": "2026-10-01 23:02",
+          "summary": "量子位称谷歌 Gemini 4 突然发布，提及 RSI 加持；来源摘要称价格只有 Astra 一半。",
+          "analysis": [
+            "核心事实：量子位标题称谷歌 Gemini 4 突然发布，并提到 RSI 加持；来源摘要称“价格只有 Astra 一半”。",
+            "媒体声称：标题中“GPT 和 Opus 都让让”属于媒体渲染，非可验证事实；原始摘要未提供官方信息。",
+            "待验证事项：Gemini 4 的具体能力、RSI 含义、Astra 指代及定价对比，原始摘要未提供。",
+            "价值判断：若发布与定价属实，可能加剧大模型竞争，但需以官方发布为准。"
+          ],
+          "verdict": "若 Gemini 4 发布与定价属实，竞争将更激烈；但标题渲染成分明显，需等待官方信息核实。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": [
+        {
+          "title": "派早报：荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX 等 少数派编辑部 09/29 派早报",
+          "url": "https://sspai.com/post/115134",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "派早报汇总：荣耀发布 Magic9 系列，鸿蒙智行发布智界 RX 等新品动态。",
+          "analysis": [
+            "核心事实：标题显示荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX。",
+            "待验证事项：新品规格、价格、上市时间、芯片与功能细节，原始摘要未提供。",
+            "信号意义：手机与智能汽车新品同现于早报，显示消费电子与出行科技仍是发布密集领域。",
+            "用户影响：关注荣耀手机或鸿蒙智行车型的用户可留意后续官方信息。",
+            "价值判断：仅凭标题无法判断产品竞争力，需等详细参数与实测。"
+          ],
+          "verdict": "新品发布信息有限，是否值得关注取决于后续规格、价格与交付表现。"
+        }
+      ]
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": [
+        {
+          "title": "Open models and the future of Physical AI with NVIDIA",
+          "url": "https://share.transistor.fm/s/217445d3",
+          "source": "Practical AI",
+          "published_at": "2026-10-01 17:00",
+          "summary": "播客对话 NVIDIA Cosmos Lab 副总裁 Ming-Yu Liu，讨论开放模型、世界模型与物理 AI 的未来。",
+          "analysis": [
+            "核心事实：Practical AI 播客邀请 NVIDIA Cosmos Lab 副总裁 Ming-Yu Liu，讨论开放模型、世界模型与物理 AI。",
+            "技术亮点：摘要称 AI 正从云端走向机器人、车辆等物理系统，模型、仿真与推理出现新方法。",
+            "价值判断：嘉宾认为开放模型对创新重要，世界模型可帮助 AI 理解与模拟物理世界；这属于节目中的观点。",
+            "务实落地：讨论涉及构建更强物理 AI 系统所需条件，但具体方案与时间表原始摘要未提供。",
+            "待验证事项：开放模型性能、世界模型效果、物理 AI 商业化路径均需更多材料验证。"
+          ],
+          "verdict": "开放模型与世界模型是物理 AI 的重要叙事，但落地仍待具体成果验证。"
+        }
+      ]
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "从玩家的世界掠过：Bungie 的「列车」如何驶向终焉 Plutonium 前天 22:32 Matrix精选",
+          "url": "https://sspai.com/post/115070",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派文章以“从玩家的世界掠过”讨论Bungie的「列车」如何驶向终焉，原始摘要未提供具体分析。",
+          "analysis": [
+            "核心事实：标题指向Bungie及其作品/项目「列车」的走向。",
+            "上下文对比：标题涉及玩家视角与Bungie的发展叙事。",
+            "待验证事项：文章具体论点、数据与结论原始摘要未提供。"
+          ],
+          "verdict": "标题文学化，缺乏摘要难以判断是对Bungie商业还是作品内容的分析。"
+        },
+        {
+          "title": "快速投票：尝鲜升级新系统，你的体验满意还是翻车？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1790147642",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派评 | 近期值得关注的 App 少数派编辑部 09/28",
+          "url": "https://sspai.com/post/115094",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "何恺明团队新作：看猫片就能学会ARC挑战",
+          "url": "https://www.qbitai.com/2026/10/499812.html",
+          "source": "量子位",
+          "published_at": "2026-10-01 23:06",
+          "summary": "用ImageNet训练encoder",
+          "analysis": [
+            "内容摘要：用ImageNet训练encoder",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "经典任务管理软件的现代重构：新版 2Do 详解 完全重构的 2Do 是我的心目中最佳的任务管理工具。 广陵止息 前天 15:00",
+          "url": "https://sspai.com/post/115166",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派详解完全重构的新版 2Do，作者称其为心目中最佳任务管理工具。",
+          "analysis": [
+            "核心事实：文章介绍经典任务管理软件 2Do 的现代重构版本，并做详解。",
+            "媒体声称：标题中的“完全重构”与“心目中最佳”分别为作者描述与主观评价。",
+            "待验证事项：新版 2Do 的具体功能、平台、价格、发布时间原始摘要未提供。",
+            "用户影响：任务管理工具用户可关注其重构是否改善体验，但需实际试用判断。",
+            "上下文对比：作为经典任务管理软件，2Do 的重构反映老牌效率工具持续更新。"
+          ],
+          "verdict": "文章可作了解新版 2Do 的入口，但“最佳”属作者个人体验，需自行验证。"
+        },
+        {
+          "title": "聊聊你用开源项目或 AI Coding 代替了哪些付费订阅？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1790146393",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派发起讨论投票，话题是用开源项目或 AI Coding 替代付费订阅，原始摘要未提供结果。",
+          "analysis": [
+            "核心事实：少数派发起讨论/投票，主题是用户用开源项目或 AI Coding 代替了哪些付费订阅；原始摘要未提供。",
+            "用户影响：话题涉及个人工具成本与订阅替代，但具体替代方案与效果原始摘要未提供。",
+            "待验证事项：投票结果、参与者案例与可行性结论原始摘要未提供。",
+            "务实落地：若形成可复用方案，对个人开发者有参考价值，但需原文与社区反馈验证。"
+          ],
+          "verdict": "用开源与 AI Coding 替代付费订阅是实用话题，但投票与案例细节未提供，暂难评估实际效果。"
+        },
+        {
+          "title": "社区速递 160 | 水月雨首款游戏耳机与八月派友剁手清单 Matrix机器人 09/29",
+          "url": "https://sspai.com/post/115153",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派社区速递第160期，标题提及水月雨首款游戏耳机、八月派友剁手清单及Matrix机器人栏目，原始摘要未提供更多细节。",
+          "analysis": [
+            "核心事实：标题显示本期为少数派社区速递，涉及水月雨首款游戏耳机、派友剁手清单和Matrix机器人。",
+            "待验证事项：产品参数、价格、上市信息及清单具体推荐，原始摘要未提供。",
+            "用户影响：可能面向数码消费者与社区读者，但实际参考价值需看原文。",
+            "价值判断：作为社区资讯汇总，信息密度取决于原文，标题线索有限。"
+          ],
+          "verdict": "标题能看出内容方向，但缺少摘要，无法评估具体产品与清单价值。"
+        },
+        {
+          "title": "更懂你的心，也更懂你：Apple Watch Series 12 体验 全新 Apple Watch Series 12，有哪些可感知的升级？ ElijahLee 09/29",
+          "url": "https://sspai.com/post/115061",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派发布Apple Watch Series 12体验，聚焦可感知升级，原始摘要未提供具体功能与结论。",
+          "analysis": [
+            "核心事实：标题称Apple Watch Series 12体验，关注可感知升级。",
+            "用户影响：可感知升级可能影响购买与升级决策，但具体项目原始摘要未提供。",
+            "待验证事项：健康、传感器、续航、交互等细节原始摘要未提供。"
+          ],
+          "verdict": "体验方向明确，但缺少细节，无法评估升级幅度。"
+        },
+        {
+          "title": "可塑的白昼：ColorOS17 深度评测 Enc3lMag1k 09/29",
+          "url": "https://sspai.com/post/114728",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派发布ColorOS 17深度评测，标题为“可塑的白昼”，原始摘要未提供系统功能与评测结论。",
+          "analysis": [
+            "核心事实：标题显示为ColorOS 17深度评测。",
+            "用户影响：评测可能影响用户对系统升级的判断，但具体表现原始摘要未提供。",
+            "待验证事项：设计、流畅度、功能变化与续航等原始摘要未提供。"
+          ],
+          "verdict": "标题意象化，缺乏摘要无法判断评测结论与可塑之处。"
+        },
+        {
+          "title": "基于 Termux 的 Android 手机开发服务器实操 neyham 09/28 会员内容",
+          "url": "https://sspai.com/prime/story/dev-env-on-android-with-termux",
+          "source": "少数派",
+          "published_at": "2026-10-02 14:51（时间近似）",
+          "summary": "少数派会员文章介绍基于 Termux 在 Android 手机上搭建开发服务器的实操，原始摘要未提供具体步骤与效果。",
+          "analysis": [
+            "核心事实：标题显示这是少数派关于在 Android 手机上用 Termux 搭建开发服务器的实操文章，标注为 09/28 会员内容；原始摘要未提供。",
+            "务实落地：若真实可行，可将手机用作轻量开发服务器，但具体步骤、性能与限制原始摘要未提供。",
+            "待验证事项：实际搭建难度、稳定性、耗电与网络配置等原始摘要未提供。",
+            "用户影响：适合想利用闲置手机或移动场景做开发的读者，但需原文确认可行性。"
+          ],
+          "verdict": "移动端开发服务器的实操分享，对想利用手机做轻量开发的读者有参考价值，但具体可行性需看原文。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "新智元",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "ConnectionError: HTTPSConnectionPool(host='www.huxiu.com', port=443): Read timed out."
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    }
+  ]
+}
