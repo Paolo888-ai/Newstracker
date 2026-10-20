@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>科技 / AI 资讯日报 · 2026-10-20</title>
+  <style>
+    :root{--bg:#0b0f14;--surface:#141a22;--surface2:#1a222d;--border:#293342;--text:#e9eef5;--muted:#94a0af;--accent:#f28b45;--accent2:#ffad6b;--link:#65a9ff;--green:#78dba9;--red:#ff7474;--shadow:0 18px 55px rgba(0,0,0,.28);--radius:14px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% -10%,#18212d 0,var(--bg) 38%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}
+    .container{width:min(1080px,calc(100% - 32px));margin:auto;padding:28px 0 64px}.report-header{position:relative;overflow:hidden;padding:30px;border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(135deg,#1b2430,#121820);box-shadow:var(--shadow)}
+    .report-header:after{content:"";position:absolute;width:240px;height:240px;right:-100px;top:-130px;border-radius:50%;background:var(--accent);filter:blur(90px);opacity:.16}.eyebrow{color:var(--accent2);font-size:12px;letter-spacing:.14em;text-transform:uppercase}.report-header h1{font-size:clamp(24px,5vw,34px);line-height:1.25;margin:6px 0}.date-badge{display:inline-block;margin-left:8px;padding:4px 10px;border-radius:7px;background:var(--accent);color:#17100c;font-size:13px;vertical-align:middle}.subtitle{color:var(--muted);font-size:14px}
+    .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}.stat-card{padding:13px 16px;border:1px solid var(--border);border-radius:10px;background:rgba(28,36,47,.8)}.stat-card span{display:block;color:var(--muted);font-size:11px;letter-spacing:.06em}.stat-card strong{display:block;margin-top:2px;color:var(--accent2);font-size:23px}
+    .section{margin-top:34px}.section-title{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:21px}.section-title:before{content:"";width:5px;height:22px;border-radius:9px;background:var(--accent)}.hint{margin:-8px 0 16px;color:var(--muted);font-size:12px}
+    .lesson-card{position:relative;overflow:hidden;padding:23px 25px;border:1px solid #3d4e43;border-radius:var(--radius);background:linear-gradient(145deg,#17231f,#151b22 68%);box-shadow:var(--shadow)}.lesson-card:after{content:"¥";position:absolute;right:18px;top:-26px;color:var(--green);font-size:118px;font-weight:800;opacity:.045}.lesson-topline{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:12px}.lesson-category{padding:3px 10px;border-radius:999px;background:rgba(120,219,169,.12);color:var(--green);font-weight:700}.lesson-card h3{position:relative;margin:13px 0 6px;font-size:21px}.lesson-summary{position:relative;margin:0 0 17px;color:#b8c5bf}.lesson-content{position:relative;padding-top:15px;border-top:1px solid #314039}.lesson-content>p{margin:0 0 10px;color:#d5ddd9}.lesson-label{color:var(--green);font-weight:750}.lesson-box,.lesson-question{margin-top:14px;padding:13px 15px;border-radius:9px;background:rgba(255,255,255,.035);border-left:3px solid var(--accent)}.lesson-question{border-left-color:var(--link)}.lesson-box strong{color:var(--accent2)}.lesson-question>strong{color:var(--link)}.lesson-box p,.lesson-question>p{margin:4px 0 0;color:#cbd4df}.lesson-answer{margin-top:12px;padding-top:10px;border-top:1px dashed #3a4b5d}.lesson-answer summary{width:max-content;color:var(--green);font-size:13px;font-weight:700;cursor:pointer;user-select:none}.lesson-answer p{margin:9px 0 0;color:#d7e2dd}.lesson-disclaimer{margin:15px 0 0;color:#77838f;font-size:11px}
+    .card{margin:0 0 12px;padding:16px 18px;border:1px solid var(--border);border-radius:11px;background:var(--surface2);cursor:pointer;transition:.2s ease}.card:hover,.card:focus-visible{border-color:#445267;background:#202a36;transform:translateY(-1px);outline:none}.card-title{margin:0 0 7px;font-size:15px;line-height:1.55}.card-summary{margin:0 0 10px;color:var(--muted);font-size:13px}.card-meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:12px}.source,.count{padding:2px 9px;border-radius:999px;background:#252e3a;color:#d9e0e8}.link-btn{margin-left:auto;padding:5px 11px;border-radius:6px;background:var(--link);color:#08111d;font-weight:700;text-decoration:none}.card-body{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .35s ease,opacity .25s ease}.card-body>div{overflow:hidden}.card.expanded .card-body{grid-template-rows:1fr;opacity:1}.deep-analysis{margin-top:14px;padding-top:12px;border-top:1px solid var(--border);color:#cbd4df;font-size:14px}.deep-analysis p{margin:0 0 9px}.analysis-label{color:var(--green);font-weight:750}.deep-analysis .verdict{color:var(--accent2);font-weight:700}.deep-analysis .verdict:before{content:"一句话点评："}
+    .domain-section{margin-bottom:14px;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--surface)}.domain-header{width:100%;display:flex;align-items:center;justify-content:space-between;padding:17px 19px;border:0;background:var(--surface2);color:var(--text);cursor:pointer;text-align:left}.domain-title{font-size:16px;font-weight:700}.domain-title small{display:block;color:var(--muted);font-size:11px;font-weight:400}.domain-actions{display:flex;align-items:center;gap:11px}.arrow{color:var(--muted);transition:transform .25s}.domain-body{display:none;padding:14px 16px 3px}.domain-section.open .domain-body{display:block}.domain-section.open .arrow{transform:rotate(180deg)}
+    .failures{padding:20px;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.failures h2{margin:0;color:var(--red);font-size:16px}.failures ul{margin:10px 0 0;padding:0;list-style:none}.failures li{padding:8px 0;border-bottom:1px solid var(--border);color:var(--muted);font-size:13px}.failures li:last-child{border:0}.failures strong{margin-right:8px;color:var(--text)}footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:12px;text-align:center}
+    @media(max-width:680px){.container{width:min(100% - 20px,1080px);padding-top:10px}.report-header{padding:22px 18px}.stats-grid{grid-template-columns:repeat(2,1fr)}.date-badge{display:table;margin:8px 0 0}.card{padding:14px}.link-btn{margin-left:0}.domain-header{padding:15px}.domain-title small{max-width:220px}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="report-header">
+      <div class="eyebrow">Daily Intelligence Briefing</div>
+      <h1>科技 / AI 资讯日报 <span class="date-badge">2026-10-20</span></h1>
+      <div class="subtitle">过去 24 小时 · 自动去重 · 按重要度筛选</div>
+      <div class="stats-grid">
+        <div class="stat-card"><span>收录文章</span><strong>42</strong></div>
+        <div class="stat-card"><span>领域分组</span><strong>5</strong></div>
+        <div class="stat-card"><span>信源扫描</span><strong>18</strong></div>
+        <div class="stat-card"><span>异常源</span><strong>15</strong></div>
+      </div>
+    </header>
+    <section class="section"><h2 class="section-title">每日商业课</h2><p class="hint">每天理解一个概念，逐步建立商业、财务与公司治理知识框架</p>
+    <article class="lesson-card">
+      <div class="lesson-topline"><span class="lesson-category">财务报表</span><span>约 5 分钟</span></div>
+      <h3>资产负债表在讲什么：一张&quot;家底快照&quot;</h3>
+      <p class="lesson-summary">资产负债表是某一天的家底快照：左边列钱变成了什么（资产），右边列钱从哪来（负债和所有者权益），两边永远相等。</p>
+      <div class="lesson-content"><p><span class="lesson-label">核心概念：</span>资产负债表是&quot;时点照片&quot;，不是&quot;一段时间的录像&quot;。它遵循一个恒等式：资产 = 负债 + 所有者权益。资产是钱变成了什么（现金、存货、设备）；负债是欠别人的钱；所有者权益是真正属于股东的钱。左边是资金的使用方式，右边是资金的来源。</p><p><span class="lesson-label">为什么重要：</span>它回答三个问题——公司有多少家底、欠了多少、股东还剩多少。把负债除以资产得到资产负债率，可以粗略看偿债压力；把存货、应收账款和收入对比，可以看出资金是否被占用、周转是否顺畅。利润表说&quot;赚没赚&quot;，资产负债表说&quot;稳不稳&quot;。</p><p><span class="lesson-label">利益关系：</span>股东出资并享有剩余权益，也最先承担亏损风险；债权人（银行、供应商）收取固定利息或货款，优先受偿，但只拿到约定部分，赚不到超额收益；员工和房东的工资租金通常也是靠资产变现来支付。收益归谁、成本和风险归谁，在这张表上一目了然。</p><p><span class="lesson-label">常见误区：</span>第一，资产不是越多越好，卖不出去的存货、收不回的应收账款也是&quot;资产&quot;，却可能变成损失；第二，账面价值不等于市场价值，一台设备账面10万，二手也许只值3万；第三，利润不等于现金，赚了钱也可能因为钱压在存货里而周转不灵。</p><div class="lesson-box"><strong>举个例子</strong><p>小王开咖啡店：自己投入20万元，向银行借10万元，共30万元。他用25万元买设备与装修（固定资产），留下5万元现金。资产负债表：资产 = 固定资产25万 + 现金5万 = 30万；负债 = 银行借款10万；所有者权益 = 小王投入的20万。验证恒等式：30万 = 10万 + 20万。资产负债率 = 10 ÷ 30 ≈ 33%。注意：这30万不是&quot;赚来的&quot;，只是钱换了个形态，从现金变成了设备和装修。</p></div><div class="lesson-question"><strong>想一想</strong><p>承上例，小店总资产30万元（银行借款10万、所有者权益20万）。若小王又向银行借5万元并全部存入账户，请写出变化后的资产负债表，并计算资产负债率的变化。</p><details class="lesson-answer"><summary>查看参考解答</summary><p>第一步，借款到账：现金增加5万，资产 = 30 + 5 = 35万元。第二步，负债增加5万，负债 = 10 + 5 = 15万元；所有者权益不变，仍为20万元。第三步，验证：35万 = 15万 + 20万，两边相等。第四步，比较杠杆：原资产负债率 = 10 ÷ 30 ≈ 33.3%，现为15 ÷ 35 ≈ 42.9%。结论：借钱让资产变多，但没有让股东权益变多，偿债压力上升。若借来的钱投出去赚不到超过利息的回报，风险就由股东承担。</p></details></div></div>
+      <p class="lesson-disclaimer">本节为通识讲解，不构成投资、会计、税务或法律建议。各地会计准则和监管规则可能不同，实际报表编制、判断与决策请咨询持证会计师、税务师或律师等专业人士。</p>
+    </article></section>
+    <section class="section"><h2 class="section-title">今日要点</h2><p class="hint">点击卡片展开深度解析</p>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美AI 竞赛不会单边暂停</h3>
+      <p class="card-summary">虎嗅报道称，Anthropic 核心技术负责人谈到蒸馏会损害前沿研发、中美 AI 竞赛不会单边暂停；报道未提供详细摘要，估值与表态细节待核实。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4895291.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>该报道的标题显示，Anthropic 核心技术负责人就模型蒸馏、前沿研发和中美 AI 竞赛作出表态；原始摘要未提供，具体论点、发言场合与完整语境无法核实。</p><p><span class="analysis-label">媒体声称：</span>标题中的“2万亿美元估值”属于媒体或转述说法，原始摘要未提供估值时间口径、依据与对应主体细节。</p><p><span class="analysis-label">分析判断：</span>蒸馏争议的实质在于，用强模型输出训练其他模型是否会削弱对前沿探索的投入激励；这一判断需要技术细节支撑，材料未提供。</p><p><span class="analysis-label">待验证事项：</span>负责人姓名、发言原文、估值来源，以及“竞赛不会单边暂停”的完整表述，均未在材料中出现。</p><p><span class="analysis-label">信号意义：</span>标题将估值叙事与技术路线争议绑定，反映前沿实验室正把“反蒸馏”作为竞争与话语权议题。</p><p class="verdict">标题信息密度高但可核验内容少，估值数字与竞赛判断都缺原始出处，暂不宜当作结论传播。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Claude新模型曝光！能跳出思维定势，修Bug治标又治本</h3>
+      <p class="card-summary">量子位标题称 Claude 新模型曝光，能跳出思维定势、修 Bug 治标又治本；摘要不完整，缺少规格与验证。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-20 09:09</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504314.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称 Claude 新模型曝光，并称其能“跳出思维定势”、修 Bug“治标又治本”。</p><p><span class="analysis-label">媒体声称：</span>上述能力来自标题表述；原始摘要仅出现“OpenAI只掏出一个6.1 Terra…”，信息不完整。</p><p><span class="analysis-label">上下文对比：</span>摘要提及 OpenAI 但内容截断，无法据此形成有效对比或判断“6.1 Terra”所指。</p><p><span class="analysis-label">待验证事项：</span>模型名称与版本、Bug 修复效果、演示基准及对比对象均未说明。</p><p class="verdict">标题给出的修 Bug 能力若可复现值得关注，但目前材料不足以支撑结论。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务</h3>
+      <p class="card-summary">量子位标题称某量子计算公司从百比特芯片走向整机交付，并把量子算力做成可调用服务；摘要称同步搭建千比特云平台。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 22:33</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504277.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称该公司从百比特芯片推进到整机交付，并将量子算力推向可调用服务；摘要称同步搭建千比特规模量子算力云平台。</p><p><span class="analysis-label">技术亮点：</span>百比特芯片、整机交付与千比特云平台是材料中的关键规模与交付形态，具体技术路线未提供。</p><p><span class="analysis-label">务实落地：</span>从芯片到整机再到云服务，指向算力可调用，但客户、上线时间、收费与性能均未说明。</p><p><span class="analysis-label">待验证事项：</span>公司名称、比特数真实性、保真度或纠错能力、云平台可用状态需官方披露。</p><p class="verdict">从芯片到整机再到云服务的方向清晰，真实规模与可用性仍需官方验证。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">模型还在加速，世界如何跟上？</h3>
+      <p class="card-summary">虎嗅文章以“模型还在加速，世界如何跟上？”为题，讨论模型发展与社会适配问题；原始摘要未提供具体模型、数据或结论。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4896366.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题提出模型加速与世界跟进的张力；正文细节原始摘要未提供。</p><p><span class="analysis-label">待验证事项：</span>涉及哪些模型、加速指标、受影响主体及时间范围，原始摘要未提供。</p><p><span class="analysis-label">价值判断：</span>议题重要，但缺少材料支撑，暂不能判断其论证质量。</p><p><span class="analysis-label">信号意义：</span>标题指向技术演进与社会应用适配之间的节奏差；具体主张待原文验证。</p><p class="verdict">标题提出了真问题，但只有标题不足以支撑结论；需看原文的数据与论证。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：三季度全球手机出货量继续两位数下降 少数派编辑部 昨天 07:13 派早报</h3>
+      <p class="card-summary">少数派早报称三季度全球手机出货量继续两位数下降；原始摘要未提供具体机构、出货数字与厂商排名。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116641" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称三季度全球手机出货量继续两位数下降；统计机构与具体数值原始摘要未提供。</p><p><span class="analysis-label">待验证事项：</span>数据来源、同比基数、口径与区域结构，原始摘要未提供。</p><p><span class="analysis-label">信号意义：</span>若数据成立，反映手机需求承压；原因不能由标题推断。</p><p><span class="analysis-label">用户影响：</span>换机周期与厂商促销策略可能受影响，但材料不足。</p><p><span class="analysis-label">上下文对比：</span>标题用“继续”暗示此前已下降，前序数据原始摘要未提供。</p><p class="verdict">两位数下降是明确标题信息，但只有一句早报标题，尚不足以判断行业拐点。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">AI 开始挑战最复杂的系统：生命</h3>
+      <p class="card-summary">量子位摘要称 10 月 17 日哲源科技发布 WHIRLPO 计算医学平台；标题将 AI 与生命系统挑战相连，细节未提供。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 18:04</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504242.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>摘要称 10 月 17 日哲源科技发布 WHIRLPO 计算医学平台；标题将 AI 与“生命”这一复杂系统相连。</p><p><span class="analysis-label">技术亮点：</span>原始摘要未提供模型架构、数据来源、验证结果或具体医学应用细节。</p><p><span class="analysis-label">价值判断：</span>计算医学平台若用于生命系统研究，潜在价值较高，但需实验或临床证据支撑。</p><p><span class="analysis-label">待验证事项：</span>平台能力边界、合作机构、验证数据与商业化安排均未提供。</p><p class="verdict">计算医学方向值得关注，但平台能力与验证结果仍是关键缺口。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">达摩院玄铁出席RISC-V中国峰会，首发车规产品路线图</h3>
+      <p class="card-summary">据来源摘要，10月19日 RISC-V 中国峰会在深圳举行，达摩院玄铁出席并首发车规产品路线图。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 17:56</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504238.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>10月19日，RISC-V 中国峰会在深圳举行，达摩院玄铁出席并首发车规产品路线图，此信息来自来源摘要。</p><p><span class="analysis-label">务实落地：</span>车规是高可靠场景的关键门槛，推出路线图意味着产品化意图，但具体节点、认证进度与量产时间原始摘要未提供。</p><p><span class="analysis-label">上下文对比：</span>RISC-V 长期以嵌入式与低功耗场景为主，向车规推进属于场景升级，材料未给出与既有车规方案的可比数据。</p><p><span class="analysis-label">待验证事项：</span>路线图阶段划分、功能安全等级目标、合作车企或 Tier1，均未在材料中出现。</p><p><span class="analysis-label">分析判断：</span>路线图不等于量产，车规认证周期长，需观察后续节点兑现情况。</p><p class="verdict">车规路线图是有分量的方向性动作，但在没有节点与认证信息前，只能视为意图而非成果。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">8000万亏损背后：日式快餐“效率神话”不再</h3>
+      <p class="card-summary">虎嗅关注日式快餐“效率神话”受挫，标题称背后有8000万元亏损；原始摘要未提供企业、口径与原因。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4896507.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题给出“8000万亏损”和“效率神话不再”的判断；具体主体、统计口径原始摘要未提供。</p><p><span class="analysis-label">媒体声称：</span>“效率神话不再”是标题中的概括，需原文证据支持。</p><p><span class="analysis-label">待验证事项：</span>亏损主体、时间区间、亏损口径及效率变化指标，原始摘要未提供。</p><p><span class="analysis-label">价值判断：</span>若亏损与效率模式相关，值得关注成本结构与需求变化；因果关系待验证。</p><p><span class="analysis-label">用户影响：</span>可能影响消费者对日式快餐性价比与服务的预期，但材料不足。</p><p class="verdict">亏损数字抓眼，但“效率神话不再”仍是标题判断；没有原文数据，不宜替它下因果结论。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：MiniMax 发布 M3.1 Flash 模型等 少数派编辑部 08:39 派早报</h3>
+      <p class="card-summary">少数派早报标题称 MiniMax 发布 M3.1 Flash 模型；原始摘要为空，规格、能力与开放方式未提供。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116758" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题显示 MiniMax 发布 M3.1 Flash 模型，并以早报条目形式出现。</p><p><span class="analysis-label">技术亮点：</span>原始摘要未提供参数、架构、基准表现或功能差异，无法判断技术亮点。</p><p><span class="analysis-label">待验证事项：</span>模型版本、定价、开放渠道、发布时间与实测能力均需查官方信息。</p><p><span class="analysis-label">用户影响：</span>若后续开放使用，可能影响模型选择，但目前信息不足以评估。</p><p class="verdict">可确认发布动作，但缺少模型参数与可用信息，暂不宜评价能力。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">AI&#x27;s Production Era Is An Infrastructure Story</h3>
+      <p class="card-summary">TWIML 文章提出 AI 生产时代本质是基础设施故事；原始摘要未提供具体论据。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题将 AI 的“生产时代”与“基础设施故事”直接关联。</p><p><span class="analysis-label">务实落地：</span>原始摘要未提供具体基础设施类型、厂商、成本或案例。</p><p><span class="analysis-label">价值判断：</span>该标题强调 AI 落地依赖底层基础设施，但论据尚未呈现。</p><p><span class="analysis-label">待验证事项：</span>文章的数据、论证与结论原始摘要未提供。</p><p class="verdict">选题切中 AI 落地的底层条件，但缺少材料只能保留判断。</p></div></div>
+    </article></section>
+    <section class="section"><h2 class="section-title">主题分组</h2>
+    <section class="domain-section open" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="true">
+        <span class="domain-title">AI<small>ai / 人工智能 / 大模型</small></span>
+        <span class="domain-actions"><span class="count">15 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美AI 竞赛不会单边暂停</h3>
+      <p class="card-summary">虎嗅报道称，Anthropic 核心技术负责人谈到蒸馏会损害前沿研发、中美 AI 竞赛不会单边暂停；报道未提供详细摘要，估值与表态细节待核实。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4895291.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>该报道的标题显示，Anthropic 核心技术负责人就模型蒸馏、前沿研发和中美 AI 竞赛作出表态；原始摘要未提供，具体论点、发言场合与完整语境无法核实。</p><p><span class="analysis-label">媒体声称：</span>标题中的“2万亿美元估值”属于媒体或转述说法，原始摘要未提供估值时间口径、依据与对应主体细节。</p><p><span class="analysis-label">分析判断：</span>蒸馏争议的实质在于，用强模型输出训练其他模型是否会削弱对前沿探索的投入激励；这一判断需要技术细节支撑，材料未提供。</p><p><span class="analysis-label">待验证事项：</span>负责人姓名、发言原文、估值来源，以及“竞赛不会单边暂停”的完整表述，均未在材料中出现。</p><p><span class="analysis-label">信号意义：</span>标题将估值叙事与技术路线争议绑定，反映前沿实验室正把“反蒸馏”作为竞争与话语权议题。</p><p class="verdict">标题信息密度高但可核验内容少，估值数字与竞赛判断都缺原始出处，暂不宜当作结论传播。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">模型还在加速，世界如何跟上？</h3>
+      <p class="card-summary">虎嗅文章以“模型还在加速，世界如何跟上？”为题，讨论模型发展与社会适配问题；原始摘要未提供具体模型、数据或结论。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4896366.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题提出模型加速与世界跟进的张力；正文细节原始摘要未提供。</p><p><span class="analysis-label">待验证事项：</span>涉及哪些模型、加速指标、受影响主体及时间范围，原始摘要未提供。</p><p><span class="analysis-label">价值判断：</span>议题重要，但缺少材料支撑，暂不能判断其论证质量。</p><p><span class="analysis-label">信号意义：</span>标题指向技术演进与社会应用适配之间的节奏差；具体主张待原文验证。</p><p class="verdict">标题提出了真问题，但只有标题不足以支撑结论；需看原文的数据与论证。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：MiniMax 发布 M3.1 Flash 模型等 少数派编辑部 08:39 派早报</h3>
+      <p class="card-summary">少数派早报标题称 MiniMax 发布 M3.1 Flash 模型；原始摘要为空，规格、能力与开放方式未提供。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116758" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题显示 MiniMax 发布 M3.1 Flash 模型，并以早报条目形式出现。</p><p><span class="analysis-label">技术亮点：</span>原始摘要未提供参数、架构、基准表现或功能差异，无法判断技术亮点。</p><p><span class="analysis-label">待验证事项：</span>模型版本、定价、开放渠道、发布时间与实测能力均需查官方信息。</p><p><span class="analysis-label">用户影响：</span>若后续开放使用，可能影响模型选择，但目前信息不足以评估。</p><p class="verdict">可确认发布动作，但缺少模型参数与可用信息，暂不宜评价能力。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">双十一买自己不懂的品类，你会让 AI 替你做决策吗？ 一派投票 点击了解详情</h3>
+      <p class="card-summary">少数派以双十一为场景发起投票：买不熟悉的品类时，是否让 AI 替自己做决策；原始摘要未提供投票结果与 AI 功能细节。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/bullet/1792398838" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题提出双十一购物中由 AI 代做决策的议题，并带有投票入口；具体选项与结果原始摘要未提供。</p><p><span class="analysis-label">用户影响：</span>涉及消费者对 AI 建议的信任、比价与决策自主性；实际体验待材料补充。</p><p><span class="analysis-label">待验证事项：</span>AI 推荐依据、平台、是否涉及隐私与责任，原始摘要未提供。</p><p><span class="analysis-label">价值判断：</span>这是消费决策权让渡的典型问题，值得讨论，但不能据标题推断用户真实态度。</p><p><span class="analysis-label">信号意义：</span>AI 正从工具走向消费决策入口的说法需数据支持；标题只显示讨论场景。</p><p class="verdict">问题问得好：AI 可以帮忙，但“替你做决策”的前提是透明、可信、可追责。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why Jev Is Changing How We Build With AI</h3>
+      <p class="card-summary">TWIML 文章讨论 Jev 正在改变构建 AI 的方式，但原始摘要未提供具体内容。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/jev-changing-how-we-build-ai" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称 Jev 正在改变人们构建 AI 的方式。</p><p><span class="analysis-label">技术亮点：</span>原始摘要未提供 Jev 的技术方案、产品能力或案例。</p><p><span class="analysis-label">待验证事项：</span>Jev 的身份、改变的具体机制与影响范围原始摘要未提供。</p><p><span class="analysis-label">信号意义：</span>标题暗示 AI 构建方式存在变化，但无法从材料核实。</p><p class="verdict">标题有观点，材料不足以判断 Jev 的实际影响。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing?</h3>
+      <p class="card-summary">TWIML 以从数学奥林匹克到 Navier-Stokes 为线索，讨论 AI 进步速度；原始摘要未提供具体结论。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/math-olympiads-navier-stokes-how-fast-ai-progressing" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题提出“AI 进步有多快”的问题，并跨越数学竞赛与流体力学难题。</p><p><span class="analysis-label">技术亮点：</span>原始摘要未提供 AI 的具体能力、基准测试或时间线。</p><p><span class="analysis-label">待验证事项：</span>衡量 AI 进步的方法、对比对象与结论原始摘要未提供。</p><p><span class="analysis-label">价值判断：</span>标题提示需跨任务评估 AI 进展，但材料不足以支持速度判断。</p><p class="verdict">问题重要，但无摘要无法判断其证据与结论。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">From Voice Agents to AI Avatars</h3>
+      <p class="card-summary">TWIML 发布题为《From Voice Agents to AI Avatars》的内容；原始摘要未提供，嘉宾、技术方案与具体论点均未知。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/voice-agents-ai-avatars" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>TWIML 上线一期以“从语音智能体到 AI 虚拟人”为题的内容；原始摘要未提供，形式与嘉宾信息不明。</p><p><span class="analysis-label">信号意义：</span>仅从标题看，讨论脉络指向语音智能体向更拟人化交互形态演进，但这只是标题层面的提示。</p><p><span class="analysis-label">待验证事项：</span>是否涉及延迟、成本、多模态能力等具体指标，原始摘要未提供。</p><p><span class="analysis-label">用户影响：</span>若该方向落地，交互入口可能从“语音助手”转向持续在场的虚拟形象，但材料不足以支撑细节判断。</p><p class="verdict">标题给出清晰的技术演进方向，但没有任何可核验细节，只能作为议题线索记录。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">AI&#x27;s Production Era Is An Infrastructure Story</h3>
+      <p class="card-summary">TWIML 文章提出 AI 生产时代本质是基础设施故事；原始摘要未提供具体论据。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题将 AI 的“生产时代”与“基础设施故事”直接关联。</p><p><span class="analysis-label">务实落地：</span>原始摘要未提供具体基础设施类型、厂商、成本或案例。</p><p><span class="analysis-label">价值判断：</span>该标题强调 AI 落地依赖底层基础设施，但论据尚未呈现。</p><p><span class="analysis-label">待验证事项：</span>文章的数据、论证与结论原始摘要未提供。</p><p class="verdict">选题切中 AI 落地的底层条件，但缺少材料只能保留判断。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Why AI Agent Benchmarks Are Harder Than They Look</h3>
+      <p class="card-summary">TWIML 讨论“AI Agent 基准测试比看起来更难”；原始摘要未提供，涉及的具体基准、失败模式与数据均未知。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>TWIML 发布关于 AI Agent 评测难点的内容；原始摘要未提供，具体案例与结论不明。</p><p><span class="analysis-label">分析判断：</span>标题指向评测效度问题，即任务设计、环境状态与评分口径都会影响结论的可比性和可复现性，这属于方法论层面的常见争议。</p><p><span class="analysis-label">待验证事项：</span>涉及的基准名称、失败模式分类、实验数据，原始摘要未提供。</p><p><span class="analysis-label">用户影响：</span>评测口径不统一会让 Agent 产品的能力宣称难以横向比较，选型方需关注自建任务验证。</p><p class="verdict">触及 Agent 行业真问题——评测比模型本身更难标准化，但材料只到标题层，无法展开。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">You Can’t Lead AI From the Sidelines</h3>
+      <p class="card-summary">TWIML 文章主张不能在场边领导 AI；原始摘要未提供作者、论据与案例。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题表达“不能在场边领导 AI”的立场。</p><p><span class="analysis-label">价值判断：</span>这是观点性主张，不是可直接核实的事实陈述。</p><p><span class="analysis-label">待验证事项：</span>作者身份、具体建议、案例与数据原始摘要未提供。</p><p><span class="analysis-label">用户影响：</span>对组织管理者可能构成提醒，但材料不足以展开。</p><p class="verdict">标题立场鲜明，材料不足以验证其论证。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Google Cloud Next &#x27;26: Delivering the Agentic Control Plane</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/articles/google-cloud-next-26-recap" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Claude新模型曝光！能跳出思维定势，修Bug治标又治本</h3>
+      <p class="card-summary">量子位标题称 Claude 新模型曝光，能跳出思维定势、修 Bug 治标又治本；摘要不完整，缺少规格与验证。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-20 09:09</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504314.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称 Claude 新模型曝光，并称其能“跳出思维定势”、修 Bug“治标又治本”。</p><p><span class="analysis-label">媒体声称：</span>上述能力来自标题表述；原始摘要仅出现“OpenAI只掏出一个6.1 Terra…”，信息不完整。</p><p><span class="analysis-label">上下文对比：</span>摘要提及 OpenAI 但内容截断，无法据此形成有效对比或判断“6.1 Terra”所指。</p><p><span class="analysis-label">待验证事项：</span>模型名称与版本、Bug 修复效果、演示基准及对比对象均未说明。</p><p class="verdict">标题给出的修 Bug 能力若可复现值得关注，但目前材料不足以支撑结论。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">通研院孵化的团队，也盯上了RSI</h3>
+      <p class="card-summary">当AI越来越懂你，如何让智能真正属于你？</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 22:31</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504294.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>当AI越来越懂你，如何让智能真正属于你？</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行</h3>
+      <p class="card-summary">据来源摘要，2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 18:27</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504266.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行，此信息来自来源摘要。</p><p><span class="analysis-label">上下文对比：</span>该会场属于“2026物理AI与世界模型大会”的分会场设置，显示世界模型议题正在向医疗垂直场景延伸。</p><p><span class="analysis-label">待验证事项：</span>参会机构、发布成果、技术路线与演讲要点，原始摘要未提供。</p><p><span class="analysis-label">信号意义：</span>分会场形式本身说明医疗被作为世界模型的应用方向之一，但是否有实质进展无法从材料判断。</p><p class="verdict">属于会议动态而非技术进展，可作为世界模型向医疗延伸的行业信号，但信息量有限。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">AI 开始挑战最复杂的系统：生命</h3>
+      <p class="card-summary">量子位摘要称 10 月 17 日哲源科技发布 WHIRLPO 计算医学平台；标题将 AI 与生命系统挑战相连，细节未提供。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 18:04</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504242.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>摘要称 10 月 17 日哲源科技发布 WHIRLPO 计算医学平台；标题将 AI 与“生命”这一复杂系统相连。</p><p><span class="analysis-label">技术亮点：</span>原始摘要未提供模型架构、数据来源、验证结果或具体医学应用细节。</p><p><span class="analysis-label">价值判断：</span>计算医学平台若用于生命系统研究，潜在价值较高，但需实验或临床证据支撑。</p><p><span class="analysis-label">待验证事项：</span>平台能力边界、合作机构、验证数据与商业化安排均未提供。</p><p class="verdict">计算医学方向值得关注，但平台能力与验证结果仍是关键缺口。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">芯片与硬件<small>芯片 / 半导体 / gpu</small></span>
+        <span class="domain-actions"><span class="count">5 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">与 Tim Cook 走进「蓝盒子」，了解 Mac 如何助力中国企业成长 waychane 昨天 16:35</h3>
+      <p class="card-summary">少数派文章以与 Tim Cook 走进“蓝盒子”为切入点，介绍 Mac 助力中国企业成长；原始摘要未提供活动细节与案例数据。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116585" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题显示文章围绕 Tim Cook、“蓝盒子”与 Mac 助力中国企业展开；具体地点、活动内容原始摘要未提供。</p><p><span class="analysis-label">厂商或媒体声称：</span>“Mac 助力中国企业成长”是标题表述，需案例与数据验证。</p><p><span class="analysis-label">务实落地：</span>若原文有企业案例，可观察 Mac 在办公、开发或创意流程中的实际角色；原始摘要未提供。</p><p><span class="analysis-label">待验证事项：</span>“蓝盒子”指什么、参与企业、成效指标，原始摘要未提供。</p><p><span class="analysis-label">信号意义：</span>苹果高管与中国企业场景同框，可能体现生态叙事；具体意图材料不足。</p><p class="verdict">这是一篇品牌与生态叙事稿的标题；是否有说服力，取决于原文案例和数据，而非高管站台本身。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派早报：三季度全球手机出货量继续两位数下降 少数派编辑部 昨天 07:13 派早报</h3>
+      <p class="card-summary">少数派早报称三季度全球手机出货量继续两位数下降；原始摘要未提供具体机构、出货数字与厂商排名。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116641" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称三季度全球手机出货量继续两位数下降；统计机构与具体数值原始摘要未提供。</p><p><span class="analysis-label">待验证事项：</span>数据来源、同比基数、口径与区域结构，原始摘要未提供。</p><p><span class="analysis-label">信号意义：</span>若数据成立，反映手机需求承压；原因不能由标题推断。</p><p><span class="analysis-label">用户影响：</span>换机周期与厂商促销策略可能受影响，但材料不足。</p><p><span class="analysis-label">上下文对比：</span>标题用“继续”暗示此前已下降，前序数据原始摘要未提供。</p><p class="verdict">两位数下降是明确标题信息，但只有一句早报标题，尚不足以判断行业拐点。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务</h3>
+      <p class="card-summary">量子位标题称某量子计算公司从百比特芯片走向整机交付，并把量子算力做成可调用服务；摘要称同步搭建千比特云平台。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 22:33</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504277.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题称该公司从百比特芯片推进到整机交付，并将量子算力推向可调用服务；摘要称同步搭建千比特规模量子算力云平台。</p><p><span class="analysis-label">技术亮点：</span>百比特芯片、整机交付与千比特云平台是材料中的关键规模与交付形态，具体技术路线未提供。</p><p><span class="analysis-label">务实落地：</span>从芯片到整机再到云服务，指向算力可调用，但客户、上线时间、收费与性能均未说明。</p><p><span class="analysis-label">待验证事项：</span>公司名称、比特数真实性、保真度或纠错能力、云平台可用状态需官方披露。</p><p class="verdict">从芯片到整机再到云服务的方向清晰，真实规模与可用性仍需官方验证。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">全栈自研！国产高端互连芯片，稳了!</h3>
+      <p class="card-summary">六年蛰伏出货80万颗</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 18:15</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504225.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>六年蛰伏出货80万颗</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">达摩院玄铁出席RISC-V中国峰会，首发车规产品路线图</h3>
+      <p class="card-summary">据来源摘要，10月19日 RISC-V 中国峰会在深圳举行，达摩院玄铁出席并首发车规产品路线图。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 17:56</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504238.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>10月19日，RISC-V 中国峰会在深圳举行，达摩院玄铁出席并首发车规产品路线图，此信息来自来源摘要。</p><p><span class="analysis-label">务实落地：</span>车规是高可靠场景的关键门槛，推出路线图意味着产品化意图，但具体节点、认证进度与量产时间原始摘要未提供。</p><p><span class="analysis-label">上下文对比：</span>RISC-V 长期以嵌入式与低功耗场景为主，向车规推进属于场景升级，材料未给出与既有车规方案的可比数据。</p><p><span class="analysis-label">待验证事项：</span>路线图阶段划分、功能安全等级目标、合作车企或 Tier1，均未在材料中出现。</p><p><span class="analysis-label">分析判断：</span>路线图不等于量产，车规认证周期长，需观察后续节点兑现情况。</p><p class="verdict">车规路线图是有分量的方向性动作，但在没有节点与认证信息前，只能视为意图而非成果。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">机器人与具身<small>机器人 / 具身 / 自动驾驶</small></span>
+        <span class="domain-actions"><span class="count">1 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">赛场交卷 未来已来——首届全球具身智能应用创新挑战赛暨2026中国机器人大赛闭幕</h3>
+      <p class="card-summary">量子位摘要称 10 月 18 日下午，首届全球具身智能应用创新挑战赛暨 2026 中国机器人大赛闭幕；结果与规模未提供。</p>
+      <div class="card-meta">
+        <span class="source">量子位</span>
+        <time>2026-10-19 16:12</time>
+        <a class="link-btn" href="https://www.qbitai.com/2026/10/504199.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>摘要称 10 月 18 日下午，首届全球具身智能应用创新挑战赛暨 2026 中国机器人大赛闭幕。</p><p><span class="analysis-label">信号意义：</span>赛事闭幕体现具身智能应用创新与机器人竞赛活动推进，但原始摘要未提供参赛规模、任务设置和成果。</p><p><span class="analysis-label">待验证事项：</span>获奖团队、技术方案、落地案例与产业转化情况均未提供。</p><p><span class="analysis-label">用户影响：</span>普通用户短期影响有限，后续应关注应用展示与产品化信息。</p><p class="verdict">赛事闭幕是活动信号，技术成果与产业转化尚需后续披露。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">科技商业与创投<small>融资 / 估值 / ipo</small></span>
+        <span class="domain-actions"><span class="count">20 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">深度｜越南、墨西哥、印度：三个“中国+1”的备份工厂，其实不在一个赛道上</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898809.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">为什么越怕吃亏的人，越容易陷入匮乏？</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898814.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">被动测试已交卷，不妨来次主动的</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898199.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Anthropic科学家：如果AGI三年内到来，读博士还有意义吗？</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898848.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">一人食：是年轻人的解药，还是餐饮业的毒药？</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898783.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">8000万亏损背后：日式快餐“效率神话”不再</h3>
+      <p class="card-summary">虎嗅关注日式快餐“效率神话”受挫，标题称背后有8000万元亏损；原始摘要未提供企业、口径与原因。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4896507.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题给出“8000万亏损”和“效率神话不再”的判断；具体主体、统计口径原始摘要未提供。</p><p><span class="analysis-label">媒体声称：</span>“效率神话不再”是标题中的概括，需原文证据支持。</p><p><span class="analysis-label">待验证事项：</span>亏损主体、时间区间、亏损口径及效率变化指标，原始摘要未提供。</p><p><span class="analysis-label">价值判断：</span>若亏损与效率模式相关，值得关注成本结构与需求变化；因果关系待验证。</p><p><span class="analysis-label">用户影响：</span>可能影响消费者对日式快餐性价比与服务的预期，但材料不足。</p><p class="verdict">亏损数字抓眼，但“效率神话不再”仍是标题判断；没有原文数据，不宜替它下因果结论。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">火锅能开千店，烧烤为什么不行？</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4897485.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">你以为外资在中国落后了，它们其实在闷声赚钱，利润率比华为还高</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898717.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">战魔田默｜广交会70年，3.2万家企业究竟在争什么？</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898174.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">最新《2026外资公报》解读：外资表现为何如此矛盾？</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">虎嗅</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://www.huxiu.com/article/4898181.html" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">App+1 | 紫毫：基于 Rime 引擎、支持双拼纠错的 iOS 输入法 Hare 10:34 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116430" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">派评 | 近期值得关注的 App 少数派编辑部 昨天 17:39</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116705" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">9 月音乐精选：用这 8 张新专辑，激发人生新可能 麻乐 昨天 16:00</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116699" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">开源掌机的文化线索 蓬岸 昨天 10:49 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/115125" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Quote/0 妙用 +1，把墨水屏变成点餐助手 leonmin 前天 15:01 Matrix精选</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/115241" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">被量化的心跳：HRV 是身体的晴雨表，还是制造焦虑的数字游戏？ 这些设备最好的用途，不是让你更依赖它们，而是帮助你重新学会倾听自己。然后，在某个清晨，你不再需要看任何数字，就知道今天会是美好的一天。 叁思Santh 10/17</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/104231" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">本周看什么 | 最近值得一看的 13 部作品 少数派编辑部 10/16</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/post/116423" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Your Ranking Model Is Optimizing the Wrong Thing</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/podcast/twimlai/your-ranking-model-optimizing-wrong-thing" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Work With Us</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">TWIML</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://twimlai.com/workwithus" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article>
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">Contact Page</h3>
+      <p class="card-summary">原文未提供摘要，请点击链接查看详情。</p>
+      <div class="card-meta">
+        <span class="source">Lex Fridman</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://lexfridman.com/contact" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">内容摘要：</span>原文未提供摘要，请点击链接查看详情。</p><p><span class="analysis-label">信息核验：</span>以上内容来自原始页面的标题与摘要，重要结论请以原文为准。</p><p class="verdict">阅读建议：点击原文查看完整上下文。</p></div></div>
+    </article></div>
+    </section>
+    <section class="domain-section" data-domain>
+      <button class="domain-header" type="button" data-domain-toggle aria-expanded="false">
+        <span class="domain-title">效率与数码生活<small>iphone / ipad / mac</small></span>
+        <span class="domain-actions"><span class="count">1 篇</span><span class="arrow">▼</span></span>
+      </button>
+      <div class="domain-body">
+    <article class="card" data-card tabindex="0">
+      <h3 class="card-title">行李箱减重反思：这次长假出门，你带了哪些「全程没掏出来」的数码装备？ 一派投票 点击了解详情</h3>
+      <p class="card-summary">少数派发起投票，讨论长假出行中哪些数码装备全程未使用，反思行李减重。</p>
+      <div class="card-meta">
+        <span class="source">少数派</span>
+        <time>2026-10-20 13:47（时间近似）</time>
+        <a class="link-btn" href="https://sspai.com/bullet/1791445045" target="_blank" rel="noopener noreferrer">原文 →</a>
+      </div>
+      <div class="card-body"><div class="deep-analysis"><p><span class="analysis-label">核心事实：</span>标题显示少数派发起投票，主题是长假出门携带却全程未掏出的数码装备。</p><p><span class="analysis-label">用户影响：</span>讨论聚焦出行携带数码装备的实际使用率，可能帮助读者反思行李负担；具体选项与结果原始摘要未提供。</p><p><span class="analysis-label">待验证事项：</span>投票参与规模、装备清单与结论原始摘要未提供。</p><p><span class="analysis-label">上下文对比：</span>标题以“减重反思”切入数码装备选择，但未提供对比数据。</p><p class="verdict">轻量出行话题有共鸣，但缺少数据时只能当互动讨论看。</p></div></div>
+    </article></div>
+    </section></section>
+    <section class="section failures"><h2>来源异常 / 抓取失败</h2><ul><li><strong>新智元</strong>未发现 RSS，按首页排序近似选取</li><li><strong>机器之心</strong>未发现 RSS，按首页排序近似选取</li><li><strong>极客公园</strong>HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/</li><li><strong>钛媒体</strong>未发现 RSS，按首页排序近似选取</li><li><strong>智东西</strong>未发现 RSS，按首页排序近似选取</li><li><strong>雷峰网</strong>未发现 RSS，按首页排序近似选取</li><li><strong>36氪</strong>未发现 RSS，按首页排序近似选取</li><li><strong>虎嗅</strong>未发现 RSS，按首页排序近似选取</li><li><strong>少数派</strong>未发现 RSS，按首页排序近似选取</li><li><strong>TWIML</strong>未发现 RSS，按首页排序近似选取</li><li><strong>Lex Fridman</strong>未发现 RSS，按首页排序近似选取</li><li><strong>AI in Business</strong>RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com</li><li><strong>AI Today</strong>HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast</li><li><strong>Data Skeptic</strong>未发现 RSS，按首页排序近似选取</li><li><strong>NVIDIA AI Podcast</strong>未发现 RSS，按首页排序近似选取</li></ul></section>
+    <footer>生成时间：2026-10-20 13:47 Asia/Shanghai · 内容来自公开信息，摘要仅供参考</footer>
+  </main>
+  <script>
+    document.querySelectorAll('[data-card]').forEach(card=>{
+      const toggle=()=>{const opening=!card.classList.contains('expanded');document.querySelectorAll('[data-card].expanded').forEach(x=>x.classList.remove('expanded'));if(opening)card.classList.add('expanded')};
+      card.addEventListener('click',e=>{if(!e.target.closest('a'))toggle()});
+      card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle()}});
+    });
+    document.querySelectorAll('[data-domain-toggle]').forEach(button=>button.addEventListener('click',()=>{const section=button.closest('[data-domain]');section.classList.toggle('open');button.setAttribute('aria-expanded',section.classList.contains('open'))}));
+  </script>
+</body>
+</html>
