@@ -1,0 +1,699 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-11-17",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-11-17 16:56 Asia/Shanghai",
+  "stats": {
+    "articles": 36,
+    "sources": 18
+  },
+  "business_lesson": {
+    "title": "有限责任并不等于没有个人风险",
+    "category": "法律常识",
+    "summary": "有限责任把股东损失原则上限于认缴出资，但未实缴、抽逃、混同或担保时，个人仍可能担责。",
+    "sections": [
+      "核心概念：公司是独立法人，股东原则上以认缴出资额为限担责；但未实缴、抽逃出资、人格混同、个人担保或侵权等情形，可能突破有限责任。",
+      "为什么重要：注册有限公司不等于把家庭财产装进保险箱；忽视出资、账户和担保安排，会在债务、破产或诉讼中暴露个人现金流和信用。",
+      "利益关系：股东按股权享有分红和决策权，也承担出资义务；公司先用自身资产偿债，债权人依赖资本真实；若股东承诺担保或抽逃资金，成本和风险会回到个人。",
+      "常见误区：把“认缴”当成“不用缴”；把公司账户当个人钱包；把个人担保当形式；以为有营业执照就完全没有个人风险。"
+    ],
+    "example": "甲公司注册资本100万元，股东张三认缴60万元、实缴10万元。公司欠供应商50万元且无资产。破产时，张三通常要在未缴的50万元内补足清偿；若他又为另一笔20万元借款签个人保证，则还可能承担20万元保证责任。张三享受股权收益，承担补缴和担保成本；供应商和出借人承担交易与信用风险。",
+    "question": "王五认缴100万元、实缴30万元；公司欠债90万元且无资产；他又用个人账户收取公司货款20万元未归还。王五可能承担哪些个人责任？",
+    "answer": "第1步，未缴出资=100-30=70万元；公司无资产时，债权人可要求其在70万元内补足。第2步，个人账户收货款20万元若属抽逃或财产混同，应返还公司用于清偿。第3步，70+20恰可覆盖90万元债务，但同一债务不重复受偿；具体由证据和裁判认定，应咨询律师。",
+    "disclaimer": "本课仅为一般法律常识，不构成法律意见或个性化建议；不同地区规则和个案裁判可能不同，涉及公司、担保、债务等请咨询当地执业律师等持证专业人士。"
+  },
+  "highlights": [
+    {
+      "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+      "url": "https://www.qbitai.com/2026/11/510542.html",
+      "source": "量子位",
+      "published_at": "2026-11-16 18:57",
+      "summary": "睿尔曼智能郑随兵提出机器人落地三大标准：质量、经济性、稳定性；并称具身智能真正价值是复刻人的经验与技能。",
+      "analysis": [
+        "核心事实：睿尔曼智能郑随兵提出机器人落地三大标准为质量、经济性、稳定性。",
+        "人物观点：郑随兵称具身智能的真正价值是“把人的经验、技能复刻出来”。",
+        "分析判断：把质量、经济性、稳定性并列，强调落地不只靠演示；量化标准原始摘要未提供。",
+        "待验证事项：三大标准如何衡量、复刻经验技能的具体路径与案例，原始摘要未提供。"
+      ],
+      "verdict": "把落地标准说清楚比秀 demo 更重要，量化证据仍待补充。"
+    },
+    {
+      "title": "Rosetta 2 即将退役，Mac 老应用何去何从？ 化学心情下2 昨天 15:37",
+      "url": "https://sspai.com/post/118100",
+      "source": "少数派",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "标题称 Rosetta 2 即将退役，关注 Mac 老应用去向；原始摘要未提供时间表、兼容范围与替代方案。",
+      "analysis": [
+        "核心事实：标题称 Rosetta 2 即将退役，并以“Mac 老应用何去何从”提出兼容性疑问。",
+        "待验证事项：原始摘要未提供退役时间、受影响应用范围、替代迁移路径。",
+        "用户影响：依赖旧应用的 Mac 用户可能需关注后续兼容性信息；具体影响原始摘要未提供。",
+        "信号意义：标题将退役与老应用去向并列，显示兼容过渡是讨论焦点。"
+      ],
+      "verdict": "退役讨论值得关注，真正关键是时间表和替代路径，目前都未给出。"
+    },
+    {
+      "title": "Airbnb Is Building a ‘Company Brain’ for AI Agents",
+      "url": "https://twimlai.com/podcast/twimlai/airbnb-building-company-brain-ai-agents",
+      "source": "TWIML",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "标题称 Airbnb 正在为 AI agents 构建“Company Brain”；原始摘要未提供架构、用途、时间表或上线范围。",
+      "analysis": [
+        "核心事实：标题称 Airbnb 正在为 AI agents 构建“Company Brain”。",
+        "媒体或厂商声称：该表述来自标题，原始摘要未提供 Airbnb 官方细节或项目说明。",
+        "待验证事项：原始摘要未提供系统架构、具体用途、时间表与上线范围。",
+        "价值判断：若属实，企业知识组织可能成为 agent 落地的基础设施；细节不足，暂难评估。",
+        "信号意义：标题把 AI agent 与企业内部知识系统关联，值得后续观察。"
+      ],
+      "verdict": "概念有吸引力，但在架构和用途披露前，更像一个待验证的企业 AI 信号。"
+    },
+    {
+      "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+      "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+      "source": "TWIML",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "标题讨论 AI Agent 基准测试为何比看起来更难；原始摘要未提供具体基准、评测方法或结论。",
+      "analysis": [
+        "核心事实：标题提出“AI Agent 基准测试比看起来更难”这一讨论主题。",
+        "待验证事项：原始摘要未提供具体基准名称、评测方法、数据与结论。",
+        "价值判断：基准测试难度是 agent 评估的关键议题，但缺少细节时只能确认议题存在。",
+        "信号意义：标题显示行业对 agent 评测有效性的关注，具体证据原始摘要未提供。"
+      ],
+      "verdict": "基准难做是行业真问题，缺具体方法让讨论停留在标题层面。"
+    },
+    {
+      "title": "派早报：OPPO 发布 Reno17 系列、影石发布 Insta360 Toast 墨水屏相纸等 少数派编辑部 07:57 派早报",
+      "url": "https://sspai.com/post/119160",
+      "source": "少数派",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "OPPO 发布 Reno17 系列；影石发布 Insta360 Toast 墨水屏相纸。原始摘要未提供具体配置、售价与上市信息。",
+      "analysis": [
+        "核心事实：标题显示 OPPO 发布 Reno17 系列，影石发布 Insta360 Toast 墨水屏相纸。",
+        "待验证事项：原始摘要未提供产品配置、售价、上市时间与区域。",
+        "用户影响：标题层面是新品发布，实际购买价值需等待详细参数与价格。",
+        "信号意义：两家厂商同期更新消费数码产品线，具体市场意图原始摘要未提供。"
+      ],
+      "verdict": "新品消息成立，但配置与价格缺位，读者暂时只能记住名字。"
+    },
+    {
+      "title": "00后找工作，被AI面试官逼出讨好型人格",
+      "url": "https://www.huxiu.com/article/4906238.html",
+      "source": "虎嗅",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "AI时代的大结果，需要多些活人感",
+      "url": "https://www.huxiu.com/article/4906209.html",
+      "source": "虎嗅",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Aerial Switcher：给 Mac 的航拍壁纸排个时间表 尹颍 前天 15:55 Matrix精选",
+      "url": "https://sspai.com/post/118392",
+      "source": "少数派",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Canva Is Tackling AI Design’s Most Frustrating Problem",
+      "url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem",
+      "source": "TWIML",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    },
+    {
+      "title": "Can AI Invent, or Just Help Scientists Work Faster?",
+      "url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster",
+      "source": "TWIML",
+      "published_at": "2026-11-17 16:56（时间近似）",
+      "summary": "原文未提供摘要，请点击链接查看详情。",
+      "analysis": [
+        "内容摘要：原文未提供摘要，请点击链接查看详情。",
+        "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+      ],
+      "verdict": "阅读建议：点击原文查看完整上下文。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "00后找工作，被AI面试官逼出讨好型人格",
+          "url": "https://www.huxiu.com/article/4906238.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "AI时代的大结果，需要多些活人感",
+          "url": "https://www.huxiu.com/article/4906209.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Canva Is Tackling AI Design’s Most Frustrating Problem",
+          "url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Can AI Invent, or Just Help Scientists Work Faster?",
+          "url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "The Brutal Reality of Building Agentic Products Today",
+          "url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Airbnb Is Building a ‘Company Brain’ for AI Agents",
+          "url": "https://twimlai.com/podcast/twimlai/airbnb-building-company-brain-ai-agents",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "标题称 Airbnb 正在为 AI agents 构建“Company Brain”；原始摘要未提供架构、用途、时间表或上线范围。",
+          "analysis": [
+            "核心事实：标题称 Airbnb 正在为 AI agents 构建“Company Brain”。",
+            "媒体或厂商声称：该表述来自标题，原始摘要未提供 Airbnb 官方细节或项目说明。",
+            "待验证事项：原始摘要未提供系统架构、具体用途、时间表与上线范围。",
+            "价值判断：若属实，企业知识组织可能成为 agent 落地的基础设施；细节不足，暂难评估。",
+            "信号意义：标题把 AI agent 与企业内部知识系统关联，值得后续观察。"
+          ],
+          "verdict": "概念有吸引力，但在架构和用途披露前，更像一个待验证的企业 AI 信号。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "标题讨论 AI Agent 基准测试为何比看起来更难；原始摘要未提供具体基准、评测方法或结论。",
+          "analysis": [
+            "核心事实：标题提出“AI Agent 基准测试比看起来更难”这一讨论主题。",
+            "待验证事项：原始摘要未提供具体基准名称、评测方法、数据与结论。",
+            "价值判断：基准测试难度是 agent 评估的关键议题，但缺少细节时只能确认议题存在。",
+            "信号意义：标题显示行业对 agent 评测有效性的关注，具体证据原始摘要未提供。"
+          ],
+          "verdict": "基准难做是行业真问题，缺具体方法让讨论停留在标题层面。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": [
+        {
+          "title": "Rosetta 2 即将退役，Mac 老应用何去何从？ 化学心情下2 昨天 15:37",
+          "url": "https://sspai.com/post/118100",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "标题称 Rosetta 2 即将退役，关注 Mac 老应用去向；原始摘要未提供时间表、兼容范围与替代方案。",
+          "analysis": [
+            "核心事实：标题称 Rosetta 2 即将退役，并以“Mac 老应用何去何从”提出兼容性疑问。",
+            "待验证事项：原始摘要未提供退役时间、受影响应用范围、替代迁移路径。",
+            "用户影响：依赖旧应用的 Mac 用户可能需关注后续兼容性信息；具体影响原始摘要未提供。",
+            "信号意义：标题将退役与老应用去向并列，显示兼容过渡是讨论焦点。"
+          ],
+          "verdict": "退役讨论值得关注，真正关键是时间表和替代路径，目前都未给出。"
+        }
+      ]
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": [
+        {
+          "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+          "url": "https://www.qbitai.com/2026/11/510542.html",
+          "source": "量子位",
+          "published_at": "2026-11-16 18:57",
+          "summary": "睿尔曼智能郑随兵提出机器人落地三大标准：质量、经济性、稳定性；并称具身智能真正价值是复刻人的经验与技能。",
+          "analysis": [
+            "核心事实：睿尔曼智能郑随兵提出机器人落地三大标准为质量、经济性、稳定性。",
+            "人物观点：郑随兵称具身智能的真正价值是“把人的经验、技能复刻出来”。",
+            "分析判断：把质量、经济性、稳定性并列，强调落地不只靠演示；量化标准原始摘要未提供。",
+            "待验证事项：三大标准如何衡量、复刻经验技能的具体路径与案例，原始摘要未提供。"
+          ],
+          "verdict": "把落地标准说清楚比秀 demo 更重要，量化证据仍待补充。"
+        }
+      ]
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "销量跌40%后，一汽-大众砍掉了员工最后的体面",
+          "url": "https://www.huxiu.com/article/4905987.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "天崩开局，印度和中国的差距究竟有多大？",
+          "url": "https://www.huxiu.com/article/4906031.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "人民需要红果，红果需要什么？",
+          "url": "https://www.huxiu.com/article/4901117.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "一刷起来至少两小时，全网戒不掉的红果怕“捧杀”",
+          "url": "https://www.huxiu.com/article/4901545.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "都说富不过三代，这个家族却连旺15代，什么是豪门传承真正的底气？",
+          "url": "https://www.huxiu.com/article/4906213.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "家族企业声誉风险与治理：从洁丽雅舆情事件看国货家族企业的治理升级",
+          "url": "https://www.huxiu.com/article/4900338.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "1000块怎么这么不经花",
+          "url": "https://www.huxiu.com/article/4906124.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "年轻人最新过日子标准：不烧心",
+          "url": "https://www.huxiu.com/article/4899966.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "0.9元解锁一集，两年后是22.58万元：4887笔充值是怎么攒出来的？",
+          "url": "https://www.huxiu.com/article/4903184.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "人生回报率最高的20件小事",
+          "url": "https://www.huxiu.com/article/4905656.html",
+          "source": "虎嗅",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "TDS REVIEW｜Bose 有线消噪耳塞体验 KingTsui 15:00",
+          "url": "https://sspai.com/post/118976",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "为了另一种可能性：在国内折腾 Linux 打游戏的二三事 AstrianZ 10:59 Matrix精选",
+          "url": "https://sspai.com/post/118442",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派评 | 近期值得关注的 App 少数派编辑部 昨天 18:09",
+          "url": "https://sspai.com/post/119148",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "双十一收官一周：今年哪笔消费让你在拆箱后立刻「退烧」？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1794893309",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "App+1｜不卡带：给你爱听的「老调」，配点记忆中的风味 西鸽 昨天 10:52 Matrix精选",
+          "url": "https://sspai.com/post/119012",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "派早报：逾十万人次联署要求黄仁勋复职 少数派编辑部 昨天 07:24 派早报",
+          "url": "https://sspai.com/post/119119",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "怀旧手记｜索尼 CLIE：千禧年的高端 Palm OS PDA 随便好啦 11/14 Matrix精选",
+          "url": "https://sspai.com/post/118276",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "当主力机与电脑不同系统，如何优雅实现「跨设备协同」？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1794216547",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 10 部作品 少数派编辑部 11/13",
+          "url": "https://sspai.com/post/118999",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Google's Been Cooking: A Busy Fall for Gemini and Google Cloud",
+          "url": "https://twimlai.com/articles/googles-been-cooking-busy-fall-gemini-cloud",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Submit Guest Ideas",
+          "url": "https://ai-podcast.nvidia.com",
+          "source": "NVIDIA AI Podcast",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "派早报：OPPO 发布 Reno17 系列、影石发布 Insta360 Toast 墨水屏相纸等 少数派编辑部 07:57 派早报",
+          "url": "https://sspai.com/post/119160",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "OPPO 发布 Reno17 系列；影石发布 Insta360 Toast 墨水屏相纸。原始摘要未提供具体配置、售价与上市信息。",
+          "analysis": [
+            "核心事实：标题显示 OPPO 发布 Reno17 系列，影石发布 Insta360 Toast 墨水屏相纸。",
+            "待验证事项：原始摘要未提供产品配置、售价、上市时间与区域。",
+            "用户影响：标题层面是新品发布，实际购买价值需等待详细参数与价格。",
+            "信号意义：两家厂商同期更新消费数码产品线，具体市场意图原始摘要未提供。"
+          ],
+          "verdict": "新品消息成立，但配置与价格缺位，读者暂时只能记住名字。"
+        },
+        {
+          "title": "Aerial Switcher：给 Mac 的航拍壁纸排个时间表 尹颍 前天 15:55 Matrix精选",
+          "url": "https://sspai.com/post/118392",
+          "source": "少数派",
+          "published_at": "2026-11-17 16:56（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "新智元",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "DeepSeek AI 分析",
+      "reason": "JSONDecodeError: Unterminated string starting at: line 1 column 1628 (char 1627)；已回退到规则摘要"
+    }
+  ]
+}
