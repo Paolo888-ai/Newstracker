@@ -1,0 +1,555 @@
+{
+  "title": "科技 / AI 资讯日报",
+  "date": "2026-11-21",
+  "subtitle": "过去 24 小时 · 自动去重 · 按重要度筛选",
+  "generated_at": "2026-11-21 16:08 Asia/Shanghai",
+  "stats": {
+    "articles": 22,
+    "sources": 18
+  },
+  "business_lesson": {
+    "title": "ROE、ROA与资本效率：一文看懂股东回报与资产赚钱能力",
+    "category": "财务分析",
+    "summary": "用通俗案例讲清ROE、ROA与资本效率：资产赚多少、股东赚多少、杠杆如何放大收益与风险。",
+    "sections": [
+      "核心概念：ROA＝净利润÷总资产，衡量每1元资产赚多少钱；ROE＝净利润÷股东权益，衡量每1元股东投入赚多少钱。两者都反映资本效率，但分母不同。",
+      "为什么重要：ROA看整体资产使用效率，ROE看股东回报。ROE可能因借债抬高，因此要同时看负债水平、利息成本和现金流，不能只看一个数字。",
+      "利益关系：股东享有扣除成本后的剩余利润，也承担经营波动和亏损风险；债权人收取利息并通常优先受偿，但承担违约风险；管理层若只追ROE，可能过度加杠杆。",
+      "常见误区：ROE高不一定经营更好，可能是权益小、负债高；ROA低也可能受行业特性影响。还要注意净利润、资产和权益的会计口径可能不同。"
+    ],
+    "example": "虚构：老张开公司，总资产1000万元，负债400万元，股东权益600万元，一年净利润60万元。ROA＝60÷1000＝6%，表示每100元资产赚6元；ROE＝60÷600＝10%，表示股东每100元权益赚10元。差额来自400万元负债的杠杆：债权人先收利息，股东承担经营波动。若净利润降到20万元，ROA＝2%，ROE≈3.3%，股东收益下滑更明显。",
+    "question": "沿用案例，若公司把负债提高到600万元、股东权益变为400万元，总资产仍1000万元，净利润仍60万元，ROA和ROE各是多少？ROE变高是否说明经营更好？",
+    "answer": "第一步，ROA＝60÷1000＝6%，与原来相同，说明资产赚钱能力未变。第二步，ROE＝60÷400＝15%，高于原来10%，因为权益分母变小、杠杆变大。第三步，ROE变高主要来自财务杠杆而非经营改善；若利润下滑，股东损失会被放大，债权人仍优先受偿。因此要结合负债率、利息覆盖和现金流判断资本效率与风险。",
+    "disclaimer": "本课为通识教育，不构成个性化投资建议；各地会计准则、监管规则和披露口径可能不同，实际分析请咨询注册会计师等持证专业人士。"
+  },
+  "highlights": [
+    {
+      "title": "Google's Been Cooking: A Busy Fall for Gemini and Google Cloud",
+      "url": "https://twimlai.com/articles/googles-been-cooking-busy-fall-gemini-cloud",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "TWIML 节目讨论 Google 秋季围绕 Gemini 与 Google Cloud 的密集动作，具体发布与数据原始摘要未提供。",
+      "analysis": [
+        "核心事实：标题显示 TWIML 以“忙碌的秋季”概括 Google 在 Gemini 和 Google Cloud 上的动态。",
+        "媒体声称：节目将 Google 近期动作描述为密集且值得讨论，具体内容原始摘要未提供。",
+        "信号意义：标题指向 Google 正同时推进模型与云服务叙事，但实际进展需原始材料佐证。",
+        "待验证事项：发布了哪些功能、覆盖范围与可用性原始摘要未提供。"
+      ],
+      "verdict": "选题切中 Google AI 与云业务动向，但缺少摘要，难以判断实际进展与影响。"
+    },
+    {
+      "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等 少数派编辑部 昨天 08:34 派早报",
+      "url": "https://sspai.com/post/119311",
+      "source": "少数派",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "派早报提到 Google 推出 Gemini 4 Neon 模型、网易 UU 远程将于 12 月推出付费会员；原始摘要未提供参数、定价等细节。",
+      "analysis": [
+        "核心事实：标题列出两条动态——Google 发布 Gemini 4 Neon 模型，网易 UU 远程 12 月上线付费会员，均为媒体转述。",
+        "待验证事项：模型能力、版本定位、开放范围与会员价格，原始摘要未提供，需以官方发布为准。",
+        "用户影响：若付费会员落地，UU 远程现有用户的使用成本结构可能变化，具体条款材料未提供。",
+        "信号意义：模型迭代与工具类服务收费同期出现，是否构成趋势，仅凭标题不足以判断。"
+      ],
+      "verdict": "两条动态都有信息价值，但关键参数全缺，读者只能记住名字。"
+    },
+    {
+      "title": "The Brutal Reality of Building Agentic Products Today",
+      "url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题称当前构建Agentic产品面临“残酷现实”，但未给出具体挑战、案例或数据；原始摘要未提供。",
+      "analysis": [
+        "核心事实：标题指向当前构建Agentic产品的现实困难；原始摘要未提供具体内容。",
+        "待验证事项：困难具体是什么、涉及哪些环节、有无案例和数据，材料均未说明。",
+        "务实落地：标题暗示Agentic产品从概念到落地存在落差；这是基于标题的分析判断。",
+        "信号意义：若讨论成立，说明Agent产品化仍需跨过工程与可靠性门槛；材料不足，需谨慎看待。"
+      ],
+      "verdict": "标题提示Agentic产品落地不易，但缺乏细节，不能据此判断行业全貌。"
+    },
+    {
+      "title": "AI's Production Era Is An Infrastructure Story",
+      "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题称AI进入“生产时代”的故事是基础设施故事；原始摘要未提供，无法核实其论据与范围。",
+      "analysis": [
+        "核心事实：标题主张AI的生产时代由基础设施叙事主导；原始摘要未提供。",
+        "媒体或厂商声称：“生产时代”与“基础设施故事”是标题中的判断，材料未给出支撑数据。",
+        "待验证事项：基础设施具体指什么、规模多大、与生产应用如何关联，均未说明。",
+        "信号意义：若该判断成立，竞争焦点可能从模型转向基础设施；这是分析判断，需数据验证。"
+      ],
+      "verdict": "标题把AI生产化归结为基础设施议题，方向值得关注，但材料不足以证明。"
+    },
+    {
+      "title": "游戏史最高分，不负 13 年的等待：《GTA 6》游玩体验 篝火营地 昨天 15:34",
+      "url": "https://sspai.com/post/119327",
+      "source": "少数派",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "篝火营地发布《GTA 6》游玩体验，标题称其游戏史最高分、等待13年；原始摘要未提供。",
+      "analysis": [
+        "核心事实：标题称《GTA 6》游玩体验出炉，并声称“游戏史最高分”“13年的等待”；来源为少数派转载的篝火营地。",
+        "媒体声称：“游戏史最高分”是标题中的评价性表述，评分来源、评测机构与统计口径原始摘要未提供。",
+        "待验证事项：游玩平台、版本、发售日期与体验细节均未在材料中出现。",
+        "用户影响：对系列玩家有较强吸引力，但实际购买与游玩决策仍需等待可核实信息。"
+      ],
+      "verdict": "标题情绪拉满，但“最高分”与“13年”都需要原始评测和来源支撑，先别急着当成定论。"
+    },
+    {
+      "title": "Buying Tokens vs Building an AI Factory",
+      "url": "https://twimlai.com/podcast/twimlai/buying-tokens-vs-building-ai-factory",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题对比“购买Token”与“自建AI工厂”，指向AI算力获取方式与成本结构的取舍；原始摘要未提供。",
+      "analysis": [
+        "核心事实：标题呈现“购买Token”与“建设AI工厂”两种路径的对比；原始摘要未提供。",
+        "待验证事项：两种路径的成本、规模、适用场景和供应商信息均未在材料中说明。",
+        "价值判断：该议题更像AI基础设施经济性讨论，但缺少数据，暂不能判断哪条路径更优。",
+        "信号意义：若该对比成立，反映AI应用方需在按量采购与自建能力之间权衡；这属于分析判断。"
+      ],
+      "verdict": "标题提出了AI算力获取的经济性选择题，但材料不足以支撑结论。"
+    },
+    {
+      "title": "Can AI Invent, or Just Help Scientists Work Faster?",
+      "url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题追问AI能否“发明”，还是只帮科学家提速；原始摘要未提供，无法判断其结论与证据。",
+      "analysis": [
+        "核心事实：标题提出AI在科研中角色是“发明”还是“加速工具”的问题；原始摘要未提供。",
+        "待验证事项：AI是否具备发明能力、如何界定发明、有哪些案例，材料均未说明。",
+        "上下文对比：标题将“发明”与“帮助科学家更快工作”并置，体现能力定位差异；属分析判断。",
+        "价值判断：该问题涉及科研产出归属与工具价值，但缺少证据，不能给出结论。"
+      ],
+      "verdict": "标题提出了AI科研角色的关键追问，但无摘要支撑，只能视为待讨论议题。"
+    },
+    {
+      "title": "Canva Is Tackling AI Design’s Most Frustrating Problem",
+      "url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题称Canva正解决AI设计中最令人沮丧的问题，但未说明问题是什么、如何解决；原始摘要未提供。",
+      "analysis": [
+        "核心事实：标题称Canva在应对AI设计中的“最令人沮丧的问题”；原始摘要未提供具体问题。",
+        "媒体或厂商声称：标题中的“最令人沮丧”是媒体或厂商表述，材料未给出依据。",
+        "待验证事项：问题定义、产品功能、上线时间和用户反馈均未提供。",
+        "用户影响：若问题被解决，可能改善AI设计工作流；但需以实际产品验证，当前仅为推断。"
+      ],
+      "verdict": "标题指向AI设计工作流痛点，但缺少问题与方案细节，暂不宜下结论。"
+    },
+    {
+      "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+      "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题讨论 AI Agent 评测基准为何比看上去更难，但原始摘要未提供具体基准名称、测试方法或数据。",
+      "analysis": [
+        "核心事实：来源仅给出标题，指向「AI Agent 基准测试比表面更难」这一议题，原始摘要未提供正文内容。",
+        "待验证事项：涉及哪些基准、难在任务设计还是评分口径、有无实验数据，原始摘要均未提供。",
+        "信号意义：标题本身反映业界对 Agent 评测可信度的关注，但这属于基于标题的判断，未获材料佐证。",
+        "用户影响：若后续披露细节，可能影响开发者选用基准评估 Agent 产品的方式；目前无法给出具体结论。"
+      ],
+      "verdict": "问题提得有价值，但没有摘要支撑，任何结论都只能停在问题层面。"
+    },
+    {
+      "title": "You Can’t Lead AI From the Sidelines",
+      "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+      "source": "TWIML",
+      "published_at": "2026-11-21 16:08（时间近似）",
+      "summary": "标题提出“不能在场边领导AI”；原始摘要未提供，文章具体论点、案例与作者信息均待补充。",
+      "analysis": [
+        "核心事实：仅有标题“You Can’t Lead AI From the Sidelines”，来源为TWIML；原始摘要为空。",
+        "信号意义：标题将AI领导力描述为需要亲身入场，而非旁观；具体论据原始摘要未提供。",
+        "待验证事项：文章作者、发布背景、所举案例与可操作建议均未在材料中出现。",
+        "价值判断：若按标题字面理解，这是对管理者参与AI实践的主张，但不宜据此推断其政治或商业动机。"
+      ],
+      "verdict": "标题有态度，材料却只有标题；在补上原文前，只能把它当作一个待核实的观点入口。"
+    }
+  ],
+  "domains": [
+    {
+      "name": "AI",
+      "description": "ai / 人工智能 / 大模型",
+      "articles": [
+        {
+          "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等 少数派编辑部 昨天 08:34 派早报",
+          "url": "https://sspai.com/post/119311",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "派早报提到 Google 推出 Gemini 4 Neon 模型、网易 UU 远程将于 12 月推出付费会员；原始摘要未提供参数、定价等细节。",
+          "analysis": [
+            "核心事实：标题列出两条动态——Google 发布 Gemini 4 Neon 模型，网易 UU 远程 12 月上线付费会员，均为媒体转述。",
+            "待验证事项：模型能力、版本定位、开放范围与会员价格，原始摘要未提供，需以官方发布为准。",
+            "用户影响：若付费会员落地，UU 远程现有用户的使用成本结构可能变化，具体条款材料未提供。",
+            "信号意义：模型迭代与工具类服务收费同期出现，是否构成趋势，仅凭标题不足以判断。"
+          ],
+          "verdict": "两条动态都有信息价值，但关键参数全缺，读者只能记住名字。"
+        },
+        {
+          "title": "Buying Tokens vs Building an AI Factory",
+          "url": "https://twimlai.com/podcast/twimlai/buying-tokens-vs-building-ai-factory",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题对比“购买Token”与“自建AI工厂”，指向AI算力获取方式与成本结构的取舍；原始摘要未提供。",
+          "analysis": [
+            "核心事实：标题呈现“购买Token”与“建设AI工厂”两种路径的对比；原始摘要未提供。",
+            "待验证事项：两种路径的成本、规模、适用场景和供应商信息均未在材料中说明。",
+            "价值判断：该议题更像AI基础设施经济性讨论，但缺少数据，暂不能判断哪条路径更优。",
+            "信号意义：若该对比成立，反映AI应用方需在按量采购与自建能力之间权衡；这属于分析判断。"
+          ],
+          "verdict": "标题提出了AI算力获取的经济性选择题，但材料不足以支撑结论。"
+        },
+        {
+          "title": "Can AI Invent, or Just Help Scientists Work Faster?",
+          "url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题追问AI能否“发明”，还是只帮科学家提速；原始摘要未提供，无法判断其结论与证据。",
+          "analysis": [
+            "核心事实：标题提出AI在科研中角色是“发明”还是“加速工具”的问题；原始摘要未提供。",
+            "待验证事项：AI是否具备发明能力、如何界定发明、有哪些案例，材料均未说明。",
+            "上下文对比：标题将“发明”与“帮助科学家更快工作”并置，体现能力定位差异；属分析判断。",
+            "价值判断：该问题涉及科研产出归属与工具价值，但缺少证据，不能给出结论。"
+          ],
+          "verdict": "标题提出了AI科研角色的关键追问，但无摘要支撑，只能视为待讨论议题。"
+        },
+        {
+          "title": "The Brutal Reality of Building Agentic Products Today",
+          "url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题称当前构建Agentic产品面临“残酷现实”，但未给出具体挑战、案例或数据；原始摘要未提供。",
+          "analysis": [
+            "核心事实：标题指向当前构建Agentic产品的现实困难；原始摘要未提供具体内容。",
+            "待验证事项：困难具体是什么、涉及哪些环节、有无案例和数据，材料均未说明。",
+            "务实落地：标题暗示Agentic产品从概念到落地存在落差；这是基于标题的分析判断。",
+            "信号意义：若讨论成立，说明Agent产品化仍需跨过工程与可靠性门槛；材料不足，需谨慎看待。"
+          ],
+          "verdict": "标题提示Agentic产品落地不易，但缺乏细节，不能据此判断行业全貌。"
+        },
+        {
+          "title": "Google's Been Cooking: A Busy Fall for Gemini and Google Cloud",
+          "url": "https://twimlai.com/articles/googles-been-cooking-busy-fall-gemini-cloud",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "TWIML 节目讨论 Google 秋季围绕 Gemini 与 Google Cloud 的密集动作，具体发布与数据原始摘要未提供。",
+          "analysis": [
+            "核心事实：标题显示 TWIML 以“忙碌的秋季”概括 Google 在 Gemini 和 Google Cloud 上的动态。",
+            "媒体声称：节目将 Google 近期动作描述为密集且值得讨论，具体内容原始摘要未提供。",
+            "信号意义：标题指向 Google 正同时推进模型与云服务叙事，但实际进展需原始材料佐证。",
+            "待验证事项：发布了哪些功能、覆盖范围与可用性原始摘要未提供。"
+          ],
+          "verdict": "选题切中 Google AI 与云业务动向，但缺少摘要，难以判断实际进展与影响。"
+        },
+        {
+          "title": "AI's Production Era Is An Infrastructure Story",
+          "url": "https://twimlai.com/articles/hpe-discover-2026-ai-production-era-infrastructure-story",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题称AI进入“生产时代”的故事是基础设施故事；原始摘要未提供，无法核实其论据与范围。",
+          "analysis": [
+            "核心事实：标题主张AI的生产时代由基础设施叙事主导；原始摘要未提供。",
+            "媒体或厂商声称：“生产时代”与“基础设施故事”是标题中的判断，材料未给出支撑数据。",
+            "待验证事项：基础设施具体指什么、规模多大、与生产应用如何关联，均未说明。",
+            "信号意义：若该判断成立，竞争焦点可能从模型转向基础设施；这是分析判断，需数据验证。"
+          ],
+          "verdict": "标题把AI生产化归结为基础设施议题，方向值得关注，但材料不足以证明。"
+        },
+        {
+          "title": "Why AI Agent Benchmarks Are Harder Than They Look",
+          "url": "https://twimlai.com/articles/rubik-pi-3-agent-benchmarking-problem",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题讨论 AI Agent 评测基准为何比看上去更难，但原始摘要未提供具体基准名称、测试方法或数据。",
+          "analysis": [
+            "核心事实：来源仅给出标题，指向「AI Agent 基准测试比表面更难」这一议题，原始摘要未提供正文内容。",
+            "待验证事项：涉及哪些基准、难在任务设计还是评分口径、有无实验数据，原始摘要均未提供。",
+            "信号意义：标题本身反映业界对 Agent 评测可信度的关注，但这属于基于标题的判断，未获材料佐证。",
+            "用户影响：若后续披露细节，可能影响开发者选用基准评估 Agent 产品的方式；目前无法给出具体结论。"
+          ],
+          "verdict": "问题提得有价值，但没有摘要支撑，任何结论都只能停在问题层面。"
+        },
+        {
+          "title": "You Can’t Lead AI From the Sidelines",
+          "url": "https://twimlai.com/articles/you-cant-learn-ai-from-the-sidelines",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题提出“不能在场边领导AI”；原始摘要未提供，文章具体论点、案例与作者信息均待补充。",
+          "analysis": [
+            "核心事实：仅有标题“You Can’t Lead AI From the Sidelines”，来源为TWIML；原始摘要为空。",
+            "信号意义：标题将AI领导力描述为需要亲身入场，而非旁观；具体论据原始摘要未提供。",
+            "待验证事项：文章作者、发布背景、所举案例与可操作建议均未在材料中出现。",
+            "价值判断：若按标题字面理解，这是对管理者参与AI实践的主张，但不宜据此推断其政治或商业动机。"
+          ],
+          "verdict": "标题有态度，材料却只有标题；在补上原文前，只能把它当作一个待核实的观点入口。"
+        }
+      ]
+    },
+    {
+      "name": "芯片与硬件",
+      "description": "芯片 / 半导体 / gpu",
+      "articles": []
+    },
+    {
+      "name": "机器人与具身",
+      "description": "机器人 / 具身 / 自动驾驶",
+      "articles": []
+    },
+    {
+      "name": "科技商业与创投",
+      "description": "融资 / 估值 / ipo",
+      "articles": [
+        {
+          "title": "双十一收官一周：今年哪笔消费让你在拆箱后立刻「退烧」？ 一派投票 点击了解详情",
+          "url": "https://sspai.com/bullet/1794893309",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派“一派”发起投票，讨论双十一收官一周后哪笔消费让人拆箱即“退烧”；摘要未提供。",
+          "analysis": [
+            "核心事实：标题显示少数派“一派投票”设置话题：双十一收官一周，哪笔消费在拆箱后立刻“退烧”。",
+            "待验证事项：投票参与人数、选项分布与具体案例原始摘要未提供。",
+            "信号意义：话题指向冲动消费后的心理落差，但材料不足以证明任何消费趋势。",
+            "用户影响：读者可借话题复盘自己的双十一购物，但不应把标题当作统计结论。"
+          ],
+          "verdict": "一个适合读者自我复盘的话题，不是一份消费报告；结论要等投票数据说话。"
+        },
+        {
+          "title": "Work With Us",
+          "url": "https://twimlai.com/workwithus",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "TWIML 发布“Work With Us”招聘信息，具体岗位、职责与要求原始摘要未提供。",
+          "analysis": [
+            "核心事实：TWIML 以“Work With Us”为题发布招募信息。",
+            "待验证事项：招聘岗位、工作方式与团队背景原始摘要未提供。"
+          ],
+          "verdict": "招聘启事，不属于行业新闻动态。"
+        },
+        {
+          "title": "Contact Page",
+          "url": "https://lexfridman.com/contact",
+          "source": "Lex Fridman",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        },
+        {
+          "title": "Submit Guest Ideas",
+          "url": "https://ai-podcast.nvidia.com",
+          "source": "NVIDIA AI Podcast",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "原文未提供摘要，请点击链接查看详情。",
+          "analysis": [
+            "内容摘要：原文未提供摘要，请点击链接查看详情。",
+            "信息核验：以上内容来自原始页面的标题与摘要，重要结论请以原文为准。"
+          ],
+          "verdict": "阅读建议：点击原文查看完整上下文。"
+        }
+      ]
+    },
+    {
+      "name": "效率与数码生活",
+      "description": "iphone / ipad / mac",
+      "articles": [
+        {
+          "title": "这群在鸿蒙写应用的年轻人，只想做点「用得上」的 少数派编辑部 12:00",
+          "url": "https://sspai.com/post/119291",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派报道一群在鸿蒙生态开发应用的年轻人，强调做「用得上」的产品；原始摘要未提供具体人物、应用或数据。",
+          "analysis": [
+            "核心事实：标题显示报道对象为在鸿蒙平台写应用的年轻开发者，主张聚焦实用，原始摘要未提供正文。",
+            "价值判断：「用得上」是产品取向表述，来自报道标题，具体落地案例与效果原始摘要未提供。",
+            "上下文对比：鸿蒙应用生态的开发者结构与规模，材料未提供，无法与其他平台作量化比较。",
+            "待验证事项：涉及哪些应用、开发者人数、装机或营收数据，均需原文补充。"
+          ],
+          "verdict": "选题指向生态里的一线开发者，但缺少细节，只能算一个观察切口。"
+        },
+        {
+          "title": "本周看什么 | 最近值得一看的 10 部作品 少数派编辑部 昨天 17:54",
+          "url": "https://sspai.com/post/119337",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派编辑部列出“最近值得一看的10部作品”；原始摘要未提供，片单类型与推荐理由未知。",
+          "analysis": [
+            "核心事实：标题显示为少数派编辑部的10部作品推荐，发布时间标注为昨天17:54。",
+            "用户影响：适合寻找观影片单的读者，但作品名单、平台与推荐理由原始摘要未提供。",
+            "待验证事项：10部作品的具体名称、覆盖地区与是否含剧透，材料均未说明。"
+          ],
+          "verdict": "推荐清单类内容，价值在片单本身；没有摘要，暂时无法判断选片口味。"
+        },
+        {
+          "title": "游戏史最高分，不负 13 年的等待：《GTA 6》游玩体验 篝火营地 昨天 15:34",
+          "url": "https://sspai.com/post/119327",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "篝火营地发布《GTA 6》游玩体验，标题称其游戏史最高分、等待13年；原始摘要未提供。",
+          "analysis": [
+            "核心事实：标题称《GTA 6》游玩体验出炉，并声称“游戏史最高分”“13年的等待”；来源为少数派转载的篝火营地。",
+            "媒体声称：“游戏史最高分”是标题中的评价性表述，评分来源、评测机构与统计口径原始摘要未提供。",
+            "待验证事项：游玩平台、版本、发售日期与体验细节均未在材料中出现。",
+            "用户影响：对系列玩家有较强吸引力，但实际购买与游玩决策仍需等待可核实信息。"
+          ],
+          "verdict": "标题情绪拉满，但“最高分”与“13年”都需要原始评测和来源支撑，先别急着当成定论。"
+        },
+        {
+          "title": "浮屏：截图即可「上岛」，还能帮你记录生活 Nezuko 昨天 10:47",
+          "url": "https://sspai.com/post/118879",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "应用“浮屏”主打截图即可“上岛”并记录生活；原始摘要未提供，具体功能与平台未知。",
+          "analysis": [
+            "核心事实：标题介绍一款名为“浮屏”的工具，作者Nezuko，核心描述是截图即可“上岛”并辅助记录生活。",
+            "技术亮点：“截图触发上岛”的具体交互机制、是否依赖系统权限，原始摘要未提供。",
+            "待验证事项：支持平台、收费模式、数据存储与隐私处理方式均未说明。",
+            "用户影响：可能吸引需要快捷记录与截图整理的用户，但实际体验需以产品说明为准。"
+          ],
+          "verdict": "概念轻巧，信息量也轻；在平台、价格和隐私说明出现前，只能算一个待观察的小工具。"
+        },
+        {
+          "title": "给 Apple 的 2026 年打分，请你一起参与 少数派编辑部 前天 18:25",
+          "url": "https://sspai.com/post/119191",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派发起读者参与给 Apple 2026 年表现打分的活动，具体评分维度与结论原始摘要未提供。",
+          "analysis": [
+            "核心事实：少数派以“给 Apple 的 2026 年打分”为题邀请读者参与评价。",
+            "待验证事项：评分维度、参与方式及结果呈现形式原始摘要未提供。",
+            "用户影响：若后续公开读者评分数据，可作为观察 Apple 产品口碑的参考。"
+          ],
+          "verdict": "属于社区互动策划，新闻价值取决于后续是否公开可核验的评分结果。"
+        },
+        {
+          "title": "新玩意 256｜少数派的编辑们最近买了啥？ 少数派编辑部 前天 17:16",
+          "url": "https://sspai.com/post/119287",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派编辑分享近期购买的物件，具体商品、价格与使用评价原始摘要未提供。",
+          "analysis": [
+            "核心事实：栏目“新玩意 256”由少数派编辑展示近期购买清单。",
+            "待验证事项：涉及哪些品类、是否有实测结论原始摘要未提供。",
+            "用户影响：对读者选购有参考潜力，但需看到具体单品与体验细节。"
+          ],
+          "verdict": "常规编辑种草栏目，信息价值依赖具体单品和实测深度。"
+        },
+        {
+          "title": "有必要但欠平衡：浅评 macOS 27.3 新版权限控制机制 广陵止息 前天 15:34 会员内容",
+          "url": "https://sspai.com/prime/story/system-app-protection-override-macos-27-3",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派会员文章评价 macOS 27.3 新版权限控制机制「有必要但欠平衡」，原始摘要未提供具体机制与测试细节。",
+          "analysis": [
+            "核心事实：文章对 macOS 27.3 新增权限控制给出「有必要但欠平衡」的评价，属媒体评论而非厂商声明。",
+            "价值判断：该评价为作者立场，其依据的弹窗频率、授权粒度等细节原始摘要未提供。",
+            "用户影响：权限机制变化通常影响外设与自动化工具的授权流程，具体影响范围材料未说明。",
+            "待验证事项：新机制的具体条款、与旧版本差异，需查阅原文或系统说明。"
+          ],
+          "verdict": "态度明确，但支撑态度的证据不在摘要里，结论暂不宜外推。"
+        },
+        {
+          "title": "徒步旅行指南 | 玉龙虎跳峡与天堂雨崩 PJHubs 前天 10:58 Matrix精选",
+          "url": "https://sspai.com/post/119039",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "少数派发布玉龙虎跳峡与雨崩徒步指南，路线、装备与安全提示原始摘要未提供。",
+          "analysis": [
+            "核心事实：文章主题为玉龙虎跳峡与天堂雨崩的徒步旅行指南。",
+            "待验证事项：路线难度、季节建议与装备清单原始摘要未提供。"
+          ],
+          "verdict": "偏生活方式内容，与科技新闻关联较弱。"
+        },
+        {
+          "title": "派早报：Apple 年度应用、TGA 2026 分别公布入围名单等 少数派编辑部 前天 08:29 派早报",
+          "url": "https://sspai.com/post/119239",
+          "source": "少数派",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "派早报汇总 Apple 年度应用与 TGA 2026 入围名单公布，原始摘要未提供具体入围作品与评选细节。",
+          "analysis": [
+            "核心事实：标题显示两条榜单信息——Apple 年度应用与 TGA 2026 入围名单已公布，原始摘要未提供名单内容。",
+            "待验证事项：入围作品、评选口径与公布时间，材料均未提供，需以官方页面为准。",
+            "用户影响：榜单通常影响应用与游戏的曝光和下载，但实际带动效果无数据支撑，不作推断。"
+          ],
+          "verdict": "属于节点性资讯，信息量取决于名单本身，而名单不在摘要中。"
+        },
+        {
+          "title": "Canva Is Tackling AI Design’s Most Frustrating Problem",
+          "url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem",
+          "source": "TWIML",
+          "published_at": "2026-11-21 16:08（时间近似）",
+          "summary": "标题称Canva正解决AI设计中最令人沮丧的问题，但未说明问题是什么、如何解决；原始摘要未提供。",
+          "analysis": [
+            "核心事实：标题称Canva在应对AI设计中的“最令人沮丧的问题”；原始摘要未提供具体问题。",
+            "媒体或厂商声称：标题中的“最令人沮丧”是媒体或厂商表述，材料未给出依据。",
+            "待验证事项：问题定义、产品功能、上线时间和用户反馈均未提供。",
+            "用户影响：若问题被解决，可能改善AI设计工作流；但需以实际产品验证，当前仅为推断。"
+          ],
+          "verdict": "标题指向AI设计工作流痛点，但缺少问题与方案细节，暂不宜下结论。"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "新智元",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "机器之心",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "极客公园",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.geekpark.net/"
+    },
+    {
+      "source": "钛媒体",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "智东西",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "雷峰网",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "36氪",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "虎嗅",
+      "reason": "ReadTimeout: HTTPSConnectionPool(host='www.huxiu.com', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "source": "少数派",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "TWIML",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "Lex Fridman",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "AI in Business",
+      "reason": "RuntimeError: 站点重定向到了非预期域名 rss.libsyn.com"
+    },
+    {
+      "source": "AI Today",
+      "reason": "HTTPError: 403 Client Error: Forbidden for url: https://www.pmi.org/ai-today-podcast"
+    },
+    {
+      "source": "Data Skeptic",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    },
+    {
+      "source": "NVIDIA AI Podcast",
+      "reason": "未发现 RSS，按首页排序近似选取"
+    }
+  ]
+}
